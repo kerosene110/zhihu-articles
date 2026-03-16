@@ -1,0 +1,682 @@
+{
+    "paging": {
+        "is_end": false,
+        "totals": 61,
+        "previous": "http://www.zhihu.com/api/v4/columns/wontfallinyourlap/items?limit=10&offset=0",
+        "is_start": false,
+        "next": "http://www.zhihu.com/api/v4/columns/wontfallinyourlap/items?limit=10&offset=20"
+    },
+    "data": [
+        {
+            "updated": 1529744866,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "因为加过不少金融销售的朋友的微信，我朋友圈被CDR基金刷屏的密度已经超过微商，蔚为壮观。推销力度之大，已胜传销，让人想不注意也难。 [图片] 关于CDR是什么东西，已经有很多文章阐述了，不多解释了。用最简单的话来说，就是让一家金融机构为你代持一下公司的股票。存托凭证是一种比较成熟的模式，从ADR的运行效果来看，基本等效于股票。实证就是跨国多地上市的公司股价和ADR价差特别小，这说明此类模式的有效性。 所以CDR不是坑，是…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "37902863",
+            "voteup_count": 742,
+            "title_image": "https://picx.zhimg.com/v2-03225463102dc72d7d67cfe0d0c304df_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/37902863",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 64,
+            "created": 1529661335,
+            "content": "<p data-pid=\"slThA5D8\">因为加过不少金融销售的朋友的微信，我朋友圈被CDR基金刷屏的密度已经超过微商，蔚为壮观。推销力度之大，已胜传销，让人想不注意也难。<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b9fa46cb480eb66c0d32f8a0563176e1_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1514\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1514\" data-original=\"https://pic1.zhimg.com/v2-b9fa46cb480eb66c0d32f8a0563176e1_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"MmQtzo9l\">关于CDR是什么东西，已经有很多文章阐述了，不多解释了。用最简单的话来说，就是让一家金融机构为你代持一下公司的股票。存托凭证是一种比较成熟的模式，从ADR的运行效果来看，基本等效于股票。实证就是跨国多地上市的公司股价和ADR价差特别小，这说明此类模式的有效性。<\/p><p data-pid=\"aXMqyul3\">所以CDR不是坑，是很常规的买股票的办法。那独角兽基金散户优先，额度不足国家队来填满对CDR买买买的模式，是不是稳赚不赔呢？有些宣传甚至说这就是国家队给你兜底，错过了就吃大亏了。<\/p><p data-pid=\"onOc7Rq0\">重复一万遍：天上不会掉馅饼。<\/p><p data-pid=\"sqmU_vgn\">让别人先认购，不足补满不是“劣后\"和”优先“的意思，只是保证这基金能凑满份额的手段罢了。<b>后买的一方并不为先买的一方承担任何风险，没有任何担保的意思在里面<\/b>。所以，请搞清楚咯，<b>不是国家队送福利。<\/b><\/p><p data-pid=\"cKYhGrM7\">那这东西到底能不能买？这取决于你自己的判断，就这支基金的设计而言，我是有疑问的。<\/p><p data-pid=\"T67ygS04\">锁定期三年这个规定，相应的折价如何体现？<\/p><p data-pid=\"_172qgfh\">譬如我们搞个定增啥的，有个一年半的锁定期，作为代偿必须是要有折价的。同样是股票，你的随时能卖，我的得等解禁了才能卖，流动性体现在价格上，否则我直接买普通股票就是了。<b>流动性问题是有溢价或者折价的<\/b>，这是不能忽视的。<\/p><p data-pid=\"j14n7_lx\">CDR作为一种存托凭证，由金融机构先买股票，作为早已IPO过了的企业，是否能在股价上有打折。如果股价和美国上市的ADR持平的话，那白白锁定三年的流动性代偿如何体现？以一样的价格买入三年禁售的股份，巨吃亏。<\/p><p data-pid=\"RrpqGIU0\">如果CDR有折价，那么会引发套利，我们买入CDR基金，并且做空美股正股或者使用美股期权合成空头头寸，让这个折价迅速消失。<\/p><p data-pid=\"ybQcsiO9\">如果出现追捧，CDR的价格甚至高于ADR，那么白白锁定三年就更亏了。<\/p><p data-pid=\"H8ee9ntW\">综上，这个基金除非发出来的CDR价格比ADR明显低，否则不如直接买美股。但CDR的设计肯定是追求和ADR等价的，所以锁定三年的设计奇奇怪怪的。<\/p><p data-pid=\"LPlGrQgy\">有人说啦，也不是人人知道怎么绕开资本管制买到美股的。其实国内有一些基金通过QD等方式可以买标普纳指这些指数基金，完全合法合规的。<\/p><p data-pid=\"ExrHKMfs\">那此次花大力气搞的CDR大戏，用意何在呢？我个人的看法，这是决策层想要改革中国金融市场的一个重要举措，让股市从单向的“融资功能为主”市场慢慢转向为正常的“投资者与企业双赢”的市场。<\/p><p data-pid=\"MKPMc4Dw\">这是正道。<\/p><p data-pid=\"4xvLFoEA\">在过往的文章（<a href=\"https://zhuanlan.zhihu.com/p/20133624\" class=\"internal\" target=\"_blank\">关于股市最简单的逻辑<\/a>）里，我陈述了一个非常显而易见的道理：股市只有在<b>不是零和游戏的情况下<\/b>，才能实现投资者的普遍盈利。而非由净值算法的缺陷呈现出的纸面富贵。当股市大泡沫时期，人人账面盈利颇丰的时候，整个社会的财富总量并没有突然增长，这种全民“浮盈”是不真实的。<\/p><p data-pid=\"3driZ-0i\"><b>唯一<\/b>一种能让投资者普遍收益的情况是，企业在上市融资后将创造的利润回馈给股东。在经济大环境没有衰退的前提下，上市公司创造的利率不断流入股东权益里，整个池子的水是永远正向流入的，那么整个系统是健康而可持续的。<\/p><p data-pid=\"kUrG9-39\">中国股市那么多年，还是三千点不到，和中国经济这十几年来创造的，翻了好几翻的巨量财富，是殊为不匹配的。不是中国的经济没发展，也不是中国的企业没有创造过利润，那问题出在哪里呢？<\/p><p data-pid=\"M0qW7McG\">依我愚见，大体上三个问题：（一）中国经济发展的最成功者，往往不选择A股上市。（二）在A股上市的企业，利用信息不对称，不分享利润给小股东。（三）国民投资渠道太少，高估值容易造成透支未来利润。<\/p><p data-pid=\"KwxFqSoj\">这次大张旗鼓搞独角兽CDR，是冲着问题（一）去的。如果说股市是让大家有权分享经济成长的收益，那么经济成长的收益汲取最多的，当然是各个行业的龙头老大，他们赚取的利润最多。如果赚钱利润最多的企业不在国内交易，那国内的投资人收益自然大打折扣。<\/p><p data-pid=\"SpOSrvBU\">于是乎，让这些企业回到国内来上市。姑且不论为什么好公司都选择去海外上市，这件事情肯定能办成，只要生意的主体还在中国，因为众所周知的原因，这些企业必然得相应管理层的号召。这些年海外上市的独角兽们的股价，和A股形成了非常鲜明的对比。（足以说明中国这些年确确实实创造出了巨大的财富增量）<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b59d858f8dda2d41c6e6719d9361b94c_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"1538\" data-rawheight=\"606\" class=\"origin_image zh-lightbox-thumb\" width=\"1538\" data-original=\"https://pic1.zhimg.com/v2-b59d858f8dda2d41c6e6719d9361b94c_r.jpg?source=d16d100b\"><figcaption>海外上市的BAT历史股价<\/figcaption><\/figure><p data-pid=\"LjxiChOl\">BAT 类的股价能够持续上涨，除了这些年来资本市场异常宽松外，这些企业实实在在赚取了真金白银的利润，并且是老实放在上市公司的账面上的。<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-eef70dbdb3901e6b4fcd6a4ce17f08bc_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"2208\" data-rawheight=\"938\" class=\"origin_image zh-lightbox-thumb\" width=\"2208\" data-original=\"https://picx.zhimg.com/v2-eef70dbdb3901e6b4fcd6a4ce17f08bc_r.jpg?source=d16d100b\"><figcaption>BAT企业的资产负债表<\/figcaption><\/figure><p data-pid=\"K5hePZ4Y\">所以实实在在赚钱的企业的股票成为股市的成分，是让股市健康发展的不二正道。富士康的火速上市也是这个道理。说到中国，都知道中国的制造业厉害，制造业的明星企业富士康不在A股里，A股如何体现出投资中国的意义来？<\/p><p data-pid=\"Hh53nuEB\">让富士康火速上市，体现了这届管理层想走堂堂正道的意愿，我这个人嘴巴比较毒，颇少称赞别人，这个决心的要点赞的。<\/p><p data-pid=\"lDf1vagh\">还有这回证监会拒绝了小米，没有让名气和民族制造等概念绑架，对于质地非常可疑，但呼声很高的明星企业说不，是需要勇气的，这事非常值得赞扬。<\/p><p data-pid=\"ebX2xX7u\">那让独角兽们回来，是不是A股的总体蛋糕就能做大，可以肥水不流外人田呢？<\/p><p data-pid=\"Rr8PoCCo\">未必<\/p><p data-pid=\"-osQ7I4b\">让真正赚大钱的企业把股权放到A股市场上去卖，<b>仅仅是一个必要条件，而不是充分条件<\/b>。已经在A股上市的公司也并不都是亏货。要让股东收益，公司实际赚钱是不够的。<\/p><p data-pid=\"hiXTNTEI\">万科之争，虽然姚老板最后没能如愿，但他的举措无疑是捅破了一层窗户纸。万科这么赚钱的企业，为什么股价一直不温不火，是市场低估了吗？还是管理层可以让公司埋单不断勇攀人生高峰，吃笨笨红烧肉？<\/p><p data-pid=\"tVoOqkAV\">这里面的学问大了，整整一个公司治理的学科。<\/p><p data-pid=\"u28-mnrd\">我接触过不少经营投资规模偏小的企业家，普遍表示不爱投资收现金的企业，容易店长赚钱股东赔钱。东家和掌柜之间，不单纯是打工的关系，还有互相防范互相博弈的局面在里面。如果操作不当，还有掌柜送东家去坐牢的奇葩事。<\/p><p data-pid=\"Mhe_0PDy\">支付宝和微信的扫码支付在商家这里推行特别快，有一个重要的因素是，东家们特别喜欢这种现金不过人手，直接到账的模式，收点手续费和派一个自己人财务盯着相比，简直不能更便宜。监督成本也是成本，而且很贵。<\/p><p data-pid=\"WoITKFBq\">大东家和掌柜之间尚且存在信息不对称存在的问题，作为股市二级市场的投资人，和上市公司的管理层之间的信息不对称那就更大了。管理层给自己亲戚的关联企业输送点利益什么的，在挑选供应商的时候给捞点回扣什么的，套现不方便的情况下，把自己大把的股票拿去质押签抽屉协议什么的，都是小股东无法抵御的。<\/p><p data-pid=\"1K0-GYDn\">这是证监会的工作范围了，普通散户投资人本来就不可能约束这些。有人说股市的涨跌和证监会没有关系，证监会的职责不是确保股市上涨，而是监督处罚股市里的违法行为。我不完全认可这个看法，监管有力，迫使上市公司们把赚到的钱放到股市的大盘子里，形成正向流入持续加大，股市的表现不会不好。所以，在中国经济高速增长的前提下，股市表现差强人意，监管层的锅没有白背。这里并不是说拿股市的表现给证监会工作打分，倘若贸易战下中国企业盈利大幅下降，但上市公司没有舞弊行为，那股市的下跌里没有证监会的责任。<\/p><p data-pid=\"7zc9ek52\">有效的监管，<b>让上市公司把利润确确实实分给所有股东，是第二个必要条件。依然只是必要条件，而非充分条件。<\/b><\/p><p data-pid=\"dpj2k0dL\">回顾以往A股的两次大泡沫，07年的泡沫和15年的泡沫。都是为了巨型国有企业上市融资做铺垫的，想要让资金大量流入股市的办法无他，必须有赚钱效应。我们知道我们国家的贫油国家，但高速发展的经济对石化的需求堪称怪兽级别，07年的股市中石油的巨量融资让我国的石化体系得以有充分资金。在中国这个超高速经济快车飞奔的时候，没有因为缺油掉过链子，股民朋友居功至伟。同样15年的时候，中国高铁事业面临天量资金缺口，也是中国股民朋友们挺身而出，毁家纾难，为国接盘，才有了让外国友人们羡慕不已的高铁系统。<\/p><p data-pid=\"PTnm8rnE\">令人欣慰的是，越来越严格的监管（对于很多做一级二级市场套利的人来说，特别痛苦），和大型国有企业带头分红的举措，明显也是走在了正道上了。<\/p><p data-pid=\"b5p9omQn\">融资固然是股市应有的功能，但只索取不回馈，必然不是正途。如果让赚钱的企业来国内上市，但依然享受“优待”，那仅一个必要条件的不满足也足以毁掉整个链条。<\/p><p data-pid=\"SSWrAf8u\">那满足了（一）和（二），把真正赚钱的企业弄到国内来上市，并且严格监管，让上市公司赚到的钱，该归股东的严格归股东，是不是股民们就能赚到钱了呢？<\/p><p data-pid=\"CzFhK3ZW\">还是未必<\/p><p data-pid=\"bKo3810k\">第三个问题，是国内普遍的<b>高估值，容易透支企业创造的利润<\/b>。是不是好生意是一回事情，价格合适不合适是另外一回事情。<\/p><p data-pid=\"J9x6JzPh\">明明同样的公司，同股同权，H股上市和A股上市的估值，有时候会差得很多。这和欧洲公司的股票与对应的ADR，几乎没有差价是完全不一样的。为什么会如此？因为中国有严格的资本管制。这也是我很担心独角兽CDR最后会不会有不合适的溢价的原因所在。<\/p><p data-pid=\"M9pxyKRX\">A股普遍给公司高估值，而且往往是行业内二流三流的公司，给出比海外相同行业龙头高出不少的估值，不能简单归因于国内投资者的不成熟。<\/p><p data-pid=\"ahEXSvVg\">A股问题那么多，我一直也很好奇为什么大家总是对A股不死心。最后一位朋友的一句无奈吐槽让我颇为感慨。他表示“没有其他正规的赌场了“。被地下外汇贵金属原油对赌黑平台骗，被P2P互联网新金融骗，被邮币卡艺术品投资骗，被各种传销旁氏骗局骗。对比下来，好像还是股市稍微正规点。<\/p><p data-pid=\"ilsXuQ89\">韭菜们还能活着就已经颇为不容易了，最近股市下跌还要被官媒批判是散户投资者心智不成熟，这届韭菜不行。韭菜也不好当啊。<\/p><p data-pid=\"ZleURf8g\">当然这只是玩笑，并不是所有资金都以赌博的心态来参与股市的。那为什么A股给的估值总是那么高呢？和没有正规赌场的意思是相似的——<b>缺乏融资/投资渠道<\/b>。<\/p><p data-pid=\"3HoX2_UG\">我国的金融制度是垄断性质的。上头一直在喊发展直接融资，鼓励支持中小企业，为什么就是多年来不见变化，原因恰恰就在于银行天生不可能承担高风险，而银行又因为各种垄断把持着正规金融的大部分资源。又要银行稳稳稳，又要银行支持高风险的小企业，这是不讲道理的。那有问题的风险别人来搞，你放弃一下垄断地位？呵呵，那是没门。<\/p><p data-pid=\"0UcD_09P\">喊了好久的打破刚兑和利率市场化，都是正确的道路，或者说本该如此的道路。是不正常的管制扭曲了。存贷利率都是规定的，完全无法体现出风险溢价来，那风险溢价是不是就凭空消失了？当然不会，只会变相体现出来。<\/p><p data-pid=\"O1YxTAgU\">小企业要钱，风险高，银行不肯给，谁都没有错。错在没有给小企业方便的平台，让愿意承担相应风险的资金对接起来。风险和收益成正比，有更好风控能力的主体赚到这个钱，是金融行业存在的意义，对社会的巨大贡献。<\/p><a href=\"https://zhuanlan.zhihu.com/p/19960266\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/05067dcc129a41ec225a8b4d27498cb4_l.jpg?source=d16d100b\" data-image-width=\"600\" data-image-height=\"502\" class=\"internal\">许哲：金融是不是一群不事生产的人，对社会毫无贡献的人，互相对赌的零和游戏？<\/a><p data-pid=\"PYHGSWNq\">当缺乏一个合适的垃圾债市场时，市场的供需不会凭空消失，而是会产生变相的怪胎出来。在中国，小企业垃圾债市场的空挡被P2P平台给占了。<\/p><p data-pid=\"ARDxgRMJ\">但<b>P2P平台必然走向旁氏化<\/b>。小企业的垃圾债不可避免会有违约的出现，这本该是债券市场的应有之意，然而A和B两家P2P平台在吸引客户资金的时候，并不是比拼标的资产的质量，而是刚兑和利率。这使得当违约必然发生的时候，P2P平台会利用新增客户的资金来填补坏资产的窟窿，从而形成债务的旁氏化。（<a href=\"https://zhuanlan.zhihu.com/p/19956481\" class=\"internal\" target=\"_blank\">一招看穿一切旁氏骗局——泡沫的形成、发展与破灭，以及复利的魔力。<\/a>，<a href=\"https://zhuanlan.zhihu.com/p/20620619\" class=\"internal\" target=\"_blank\">关于债务结构最简单的逻辑<\/a>）<\/p><p data-pid=\"DZsyE77N\">因为客户无法真实穿透标的债权资产的底层，所以研究标的基本面无意义，对客户理性的选择是找长期刚兑的平台。赌我这一轮平台不跑路。换言之，<b>在客户没办法确保信息对称的情况下，P2P这种垃圾债市场是个柠檬市场<\/b>，反正不知道质量，就只能看价格。<\/p><p data-pid=\"_V5lBwxc\">平台之间形成了囚徒困境。平台可以选择正常，对行业发展良好的办法，一单违约归一单，不搞资金池旁氏化。但一旦某平台选择了“合作策略\"，那客户资金会立马去还在刚兑的平台。从而使得“不合作”的博弈方更有利。虽然合作对整体的效用更好，但囚徒困境的格局决定了必然走向全面的保持刚兑的旁氏化。<\/p><p data-pid=\"JZn8YV1X\">这是个逆向淘汰的过程，筛选标的资产质地得不到奖励，而把资金全部花在营销上，保持新入资金增速竞赛中胜利，能得到奖励。那最没节操，动静闹越大的越是受益，最后落得和高风险小企业融资毫无关系。钱宝之后还幻想唐小僧不跑路的，智商欠费很严重。<\/p><p data-pid=\"rAO59CGp\">这都是因为缺乏一个好的垃圾债市场。倘若有一个好的垃圾债市场，投资者的资金不会被莫名其妙混在一起，企业到期必须还债否者破产清算，发债过程必须接受监督和审计。那么做垃圾债投资交易的金融机构才能形成正向竞争——更能识别和计算风险的受到奖励。<\/p><p data-pid=\"paPq3fuW\">垃圾债市场只是一个例子，只有当社会上各种风险层次的融资/投资匹配都存在的时候，股市的估值才不会那么畸高。<\/p><p data-pid=\"FRact9-x\">所谓畸高的意思，必然是无法持续存在的，必然要兑现的。<\/p><p data-pid=\"uV9WAjop\">最新一轮的美联储加息利率到了2%，实际能到手的贷款利率更高，这意味着如果只是买高评级的投资债务，滚复利，二三十年能翻倍。那股市作为有风险的存在，给出三十倍以上的估值，除非企业增长前景特别好，否则不值得冒险。估值不是纯幻想的东西，给出比稳定滚债更高的估值时，耐心不是无限的。<\/p><p data-pid=\"28-V8Mgz\">这是我认为要让股民赚到钱的第三个必要条件——其他尺度上的融资/投资平台要全层次健全，不能让股市和房子成为国人唯二的投资选择，因为如果只有这两个选项，出现估值泡沫是必然的，而估值泡沫的未来不可避免的就是泡沫的崩盘，莫要心存侥幸，古今中外概莫能外。<\/p><hr><p data-pid=\"jRjDTxEB\">如今无疑是正在走向正道的，让赚钱的企业回归A股。严格监管，肃清纪律。在债市违约率上升的情况下，坚决打破刚兑的决心，央妈不奶乱哭的熊孩子。这些都是堂堂正道。<\/p><p data-pid=\"uk-4k6qK\">然而正道是难行的，歪门邪道是非常舒服的。从短期收益上来看，无疑是歪门邪道好得多，就好比狂刷信用卡，在还债前都是爽爽哒。而正道好比努力储蓄，踏实投资，虽然未来的回报是指数级增长的，但眼下却是艰苦的。<\/p><p data-pid=\"2FNoSzFR\">能不能坚持把正道走下去，是个大考验。愿祖国繁荣昌盛。<\/p><p data-pid=\"vfnRi-LL\">最后鸣谢 <a class=\"member_mention\" href=\"http://www.zhihu.com/people/19ee762ea62f4065919ab5bfc1b4e1e0\" data-hash=\"19ee762ea62f4065919ab5bfc1b4e1e0\" data-hovercard=\"p$b$19ee762ea62f4065919ab5bfc1b4e1e0\">@婧Agnes<\/a> 为本篇封面提供的书法<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-89e0cca2e7180aba2e5cead317d5d3d4_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3144\" data-rawheight=\"756\" class=\"origin_image zh-lightbox-thumb\" width=\"3144\" data-original=\"https://picx.zhimg.com/v2-89e0cca2e7180aba2e5cead317d5d3d4_r.jpg?source=d16d100b\"><\/figure><p><\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-03225463102dc72d7d67cfe0d0c304df_720w.jpg?source=d16d100b",
+            "title": "正道难行",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1523874250,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "紧急防诈骗声明： 最近冒出不少冒充我的账号，用和我一样的头像和签名，企图迷惑欺骗订阅我专栏的读者 比如 知乎用户 [图片] 大家要注意，这些账号其他信息完全仿冒我的情况下，关注者的数量是没办法短期造假的。 诸如这样的私信内容： [图片] 都是仿冒者发出来的，不是我本人发的信息。 这样的账号 @知乎小管家 删一个又会冒出来一个，骗子建这种账号的成本很小。如果看到我名字和头像的私信，大家点进去看看账号的关注者数量和账号的回答文章…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "35748768",
+            "voteup_count": 167,
+            "title_image": "https://picx.zhimg.com/v2-d5aaa267df89effab1dc28498aedff9a_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/35748768",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 22,
+            "created": 1523874251,
+            "content": "<p data-pid=\"_d0iX3Y1\">紧急防诈骗声明：<\/p><p data-pid=\"sNYpRAn8\">最近冒出不少冒充我的账号，用和我一样的头像和签名，企图迷惑欺骗订阅我专栏的读者<\/p><p data-pid=\"6UOFzr2I\">比如 <a href=\"https://www.zhihu.com/people/xu-zhe-8-43/activities\" class=\"internal\" target=\"_blank\">知乎用户<\/a><\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-173e8d44644614fd13795987d70d0b2c_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1052\" data-rawheight=\"498\" class=\"origin_image zh-lightbox-thumb\" width=\"1052\" data-original=\"https://picx.zhimg.com/v2-173e8d44644614fd13795987d70d0b2c_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"DUYfgPuY\">大家要注意，这些账号其他信息完全仿冒我的情况下，关注者的数量是没办法短期造假的。<\/p><p data-pid=\"zAeFU26w\">诸如这样的私信内容：<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-de61c52e9dc98abfdcc928ab52d7e5d8_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"646\" data-rawheight=\"538\" class=\"origin_image zh-lightbox-thumb\" width=\"646\" data-original=\"https://pica.zhimg.com/v2-de61c52e9dc98abfdcc928ab52d7e5d8_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"lruQimsN\">都是仿冒者发出来的，不是我本人发的信息。<\/p><p data-pid=\"znP4t2_L\">这样的账号 <a class=\"member_mention\" href=\"http://www.zhihu.com/people/3d198a56310c02c4a83efb9f4a4c027e\" data-hash=\"3d198a56310c02c4a83efb9f4a4c027e\" data-hovercard=\"p$b$3d198a56310c02c4a83efb9f4a4c027e\">@知乎小管家<\/a> 删一个又会冒出来一个，骗子建这种账号的成本很小。<\/p><p data-pid=\"m_N6FepV\">如果看到我名字和头像的私信，大家点进去看看账号的关注者数量和账号的回答文章，可以来判断是不是我本人的账号。<\/p><p data-pid=\"xIKAMvSr\">我开这个专栏的初衷是为了防金融类诈骗，现在骗子来开始仿冒我本人了，真是让人哭笑不得。<\/p><p data-pid=\"2tiQPFUt\"><b>大家一定要提高警惕！<\/b><\/p>",
+            "state": "published",
+            "content_need_truncated": false,
+            "image_url": "https://pica.zhimg.com/v2-d5aaa267df89effab1dc28498aedff9a_720w.jpg?source=d16d100b",
+            "title": "紧急防骗声明",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1523199846,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "最近中美之间的贸易纷争闹得沸沸扬扬，用满城风雨不足以形容，简直是满地球风雨。中美双方作为全球最大的两个经济体，互放狠话，级别和烈度都令人乍舌，连我们一向和稀泥大法最666的外交部门都强硬得让人觉得自己仿佛穿越了，说好的韬光养晦呢？ 当下贸易争端互放狠话，但表示谈判窗口还开着的阶段，是典型的Chicken Game。这不是吃鸡游戏的意思，比较流行的翻译是“胆小鬼博弈”，比谁是弱鸡。 （可参考 胆小鬼博弈：如何假装死…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "35421584",
+            "voteup_count": 3019,
+            "title_image": "https://picx.zhimg.com/v2-fbdc7883fe6b56778f531cc7cf7e0db5_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/35421584",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 291,
+            "created": 1523191085,
+            "content": "<p data-pid=\"6-TwO83G\">最近中美之间的贸易纷争闹得沸沸扬扬，用满城风雨不足以形容，简直是满地球风雨。中美双方作为全球最大的两个经济体，互放狠话，级别和烈度都令人乍舌，连我们一向和稀泥大法最666的外交部门都强硬得让人觉得自己仿佛穿越了，说好的韬光养晦呢？<\/p><p data-pid=\"u6k1esuN\">当下贸易争端互放狠话，但表示谈判窗口还开着的阶段，是典型的Chicken Game。这不是吃鸡游戏的意思，比较流行的翻译是“胆小鬼博弈”，比谁是弱鸡。<\/p><p data-pid=\"RtPf-aau\">（可参考<a href=\"http://link.zhihu.com/?target=https%3A//www.guokr.com/article/94677\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">胆小鬼博弈：如何假装死磕到底 | 科学人 | 果壳网 科技有意思<\/a>）<\/p><p data-pid=\"zixhC5qn\">在胆小鬼博弈中，我们假定双方可以采取的策略只有 2 种：死磕到底（用Dare或D表示）或者认怂（用Chicken或C表示），双方（甲、乙）采取不同策略的收益可以用下表来表示：<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-994cfd53d38a497f95ba0bf25a7f6f80_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"237\" data-rawheight=\"117\" class=\"content_image\" width=\"237\"><figcaption>胆小鬼博弈的PayOff表<\/figcaption><\/figure><p data-pid=\"wAq8s5tC\">一起认怂，大家都当无事发生过，一切照旧。如果有一方死磕，另一方认怂，则死磕方获胜认怂方失败，被占一点便宜。而如果双方都是死磕到底，那双方都要支付非常惨痛的代价，没有赢家。<\/p><p data-pid=\"bDZzLsNd\">用更形象一点的例子来说，一条赛道上两辆赛车朝对方高速行驶赌命，如果有一方认怂转弯，则另外一方获得所有赌注。如果两个人都认怂，则当没事发生过。当然如果两个人都死磕到底，则两个人都会车毁人亡，钱什么的就都没有意义了。<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e1d94b0450fb53f05308ad62ae53ba38_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"850\" data-rawheight=\"435\" class=\"origin_image zh-lightbox-thumb\" width=\"850\" data-original=\"https://picx.zhimg.com/v2-e1d94b0450fb53f05308ad62ae53ba38_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"aBszcisR\">这个博弈里没有哪方有特别的优势，除了车毁人亡之外都是总体最优的。如果一个博弈有唯一的纳什均衡点就好预测了，但这里没有唯一的均衡点。这里甲乙双方是完全对等的，最优的结果是自己不认怂，对方认怂，可两边都如此的话，就必然是一个互不认怂的局面，看到最后一刻快要车毁人亡的一瞬间，谁更没有底气。<\/p><p data-pid=\"sWz9dfcM\">通常而言，这个时候需要检查一下互相的底牌筹码，比如中国对美国出口占总体出口多少，美国向中国出口占比又有多少。但这毕竟是最后一步，一力降十会硬碰硬，不好看又异常危险。在这个博弈结构里有更好的策略吗？<\/p><p data-pid=\"79nNshvF\">单从博弈的结构上看是没有的，因为双方的选择完全是对等的。但胆小鬼博弈有一个额外的解，即把有选择变成没选择。当一方没有选择的时候，另一方的决策也就确定了。如果一方只能认怂，那么另外一方必然就会死磕获得收益。相应的，如果一方只能死磕，则另外一方唯一理性的选择就是认怂。<\/p><p data-pid=\"ClPMzjiP\">回到我们的赌命赛车游戏中，要想胜利的做法是，当两边开始告诉互相疾驰的时候，把方向盘拆下来扔到窗外给对方看见，让对方相信我这里已经没有改变的可能性。这样对面的决策就没什么空间了，必然怂。不给自己选择的人反而会赢。<\/p><p data-pid=\"BfxhGxjP\">换言之，<b>让对方相信自己已经失控的一方，会赢<\/b>。<\/p><p data-pid=\"C8kTsw6f\">这听上去很疯狂，更疯狂的是，在机制不透明的决策过程中，拆方向盘这个动作具体行为是让对方相信自己疯了，彻底失控了，我这里就是想克制也是没办法了。<\/p><p data-pid=\"CTPtFFRK\">所以转换为：<b>让对方相信自己疯了的一方，会赢。<\/b><\/p><p data-pid=\"T-4QmIEV\">那中美两边谁看上去比较疯，比较失控？<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d02389c4266234b33b5b2633eb61408f_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"480\" data-rawheight=\"360\" class=\"origin_image zh-lightbox-thumb\" width=\"480\" data-original=\"https://pic1.zhimg.com/v2-d02389c4266234b33b5b2633eb61408f_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"jlZtvVu_\">看到网上沸沸扬扬骂特朗普疯子，蠢蛋，屁都不懂，表示要给特朗普上经济学基础课的义和团民们，只能让我佩服这工作确实到位。<\/p><p data-pid=\"Q-_MxAMr\">当然胆小鬼博弈重点是让别人相信自己这里不会怂，大家争取的还是对方让一步的息事宁人，重新归于平静，都不希望真的车毁人亡。话要放狠，不能真的去撞，启动调查走流程什么的都可以，体现“制度优势”立马真的提高关税是很蠢很蠢的行为。<\/p><p data-pid=\"JG01FHYa\">正确的姿势，无论对手看上去多不靠谱，不要相信对手是真的疯了。对方真的不给自己任何选择余地的证据要很强才行，坚持不怂是对的，但千万别真的下手，这个默契不能破。<\/p><p data-pid=\"uxwGAn0E\">（关于博弈论方面的，<a href=\"https://zhuanlan.zhihu.com/p/20479470\" class=\"internal\" target=\"_blank\">勇于敢则杀，勇于不敢则活<\/a>里提到的耶鲁大学公开课了解一下）<\/p><hr><p data-pid=\"48GO_e8o\">就贸易战本身而言，局就是如此。但美国方面为什么要发动贸易战呢？为什么要挑事呢？是特朗普的个人情怀吗？显然不是的。<\/p><p data-pid=\"kTwpZ9tl\">在所有关于这个话题的讨论里，我发现所有人讨论的主体单位都是国家，中国怎么这么样，美国怎么怎么样，中国想要什么什么，美国的目的是个啥啥啥。<\/p><p data-pid=\"9zcngGbY\">说的好像一个国家是一个人一样，事情当然不会那么简单。一个国家，特别是大国，不是铁板一块的，也不是上下一心的，无论什么制度都如此。<\/p><p data-pid=\"KweLf-4V\">每个人和组织都会根据自己的利益来行事，一个国家内部有不同的利益集团，全球化的过程中，我们看美国和中国都是收益的，但并不代表没人损失。<\/p><p data-pid=\"WLHXJSW4\">如果你是美国的资本家，手上有许多跨国公司的股权，那么将工作外包到中国的工厂去，你可以节约很多成本，提高资本效率。如果你是中国的工人，原来没有工打到变成加班注意别猝死也受益的，当然厂长本人和地方政府等一系列人比工人赚的还要多。可美国本土的工人在这场效率提升的“互惠”活动中是输家。<\/p><p data-pid=\"q5Ow17vO\">所以拿国家作为单位去考虑，中美的贸易是两利的，没事搞什么贸易战，纯粹是脑子抽。但当你把国家拆开来，拆成一个个利益集团，则全球化效率提升这个过程中是有人赢有人输的，不是简单的Win-Win的。<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-715af3962c22eb1e65fe6596be4877fe_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3500\" data-rawheight=\"2312\" class=\"origin_image zh-lightbox-thumb\" width=\"3500\" data-original=\"https://picx.zhimg.com/v2-715af3962c22eb1e65fe6596be4877fe_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"Ov2CUeH1\">美国的工人阶级（用这个词作为某组织的对手方感觉怪怪的）是美国政治急于改变现状的一股力量，要夺回被中国人“抢走”的饭碗。这样说来，川普是个大工头，给美国工人们找工作的吗？<\/p><p data-pid=\"3AzamVa-\">如果这样假设，把矛头指向中国明显是找错对手，因为要转移工作的发起人主要是美国的资本家集团，提升企业的综合效率，中国因为效率高所以给中国，如果有其他地方效率好过中国，是不太会多顾忌面子问题的。故而是阶级矛盾，不是什么国别的斗争。要求和中国打贸易战完全是张冠李戴的。<\/p><p data-pid=\"54IuXU6z\">换言之，就是和中国的贸易搞僵掉，跨国资本控股的公司也要去找其他有比较优势的地区，除非美国本体是除中国外的最有效率的地方，否则干掉中国的外贸何益于美国本国就业？<\/p><p data-pid=\"4T3ZbGhS\">那既然如此，操的是哪门子闲心，吃饭睡觉外没事干打一顿豆豆？国家决策当然不会如此随意，川普能洞悉美国社会的深层次矛盾，在强手如林的竞争环境下，以政治素人的身份一举成功问鼎白宫，不是疯子也不是蠢货。自己就是大资本家的川普，也不是不知道资本家利益的点在什么地方。<\/p><p data-pid=\"yh_BJ5BO\">再仔细回过来看川普的讲话，发起所谓“贸易战”的诉求是<b>减少贸易逆差<\/b>。当500亿美元没有能搞定的时候，就说要加1000亿。给人的感觉是数字上比较随意，细细想一下，贸易战应该是个结构性的东西，关于卖什么不让卖什么，买什么不让买什么，怎么会只关心总数额的大小。500亿的清单里是罗列得清清楚楚，什么行业什么商品，加个1000亿难道是所有商品都再*2吗？这是小孩子过家家吗？<\/p><p data-pid=\"GgMe_hhf\">唯一合理的解释是：<b>川普根本不关心具体是什么行业，什么商品。<\/b><\/p><p data-pid=\"Bi7mCda_\">既不是要给美国工人找工作，也不是要在具体某些行业某些商品上找优势，那关心的到底是什么？答案在一开始川普自己就明说了：<b>减少贸易逆差额<\/b>。<\/p><p data-pid=\"np9-YCAc\">贸易顺差就是好，贸易逆差就是不好？现今距离重商主义经济学已经很多年了，这种老皇历已经没人翻了。那葫芦里卖的是什么药？<\/p><hr><p data-pid=\"9r-vveEw\">我的看法是，挑起贸易争端的根本动机不是工作岗位也不是行业壁垒，而是中国的外汇储备。故而给其他国家豁免，矛头单指中国，而不是所有有比较优势的国家。<\/p><p data-pid=\"thkm1sqU\">中国正在积极去杠杆的过程中，货币的独立性在这个时刻尤为关键，如何在高速运动的列车上拆换轮子是一件高难度的精细活。我国的货币发行制度，人民币抵押物最大项依然是外汇储备（参考<a href=\"https://zhuanlan.zhihu.com/p/21263798\" class=\"internal\" target=\"_blank\">关于货币最简单的逻辑<\/a>），外汇储备不仅仅是要满足日常的经常项开支，有其重大的货币政策稳定性的基石作用。<\/p><p data-pid=\"i3QAA1sA\">在这个节骨眼上，美联储开始了自己的加息进程和缩表计划（参考<a href=\"https://zhuanlan.zhihu.com/p/26027538\" class=\"internal\" target=\"_blank\">缩表是什么鬼？<\/a>），也就是在全球范围内减少美元的供应总量并且提升美元的利率，这对于以美元作为发行基石的所有央行而言，就是一次被动的跟进缩表行为。去杠杆的过程中，货币发行的基础抵押物减少，是一种何等痛苦的实践。货币的供应不是简单的央行印印印，而是由抵押物发行的高能基础货币进行派生的信贷过程（参考<a href=\"https://zhuanlan.zhihu.com/p/21744876\" class=\"internal\" target=\"_blank\">货币或许能无中生有，但财富不能<\/a>），<b>去杠杆最害怕的是货币供应的突然缩量，造成债务通缩螺旋，无异于釜底抽薪。（<\/b><a href=\"https://zhuanlan.zhihu.com/p/20620619\" class=\"internal\" target=\"_blank\">关于债务结构最简单的逻辑<\/a><b>）<\/b>所以货币政策的主权如今生死攸关。<\/p><p data-pid=\"sCLqWN0M\">根据不可能三角（参考<a href=\"https://zhuanlan.zhihu.com/p/19953617\" class=\"internal\" target=\"_blank\">有人兜底就安全了吗？瑞士央行风暴小议。<\/a>），当一国又要汇率稳定又要货币主权的时候，就必须要实行强硬的资本管制。事实也确实那么做了，很多技术细节做得粗糙又蛮横，但大尺度的决策上必须如此，外汇储备保卫战严防死守。<\/p><p data-pid=\"NIQqoLK6\">轰轰烈烈的外汇保卫战好歹算扛下来了，去年对美出口岁入5000亿美元，但外汇保卫战死守的3万亿还是3万亿。说明其他项下实际流出至少5000亿美元，全靠外贸顺差填。<\/p><p data-pid=\"7UqFl3pf\">说得再直白一点，外汇储备最重要的擎天柱，定海神针是中国逆天的外汇顺差，靠这一项的天量与高速增长，勉强填满了其他所有七七八八的窟窿。而货币发行的基础也赖于此，故而外贸顺差不仅仅是汇率稳定的基石和底线，亦是整个中国经济守住不发生系统性风险的王牌底牌。<b>外贸顺差从来没有像如今这样举足轻重。<\/b><\/p><p data-pid=\"NlWUrngc\">川普要釜底抽薪，抽的就是这一条薪。<\/p><p data-pid=\"1m_jE2UJ\">他是个直白人，一开始的政策目标就不是多少行业回归美国，就是要中国减少贸易顺差。也不关心具体什么行业什么商品，越多越好，加1000亿管他是什么行业。<\/p><p data-pid=\"F5eNhpN3\">对于美国而言，Made in China 大大降低了美国人的生活消费成本，打贸易战的代价是美国的物价会上升。特别是川普基本盘的非高收入人群最难受，但在给你们把工作从中国抢回来的口号中，不能忍受没有Made in China的变成了“工贼”。<\/p><p data-pid=\"rK2iQbGn\">是的，这个神奇的角度下，川普携着汹涌的民意实现了金融垄断阶级最需要的美元周期的运作。最后美工人忍受着生活成本上升且依然没多少产业回归，资本家阶级则顺利实现目标，<b>这里根本不是以国别作为单位的<\/b>。阶级斗争这个词曾经被以令人发指的程度被滥用，但并不代表阶级斗争不存在。<\/p><p data-pid=\"3tePfOmr\">视角回到美联储，在美国就业率已经向好的情况下，美联储政策要盯的就只剩下CPI。如果贸易战打响，CPI走高则加息和缩表的速度幅度就会加大。<\/p><hr><p data-pid=\"w3p2HRqt\">无论大国情结如何自我膨胀，天天我兔我兔的小粉红们如何情绪高涨，美元依然是当今世界的储备货币，人民币不是。人民币的发行基础依然有赖于外汇储备，在去杠杆的进程中，美元加息+缩表+减少中国的外汇顺差，根本不是什么阴谋，而是摆明的打劫。<\/p><p data-pid=\"PqltBV-T\">造成如今这种被动局面的根本原则在于制度设计上，没有及早对货币发行制度过于依赖外汇储备有准备，而是把全部精力放在资本管制上。这是只看表面，不看实质的补锅法（厚黑学博大精深）。藏得越好，守得越牢，最后损失越多。<\/p><blockquote data-pid=\"3Mv9CLMv\">将为胠箧、探囊、发匮之盗而为守备，则必摄缄縢、固扃鐍；此世俗之所谓知也。然而巨盗至，则负匮、揭箧、担囊而趋；唯恐缄縢、扃鐍之不固也。然则乡之所谓知者，不乃为大盗积者也？<\/blockquote><p data-pid=\"xP2IBqhe\">去杠杆的决心和动作都是令人惊艳的，由衷赞叹，五星好评。对于外部来的汹涌大招，我不在其位，不谋其政，就不讨论对策了，相信领导人有比我更好的办法。<\/p><p data-pid=\"Lw3tOCbs\">最后，祝愿祖国渡过时艰，繁荣昌盛。<\/p><p><\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-fbdc7883fe6b56778f531cc7cf7e0db5_720w.jpg?source=d16d100b",
+            "title": "不乃为大盗积者也",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1521028014,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "区块链的火热程度已经不需要我多说了，有意思的现象是：因为各种ICO的荒诞程度越发离谱起来，研究区块链的朋友们为了和这些怪事划清界限，要求大家严格得区分“币圈”和“链圈”。故而大家未来说话一定要当心，千万别把“链圈”的朋友说成是“币圈”的，这样会让对方觉得自己的逼格一下子低了好几个档次，引起朋友不快的呢。 那今天咱们逼格也高一点，讨论讨论“链圈”觉得特别有革命性的看法，似乎都快成共识的一个概念叫”万物…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "34540736",
+            "voteup_count": 462,
+            "title_image": "https://pic1.zhimg.com/v2-febd2c28b89dafdb56bdc8ab6f2b5a23_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/34540736",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://pica.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 64,
+            "created": 1521027448,
+            "content": "<p data-pid=\"GGfyR12_\">区块链的火热程度已经不需要我多说了，有意思的现象是：因为各种ICO的荒诞程度越发离谱起来，研究区块链的朋友们为了和这些怪事划清界限，要求大家严格得区分“币圈”和“链圈”。故而大家未来说话一定要当心，千万别把“链圈”的朋友说成是“币圈”的，这样会让对方觉得自己的逼格一下子低了好几个档次，引起朋友不快的呢。<\/p><p data-pid=\"rjFE1dZA\">那今天咱们逼格也高一点，讨论讨论“链圈”觉得特别有革命性的看法，似乎都快成共识的一个概念叫”万物通证化“（tokenization）。这个概念来自于一篇很火的采访录（<a href=\"http://link.zhihu.com/?target=http%3A//blog.csdn.net/myan/article/details/78712506\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">通证(token)是下一代互联网数字经济的关键--元道区块链对话之一 - CSDN博客<\/a>），其Token的定义是能流通的加密数字权益证明，这个听上去有点绕，按照访谈内容<\/p><blockquote data-pid=\"aPECobxd\">通证启发和鼓励大家把各种权益证明，比如门票、积分、合同、证书、点卡、证券、权限、资质等等全部拿出来通证化（tokenization），放到区块链上流转，放到市场上交易，让市场自动发现其价格，同时在现实经济生活中可以消费、可以验证，是可以用的东西，这是紧贴实体经济的。<\/blockquote><p data-pid=\"hGC1xl_c\">大致的意思是把有价值的资产权益等，用一个个token去代表，然后放在区块链上去流通交易，这样能增加流动性并且在交易的过程中让市场定价。<\/p><p data-pid=\"l8YnLj71\">听上去好有革命性有没有，任何资产都可以方便的交易了，原来我们买不到卖不掉的东西都可以流通了耶，好激动，跨时代有木有？！<\/p><p data-pid=\"v5V4SsXK\">如果以前一直搞互联网的时代可能会觉得眼前一亮。但自从被人骗去搞了几年金融行业后，听到这个idea的第一反应，居然脱口而出了传销句式：”资产证券化了解一下？“<\/p><hr><p data-pid=\"LwOBt4FD\">资产证券化在国内还算是比较新兴的领域，但在罪恶的资本主义国家里，说老古董可能有点夸张，但一点都没什么新鲜的。其流程大致是这样的：<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bc04e777a18e22d274cb58ef6a00abcb_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"474\" data-rawheight=\"553\" class=\"origin_image zh-lightbox-thumb\" width=\"474\" data-original=\"https://pica.zhimg.com/v2-bc04e777a18e22d274cb58ef6a00abcb_r.jpg?source=d16d100b\"><figcaption>资产证券化的流程<\/figcaption><\/figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f633f2ed8a90a0e3cdd4b389dfd83162_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"600\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-f633f2ed8a90a0e3cdd4b389dfd83162_r.jpg?source=d16d100b\"><figcaption>一个标准的资产证券化的运作过程<\/figcaption><\/figure><p data-pid=\"ZQ0ZmxLo\">懵逼吗？<\/p><p data-pid=\"W_97FnGu\">好了，反正怎么装逼逼格都高不过链圈的，本专栏还是秉持一贯的说人话风格吧。上面的图可以忽略，咱们举个小栗子。<\/p><p data-pid=\"ivFnIrZx\">假设某房地产公司搞了块风水宝地，交通冲要之所在，四方商贾云集，盖了大商场坐收租金，好一笔生意，羡煞围观群众。这种大生意不是普通百姓能做的，如果这房地产公司是家上市公司，那买它家股票也成。但如果这家公司不是上市公司咋办？或者这家公司的管理层用各种办法侵吞小股东利益，或者这家企业虽然拿的地很赞可公司负债率高得吓死人，有很多其他烂摊子和窟窿要补。我只对单独的项目未来的租金收入有兴趣，怎么办？<\/p><p data-pid=\"l4OCIWi5\">这一切当然难不倒聪明的投（中）行（介）精（贩）英（子）。<\/p><p data-pid=\"Zp982kc4\">高大上的银行家们先和房地产企业签个协议，未来的租金收益都买断下来，商户未来租金不付给房地产开发商，而是给银行，等于银行做这个包租公。<\/p><p data-pid=\"3IJg7FyR\">注册一家空壳公司，这家公司不干其他任何事情，专门就为了这个项目而设立，江湖人称SPV。随后银行家们把租金收入这块资产卖给这个空壳公司。<\/p><p data-pid=\"2J43Wh3j\">好了，这一步做完之后，商户的租金事实上最后支付给空壳公司的，一个项目设立一家空壳公司。这样，这家空壳公司非常干净，和银行和房地产开发商自己的情况完全没关系，就是商户最后的租金收入，清清爽爽的。房地产开发商和银行就是倒闭了，租金还是得付给这家空壳公司。<\/p><p data-pid=\"Xs8gpLVH\">最后一步，将这家空壳公司的份额放到交易所里去交易。这个就是所谓的资产抵押证券（ABS）了。各个投资者们买了这家空壳公司的份额后，就坐等收租子了。<\/p><p data-pid=\"A9fxH7zn\">这里的空壳公司很单一，就是单单该项目未来的租金收入而已，<b>房地产企业和银行其他的烂摊子完全影响不到空壳公司<\/b>，当然也影响不到购买份额的投资者。<\/p><p data-pid=\"zC6C1_7p\">要注意的是，上了交易所之后，这张<b>资产抵押证券是可流通交易的<\/b>，是不记名的。也就是说，你花了钱买了份额坐等收租，但突然急需用现钱，是可以把未来的收租权利转卖给任何人的。<\/p><p data-pid=\"0g1wEdT1\">那是不是只有商业地产的房租才能这么干呢？<\/p><p data-pid=\"RnAG-R2O\">投行精英们当然不会允许自己的业务范围那么窄啦，这里商业地产的房租如果换成银行的房贷业务收入的话，就是所谓的MBS了。商业银行收买房者每个月房贷月供替代商场租子，其他流程是一模一样的。<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f0467ce39f56f7f38c6544fc7c51677f_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"264\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pica.zhimg.com/v2-f0467ce39f56f7f38c6544fc7c51677f_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"TqabU8IJ\">买了这张房贷抵押证券的投资者未来能收买房人的月供，这里的投资人等于充当了原来银行的角色，相当于大家凑份子专门放了一笔房贷。人人可以当银行放房贷。<\/p><p data-pid=\"PveNvAKw\">一样的，MBS也是可交易证券，可以拆很小一份份卖给任何人。<\/p><p data-pid=\"ef_9Tp9N\">第一个例子里的商户房租，第二个例子里的房贷月供是这类生意的基础，我们叫他们”底层资产“，是所有资产证券化的基础资产。<\/p><p data-pid=\"wEfyoCDw\">理论上，底层资产可以是任何资产，只要有人愿意买，放到SPV里去就OK了。这里的投行只是过道手，是不持有的，可以理解成团购带头人，就是个代采购的。<\/p><p data-pid=\"3ettA83h\">任何资产都能切成一小份一小份，可以交易给任何人完成流通。<\/p><hr><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a517d030e5d08cc546f918acdef73f5b_720w.jpg?source=d16d100b\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"486\" data-rawheight=\"333\" class=\"origin_image zh-lightbox-thumb\" width=\"486\" data-original=\"https://pic1.zhimg.com/v2-a517d030e5d08cc546f918acdef73f5b_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"NBYYEcD6\">等一下！<\/p><p data-pid=\"oo5EOdjA\">这不是区块链通证经济的伟大发明吗？这不是通证经济学开天辟地，前无古人的伟大创举吗？咋可能是腐朽落后贪婪愚昧完全没有“革命性全新思维”的传统金融机构在很多年前能够实现的呢？肯定是不一样的嘛！<\/p><p data-pid=\"maQp6AXx\">确实不一样。<\/p><p data-pid=\"AuDA-lFf\">都能流通，但流通环节一个在交易所（不是数字加密货币那种自设“交易所”，是上交深交那种），一个在链上。<\/p><p data-pid=\"Br-foHYZ\">去中心化的区块链规避的风险是上交所深交所倒闭并且资金不隔离被侵吞（对金融界来说跟外星人入侵地球差不多黑天鹅），代价是安全的公链在效率上一定付出相应的代价。<b>如果token化之后流转还要通过某“加密数字资产交易所”的话，这个优势也就无从说起了。<\/b><\/p><p data-pid=\"ufc7gpX5\">另外一个是底层资产出问题的时候，会发生什么。<\/p><p data-pid=\"yHckb8QY\">刚刚举例说的MBS，如果贷款买房的人违约了，那按照正常的流程，房地产作为抵押的这笔贷款，银行就要没收房子拍卖来回收损失的。如果这笔贷款已经做成了MBS卖出去了，那这笔资产就归SPV所有了，也就是MBS持有人们来分卖房子的收入。这里所有的链条过程互相锁定靠的是法律文本。商业银行和金融中介（通常是投行），中介和SPV的合同，SPV发行份额的法律文本一环扣一环。（这里并不需要相信投行，投行已经出表卖给SPV了，这里保证投资人利益的是法院）<\/p><p data-pid=\"Dky1scgK\">如果是token的话，就目前能看到的设计而言，基本就是归零。<\/p><p data-pid=\"c0jqyyT0\">某项目筹资拍网剧，发行了token，团队拿到钱之后如果不去拍，而是拿去炒币去了，卒。<\/p><p data-pid=\"Br5HQR89\">就算团队真的去拍剧了，拍完后卖了版权那也没人能把他们怎么样，卒。<\/p><p data-pid=\"8DAdlPI8\">有些token说上映了之后，token能直接兑换票，又是股东又是客户，但到时候不兑付，也并没有任何人能约束，卒。<\/p><p data-pid=\"STCpaEld\">兑现给你票了，但版权卖了一个又一个地方，收入团队不share，卒。<\/p><p data-pid=\"pkK3HQxn\">这和资产抵押证券必须专款专用的结构是完全不一样的。<\/p><p data-pid=\"PpqSF8w0\">再说得简单点，就法律层面而言，资产证券化是现行法律框架里能够实现把收益<b>强制<\/b>归给投资人的，而ICO在国内已经被明确定性为<b>非法集资<\/b>，在海外监管依然处于摸索阶段。<\/p><p data-pid=\"PVssxhCy\">除了赌技术未来的前景之外，基本赌项目团队的人品。<\/p><p data-pid=\"MAB6bMZY\">要是搞风投，那赌团队人品也算是应有之意。实现资产流通，还要看人品就很蠢了。<\/p><p data-pid=\"4uMbMlJq\"><b>这和区块链的去信任（Trustless）的精神，是完全背道而驰的。<\/b><\/p><hr><p data-pid=\"sqYY7PlR\">那是不是区块链就是个忽悠，token化就是个炒作的借口？<\/p><p data-pid=\"cpr3sgpZ\">不是这样的，区块链技术的机制作用就是去中心化的信任系统，是能够实现的。虽然token不是区块链必须的，但作为价值的记账单位并没有什么原罪。滥炒作各种代币的锅，区块链技术不背。（<a href=\"http://daily.zhihu.com/story/9672247\" class=\"internal\" target=\"_blank\">马化腾说「发币」很有风险，很多人没搞清，区块链和 ICO 是两码事<\/a>）<\/p><p data-pid=\"kA0_W59v\">听闻到几个区块链技术落地的例子，几家巨头手上都有一些骚扰电话的信息名单，但都不全，也是各家自己的客户群体里标记和收集的。但明显，骚扰电话并不关心你的手机牌子，是无差别攻击的。全面的数据肯定对用户最好，但开放给竞争对手明显又不符合公司利益。<\/p><p data-pid=\"pslNd44t\">合作总体收益大，但背叛一下能损人利己，这里相当于一个典型的囚徒困境的情景，不合作是正确的策略。<\/p><p data-pid=\"YiLFeSF8\">于是，这几家互相有竞争关系的企业搞了个链，互相使用别人数据的时候记个账，这样所有客户都享受到了数据全集，但又不会白白给竞争对手贡献。因为任何一家来记账都不会被其他家认可，有作弊的可能，区块链技术让大家在记账上大家都无法作弊。<\/p><p data-pid=\"mYzz_8Cy\"><b>打破了囚徒困境，并且不需要互相信任的基础上。实现互不信任的合作，划时代的地方在这里。<\/b><\/p><p data-pid=\"BQC_-Qb5\">那链上的记账我就是撕破脸不认了，能有什么法律强制手段制裁吗？<\/p><p data-pid=\"j6qFbxr0\">依然没有，但以后就再也进入不了合作的核心圈了。囚徒困境的打破除了技术之外，还在于无限次博弈的格局下，大家都不能冒无法参与的风险。<\/p><p data-pid=\"QmdNcqg4\">那再进一步，能强制约束一下吗？除了声誉体系和法律体系外。<\/p><p data-pid=\"hUW9T5Hr\">也是有可能的，如果token代币本身是一个智能合约，所有项目的收入都打到该项目的智能合约账户上，然后智能合约的代码写死，token持有者投票规定什么时候给投资者分个红。那这套体制就只依赖区块链技术本身。难点在于如何让项目的收益强制归集到智能合约账户上。<\/p><p data-pid=\"XcqAnj-n\">要想让当今世界的项目真用上，缺的桥梁是法币稳定的支持智能合约的东西。已经有不少团队在尝试了，肯定不是USDT（<a href=\"https://www.zhihu.com/question/65333009/answer/328096506\" class=\"internal\" target=\"_blank\">许哲：跟法币锚定的数字加密货币（如 USDT）是如何做到和美元锚定的，他们的盈利点在哪里？<\/a>）。智能合约如果能强制分配法币稳定的代币，那和强制按规则分配法定货币就等价了。<\/p><p data-pid=\"Dk_Zi1Bt\">这还在畅想阶段，落地十万八千里。<\/p><hr><p data-pid=\"SpvC6sgZ\">如今“区块链产业”的<b>市值和产值比例<\/b>是畸形的，问题不在于区块链技术没用，而在于没有找到正确的姿势。不能因为还没有找到提高生产力的项目就武断得判定是骗局，但没啥像样的产值就急着宣布“次世代”更加反智。<\/p><p data-pid=\"hBR20Fgp\">我个人的看法：<\/p><p data-pid=\"snQh9P2R\"><b>耐心探索去信任化，从而使得社会各部门合作可能性提高的解决方案；换言之，生产关系解耦化带动生产力发展，是唯一让区块链技术走上正途的方向，没有之一。<\/b><\/p><p data-pid=\"qCRhom8F\">先别急着崇拜任何概念，拿产出说话，概念不值钱。我发现链圈的人互相恭维和金融圈完全不一样。金融圈恭维人都是夸别人收益率高或者规模大，某总今年项目几十个亿上百亿啦，某总今年收益率多高啦。链圈的人互相夸“您对区块链的理解真深”，真是阳春白雪的圈子！常常让总谈现金流的我自惭形秽。<\/p><p data-pid=\"fxWtpHWW\">反正被人看不起了，依然不要脸得坚持我的看法：talking is cheap<\/p><hr><p data-pid=\"vacNHWWZ\">无耻给自己打个小广告，对分布式系统有经验的程序猿（媛）朋友们，可以给我私信简历，我附庸风雅也折腾点事儿。（已经完成初始融资，VC圈的朋友们不用私信了，谢谢）<\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-febd2c28b89dafdb56bdc8ab6f2b5a23_720w.jpg?source=d16d100b",
+            "title": "万物通证化是数字经济的未来还是白日梦",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1514058702,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "这两周的大事件，CBOE（ Cboe Bitcoin Futures ）和CME（CME比特币期货 ）分别上了自己的比特币期货合约。推出后不久，比特币的币值大涨大跌连续触发熔断。有鉴于昨夜的大跌，我终于可以发文议论一下了，否则又要我背一发文就暴跌的锅。关于比特币是什么等基础概念我不解释了（ 比特币是什么？ ），这里也只讨论加密数字货币本身，而不拓展到区块链的其他应用。关于ICO（各种虚拟数字货币是庞氏骗局吗？ ）和智能合约（区块链技术是…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "32290267",
+            "voteup_count": 694,
+            "title_image": "https://picx.zhimg.com/v2-48f004f14c4b417faf6f423cd331c31f_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/32290267",
+            "comment_permission": "censor",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 86,
+            "created": 1514058702,
+            "content": "<p data-pid=\"_L5ZDp88\">这两周的大事件，CBOE（<a href=\"http://link.zhihu.com/?target=http%3A//cfe.cboe.com/cfe-products/xbt-cboe-bitcoin-futures\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Cboe Bitcoin Futures<\/a>）和CME（<a href=\"http://link.zhihu.com/?target=http%3A//www.cmegroup.com/cn-s/trading/bitcoin-futures.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CME比特币期货<\/a>）分别上了自己的比特币期货合约。推出后不久，比特币的币值大涨大跌连续触发熔断。有鉴于昨夜的大跌，我终于可以发文议论一下了，否则又要我背一发文就暴跌的锅。<\/p><p data-pid=\"81-KuD9O\">关于比特币是什么等基础概念我不解释了（<a href=\"https://www.zhihu.com/question/22076666/answer/69638270\" class=\"internal\" target=\"_blank\">比特币是什么？<\/a>），这里也只讨论加密数字货币本身，而不拓展到区块链的其他应用。关于ICO（<a href=\"https://zhuanlan.zhihu.com/p/27770678\" class=\"internal\" target=\"_blank\">各种虚拟数字货币是庞氏骗局吗？<\/a>）和智能合约（<a href=\"https://www.zhihu.com/question/27687960\" class=\"internal\" target=\"_blank\">区块链技术是什么？未来可能用于哪些方面？<\/a>）还不了解的朋友从这些链接里看看，或许对理解有帮助。<\/p><p data-pid=\"wemhNXhj\">本篇不讨论和预测比特币的价格，也不构成任何投资建议。想要投资或者投机比特币的朋友，建议大家去正规期货公司broker（要我打广告的期货公司太多，一律婉拒）去开通CBOE或者CME的期货合约交易权限，不要在莫名其妙的“交易所”去交易，跑路只是时间问题（<a href=\"https://www.zhihu.com/question/65347696/answer/230481412\" class=\"internal\" target=\"_blank\">如何看待比特币中国将于 2017 年 9 月 30 日停止所有交易业务？<\/a>）。<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f5e52bc3f7a728d6ae68e051bdaf0d2c_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"950\" data-rawheight=\"534\" class=\"origin_image zh-lightbox-thumb\" width=\"950\" data-original=\"https://pic1.zhimg.com/v2-f5e52bc3f7a728d6ae68e051bdaf0d2c_r.jpg?source=d16d100b\"><figcaption>曾经最大的比特币交易所Mt.GOX宣布倒闭后的示威者，在此之后比特币交易所宣布“被黑客攻击”而倒闭的事情屡见不鲜。门头沟不会是唯一的沟。<\/figcaption><\/figure><hr><p data-pid=\"1YTlpsti\">言归正传，讨论意图成为货币的比特币。首先搞清楚一个简单的逻辑推理错误，经常见到对比特币的批评是因为比特币不具备法币的某某某特性，故而无法成为真正的货币。<\/p><p data-pid=\"J6pgDkMz\">这个推断暗含着一个前置推断：只有法币的做法才能成为“真正的”货币。这个前置推断是个假命题（不是伪命题）。现如今的国家主权信用货币体系<b>并不是唯一一个<\/b>能起货币功能的货币设计，事实上，布雷顿森林体系（一种实物黄金作为抵押物的非纯信用体系）的崩溃后建立的现在信用法币体系，到现在不足半个世纪。难道半个世纪以前，人类就没有货币吗？<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c788ce035dc0d8e731fa4397ee799051_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"461\" data-rawheight=\"300\" class=\"origin_image zh-lightbox-thumb\" width=\"461\" data-original=\"https://pic1.zhimg.com/v2-c788ce035dc0d8e731fa4397ee799051_r.jpg?source=d16d100b\"><figcaption>凯恩斯本人代表英国参与二战后布雷顿森林体系的谈判<\/figcaption><\/figure><p data-pid=\"PVRYlT4B\">更何况人类社会现在主流的主权信用法币也面临诸多挑战，不见得是完美的系统。<\/p><p data-pid=\"Fm7ksfGg\">长得不像我的都不是人？！！！这得是多傲慢的偏见。<\/p><p data-pid=\"M1jbBwYm\"><b>货币是工具，目的是促成交易的便捷，重要的是交易，是所有交易者福利的增加，<\/b>而不是货币本身。交易使得交易双方的利益都增长，故而才会有交易，这里说的交易泛指所有交易，包括直觉上好像是纯粹对赌的金融衍生品交易（<a href=\"https://www.zhihu.com/question/28033162/answer/258410403\" class=\"internal\" target=\"_blank\">许哲：金融的核心是数学吗？<\/a>）。<\/p><p data-pid=\"e8fEFdxO\">说比特币不产生现金流，所以该资产是骗局，这是一种奇怪的批评，黄金也不产生现金流，并不妨碍它曾经一度成为支付货币的历史事实。<\/p><p data-pid=\"ZuMnmAFq\">美元人民币有利息，是因为你借贷给别人了（银行存款的本质是<b>你借给银行，而非存放<\/b>，说“存”，是想要给你安全的假象而已），如果你拆借黄金给别人了（黄金租赁业务就是此意）同样是有利息的，比特币拆解也是有利息的（而且很高）。相反的，倒是欧元，带人类进入了负利率时代。<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-dbbe5c3040203c9f064ec953ae760935_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"1200\" data-rawheight=\"900\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pic1.zhimg.com/v2-dbbe5c3040203c9f064ec953ae760935_r.jpg?source=d16d100b\"><figcaption>保险柜行业的真盖世英雄，给个眼神你体会一下<\/figcaption><\/figure><p data-pid=\"oVAqHcsN\">就允许负利率直接拿全欧元区做货币实验，不允许加密数字货币做货币实验吗？至少数字加密货币可没用法律强迫作为唯一合法货币吧。<\/p><p data-pid=\"P4PX_90T\">既然是做实验，一般都是拿一小部分先做参照组的，一上来就把那么多人命运息息相关的事情拿来做大规模社会制度实验，哪个才是真正的任性疯狂？<\/p><p data-pid=\"DfpD6fhy\">所以像不像法币和有没有利息，都不能成为否定比特币等加密数字货币称为一种货币支付手段的充足理由。我认为，决定比特币能不能成为一种货币支付手段，甚至能不能取代现代法币体系的决定性因素是：<b>它是否能促成交易双方交易成本的下降。<\/b>（敲黑板）<\/p><p data-pid=\"dGh8jSou\">如果能，则势不可当。如果不能，则此实验失败。但就算作为支付手段的失败，也未必意味着其他地方没有意义。比特币到如今带来的社会现象，已经带来了社会科学值得好好研究的大量课题了。更别说带来了区块链这一技术的验证。<\/p><p data-pid=\"acZUvUG2\">这里的交易成本不仅仅是指狭义的区块链上的费用或者银行转账的手续费，而是广义的社会交易成本。包括币圈的人天天念叨的法币通胀的铸币税也是我说的广义的交易成本的范畴。反过来，批评总量不会增加势必导致通缩紧缩，社会生产力被破坏，也是交易成本。<\/p><p data-pid=\"prNbdo0w\">所以，我的着眼点在于使用加密数字货币作为支付手段，对整个社会而言是否有效率来讨论，而非没有主心骨的一个个散落的争执不下的点。<\/p><p data-pid=\"UXCYkKa7\">第一个最重要的问题：<b>加密数字货币能不能成为交易支付的手段？<\/b>还是除了炒作之外，并不能真正履行此职能。如果不能，没有后续讨论交易成本的必要。<\/p><p data-pid=\"0MFRCfyI\">现在事实已经被证明，加密数字货币是可以作为交易手段的。确实有一些交易正在使用比特币作为支付手段，这里说的不是用法币买卖各种加密数字货币，或者是币币交易，而是加密数字货币直接交易货物。<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-62161899343617b9da3110b8e4bb9aa4_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"1237\" data-rawheight=\"835\" class=\"origin_image zh-lightbox-thumb\" width=\"1237\" data-original=\"https://picx.zhimg.com/v2-62161899343617b9da3110b8e4bb9aa4_r.jpg?source=d16d100b\"><figcaption>暗网上无须任何文件就能用比特币购买枪支<\/figcaption><\/figure><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-38f7a8ba323aa34ac4a7225c1cd92bbd_720w.jpg?source=d16d100b\" data-size=\"small\" data-rawwidth=\"756\" data-rawheight=\"847\" class=\"origin_image zh-lightbox-thumb\" width=\"756\" data-original=\"https://picx.zhimg.com/v2-38f7a8ba323aa34ac4a7225c1cd92bbd_r.jpg?source=d16d100b\"><figcaption>洋办证儿，美国的假驾照<\/figcaption><\/figure><p data-pid=\"CBUWvgdI\">因为比特币的匿名性，故而已经被广泛应用于暗网的非法交易。不光彩是一回事，但足以证明比特币是能履行支付功能的。能不能提高效率降低交易成本与否在其他领域尚且不知，至少在黑市界，其匿名性的保证已经大大降低了交易成本（想一下旧电影里的黑帮交易是有多高的风险，双方促成安全交易有多困难），故而比特币在黑市是非常有活力的。<\/p><p data-pid=\"meFg0gfC\">粗糙估算一下，黑色产业的交易需求除以2100万（比特币的数量上限，目前已经挖出来的大概1700万），黑市实际有多大的货值因为不好估计，但必然也是个非常可观的大数字。<\/p><p data-pid=\"0zWfawFU\">这不是个人的推断，而是客观事实：<b>比特币能作为一种支付手段使用<\/b>。而且在黑市交易上，是交易成本最低的一种，所以它期待了其他货币，那在其他领域能吗？<\/p><p data-pid=\"Sg0nG7f1\">换言之，有什么理由能让我们更愿意以加密数字货币交易而非法币呢？在日常交易中，存在不存在一个类似匿名这样的痛点，让我们更倾向于加密数字货币呢？<\/p><p data-pid=\"QXIqiAi4\">比特币的支持者们提到的最多的是抗通胀性，通货膨胀已经不是一个令人陌生的经济学概念了，特别在中国，回想一下二十年前的物价，就无须多言了。和比特币类似的，黄金的产量也没办法根据央行的意志为转移，突然增多。那贵金属本位的时代，是否就不存在通胀呢？<\/p><p data-pid=\"4ZlR5cI2\">答案是否定的，贵金属本位时代照样有通胀的。<\/p><p data-pid=\"ip9iyPmi\">通胀分为两种，一个是币实物时代的含金量的不断下降，另外一个是贵金属本位作为支撑的银行体系信贷扩张造成的通胀。<\/p><p data-pid=\"ux059QXf\">在实物贵金属本位制度下，币的实际含量是不断下降的。举例来说，在尤利乌斯和奥古斯都·凯撒期间，罗马便士中含有4盎司银。250年后，到三世纪末，同样的银币中的含银量仅为过去的2%，也就是说其价值仅为1/50。<\/p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5d6d3d8d81e587cd7df354bfe2603bd8_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"474\" data-rawheight=\"258\" class=\"origin_image zh-lightbox-thumb\" width=\"474\" data-original=\"https://pica.zhimg.com/v2-5d6d3d8d81e587cd7df354bfe2603bd8_r.jpg?source=d16d100b\"><figcaption>凯撒银币<\/figcaption><\/figure><p data-pid=\"46DeYn7Q\">缩水得简直不像话，但算一算年通胀率其实只有1.6%，还小于美联储2%的通胀目标。如果对标一些高速发展中国家实际的通胀率（你懂的），简直不值一提。<\/p><p data-pid=\"YwXER1BF\">要验证实物的含金量是困难的，笔者曾意外介入了一些黄金实货的生意，厂商在验证矿的含金量时，需要氰化物（剧毒）和质谱仪。很难想象，你在交易的时候需要如此验证支付者货币的含金量，这不仅仅是支付宝扫一扫比效率差，而是完全不可行。<\/p><p data-pid=\"E94Wbj4p\">那贵金属实物货币时代的人怎么办呢？唯有相信铸币厂，有些是官方的，有些不是，铸币是个天大的权力，能铸币的是真正的发大财的生意。这意味着社会交易成本的巨大一块，是给铸币者拿去的。<\/p><p data-pid=\"us7HvZjH\"><b>信任是最贵的。<\/b><\/p><p data-pid=\"ctPRhdhf\">比特币有没有验证真伪的社会成本？有的，挖矿本质上是竞争记账的权力，POW机制本身是用来防伪的，电力消耗是真实在耗费社会资源的（虽然如今大部分是弃电）。为了确保比特币交易的合法性，也需要是社会资源的投入，而且是竞争性质的，投入的资源是不会少的。<\/p><p data-pid=\"A7XaR0_8\">区别在于，对于使用者而言，验证在技术上是可行的。用手机轻钱包接受比特币支付时，不需要担心比特币的“含金量”，收到一个btc就是一个btc，不用担心含金量。<\/p><p data-pid=\"wUWLi0uX\">矿场类比于贵金属时代的铸币厂在这里是<b>不适用的<\/b>，因为铸币厂能稀释含金量，而加密数字货币的矿场并不能。在面临多家铸币厂竞争含金量的同时，铸币厂尚且是有约束的。邓通的币含铜量高，就会有优势。而如果法律规定只有政府拥有唯一合法的铸币权的话，那含金量的一路下滑基本上是无法避免的必然归宿，唯一的奖励或许能让人类文明的明灯牛顿爵士亲手送你上绞刑架。<\/p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0c1acac7c13546d6b7857052e9800f66_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"288\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-0c1acac7c13546d6b7857052e9800f66_r.jpg?source=d16d100b\"><figcaption>牛顿任过铸币局一把手，以手段残忍毒辣著称<\/figcaption><\/figure><p data-pid=\"8OkogheZ\">总结一下：因为贵金属含量没有便捷的验证方法，故而公众被迫信任铸币厂，而法定的铸币厂有强烈的稀释含金量的动机，故而货币的使用者必然遭遇损失，使得真实的交易成本很高。而比特币没有对标的法定铸币厂类似的机构，矿场更类似于一个收费版的检验含金量机构，所以能收比特币的人不用担心每次收到的比特币会比之前的有差别了。我认为是进步了，换言之，交易成本下降了<b>。<\/b><\/p><p data-pid=\"NpTV9ZPI\">和古时候的实物金属货币相比是如是，那如今的主权信用背书的法币呢？<\/p><p data-pid=\"1P9CoudK\">如今主权信用背书的法币，背后也是有类似“含金量”类似概念的抵押物的。<a href=\"https://zhuanlan.zhihu.com/p/21263798\" class=\"internal\" target=\"_blank\">关于货币最简单的逻辑<\/a>一文里我用一些简单的比喻来阐述了央行的资产负债表的含义，我们持有的纸币背后是有央行的资产作为抵押的。纸张本身的价值忽略不计，但是央行持有的资产是庞大的。<\/p><p data-pid=\"5IZcYzQg\">同样的问题，可能稀释吗？“含金量“会下降吗？<\/p><p data-pid=\"Nn6-0Mn7\">理论上，央行的资产负债表是100%准备金的，有多少资产发行多少货币，是不会”滥发“的。媒体往往指责物价上涨，央行滥发货币其实是没有理解货币创生的完整过程。现代信用货币从无到有冒出来确实是央行干的，但产生货币的总量，可不光是央行自己完成的（<a href=\"https://zhuanlan.zhihu.com/p/21744876\" class=\"internal\" target=\"_blank\">货币或许能无中生有，但财富不能<\/a>）。当然央行有手段能控制总量，这个下文详细讨论。<\/p><p data-pid=\"ztQkukiJ\">我们这里不讨论信用派生的问题（<a href=\"https://zhuanlan.zhihu.com/p/20296176\" class=\"internal\" target=\"_blank\">央妈的更年期烦恼<\/a>），仅仅是讨论基础高能货币，能否稀释”含金量“。答案是肯定的，完全是可能的。和布雷顿森林体系美元挂钩黄金，其他货币挂钩美元不同，现代央行发行货币没有硬兑付的束缚。不存在35美元能兑出一盎司黄金的说法。央行的资产负债表里虽然负债是货币，资产栏里有什么资产写得清清楚楚。但是你不能持有货币去央行要求兑换对应的资产，仅仅是表上面列着而已。但本质上，<b>我们现在持有的法币，是有”黄金“的，也是有”含金量“类似概念的，不光是一张纸或数字。<\/b><\/p><p data-pid=\"MHDP-K7C\">最糟糕的情况是，表上虽然列着其实没有，或者挪作他用了，这当然是非常严重的失信了，基本只是政权垮台前才干得出的事情。<\/p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e9b954a0a16bf76d06c0b9f8e530d569_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"1900\" data-rawheight=\"1440\" class=\"origin_image zh-lightbox-thumb\" width=\"1900\" data-original=\"https://picx.zhimg.com/v2-e9b954a0a16bf76d06c0b9f8e530d569_r.jpg?source=d16d100b\"><figcaption>所谓央行资产，也就是账面上有而已。就问你意不意外，惊不惊喜，喜不喜欢。<\/figcaption><\/figure><p data-pid=\"Ms9Ej1ZL\">没有这样的惊天欺诈，在不承担兑换义务的现代央行手上，有办法稀释”含金量“吗？<\/p><p data-pid=\"-UWPXQ_W\">办法是有的，央行扩表和缩表（<a href=\"https://zhuanlan.zhihu.com/p/26027538\" class=\"internal\" target=\"_blank\">缩表是什么鬼？<\/a>）意味着买卖资产，而购买的资产到底对应多少货币释放，除了央行是没有人有发言权的。<\/p><p data-pid=\"D-DckSVg\">比如美联储购买MBS（住房贷款抵押债券）来QE，这笔资产值多少钱？这种证券是有个市场价格，但市场价格一定就是公允价值吗？若如是，则市场拥有拉普拉斯妖一般的全知能力，这显然是不现实的。做一个极端假设，如果MBS背后的债违约了，换来一地鸡毛的没人要的房产，怎么估值？理论上所有持有美元的人才是资产真正的主人，这损失谁负责？<\/p><p data-pid=\"94AnPpsW\">央行购买资产是央行单方面决定的，而释放出的货币意味着给出了一个不可商量的价格。纸币背后的”黄金“到底值多少钱，是央行单方面决定的，如果央行购买了垃圾，而释放出和之前拥有同等法律效力的增量货币，那就是一种稀释”含金量“的行为。<\/p><p data-pid=\"pRvNzDUh\">如果央行迫于政府压力，购买了大量有问题的地方政府债券，而风险承担能力较差的地方政府现金流出问题，除了央行持续滚动购买维系一个类庞氏（<a href=\"https://zhuanlan.zhihu.com/p/19956481\" class=\"internal\" target=\"_blank\">一招看穿一切旁氏骗局——泡沫的形成、发展与破灭，以及复利的魔力。<\/a>）之外，还有其他的路可以走吗？这里不讨论央行的独立性问题。仅仅说明，现代央行纯信用体系，购买的资产实际质量如果有问题，是存在类似于”含金量“不断下降风险可能的。<\/p><p data-pid=\"j0bOjwzp\">无论是古时候的贵金属本质制度，还是现代央行制度，都存在”含金量“可能下降的问题。这是巨大的社会交易成本。所有使用货币参与市场交易的人，都息息相关的。<\/p><p data-pid=\"9jrMbH65\">那接着上面的讨论，比特币优于金币作为支付手段，是否可以同样推论出优于现代法币体系呢？并不能，因为金本位和现代央行制度有相似点，但并不一样。<\/p><p data-pid=\"SVn6Ucuf\">重点的不同是<b>央行持有的资产里，并不都是类似于黄金的无用之物<\/b>。央行持有的国债背后是政府的税收抵押穿透到最后是纳税个体的资产，有些证券穿透到最后是房产实物，日本央行还买了ETF，背后是上市公司的股权，穿透后是股东权益。这些穿透到最后，是大量的生活生产资料，不全是黄金这样的无用之物。<\/p><p data-pid=\"_iOlALVc\">黄金是无用之物，没有使用价值，金币含金量越来越糟糕是因为黄金的验证成本太高，而比特币的验证比黄金现实许多，所以可以严格说优于金币。并不能严格说优于现代央行制度的法币。因为加密数字货币背后并没有对应的实际生活生产资料（仅目前的加密数字货币而言，不排除以后有能钩挂实物的加密数字货币）。<\/p><p data-pid=\"8-ExD88c\">除了贵金属本位制之外，还有盐本位和粮食本位的货币，这些可以说是对应实际生活生成资料了。这些货币的问题和实物金属币不同，纸币化之后能不能兑付是个大问题，金本位里的纸黄金同样有这个问题。<\/p><p data-pid=\"VR35Xa_8\">货币支付本质上是负债的转移（<a href=\"https://zhuanlan.zhihu.com/p/21263798\" class=\"internal\" target=\"_blank\">关于货币最简单的逻辑<\/a>），在大家都相信能兑付实物的共识下，不必交易前兑成实物支付，只需要支付纸币完成债务的转移即可。而当有兑付的信任风险的时候，没有认真履行100%准备金制度的纸币势必破产。<\/p><p data-pid=\"IJGQg5ER\">比特币是不存在这类问题的，因为从来没承诺过能兑付任何实际生活生产资料，根子上不存在挤兑的可能性。现在央行和粮食盐本位等制度让货币挂钩实际的生活生产资料并不是毫无意义的，这是货币变得有价值的最后一层保险。<\/p><p data-pid=\"NAkXNoqD\">要注意，没有实际生活生产资料作为支撑（能不能足额兑付是另外一个问题），并不妨碍在平时完成债务转移的功能。但在市场恐慌和混乱的时期能提供坚实的锚。<\/p><p data-pid=\"P1xTY3Z9\"><b>这很重要。<\/b><\/p><p data-pid=\"yXpuPN1r\">因为只有我们知道，最差情况下，我还能换回十斤盐，两百斤小麦的情况下，赚取这种货币才有最底线的保障。这在博弈决策的时候是个重要信息，这个信息会大大降低交易的成本。解放初期我国政府用大量的煤炭和粮食砸到上海市场稳定人民币就是如此，实际上是用煤炭粮食等实际生活生产资料作为货币的锚。<\/p><p data-pid=\"882fmYWD\">比特币这样的货币是纯粹的记账，完成债务转移是没问题，但遇到真正的市场恐慌的时候，迫切需要实际生活生产资料的时候，这种货币会不会被抛弃，就很难说了。目前津巴布韦等落后地区在法币失去信用的时候，比特币能上位，是因为整个外部世界还处于总体和平稳定的阶段，比特币能兑换成海外法币拥有购买力，如果整个经济体系都处于紧张时期呢？<\/p><p data-pid=\"VL3fS3ws\">这是最后一层保险，不遇到真正的大问题，永远无法验证，都是纸上谈兵。<\/p><p data-pid=\"Z1x5OqiT\">现代央行制度下，因为纸币也是软约束不兑换的，稳定纸币的方法是抛售央行资产（实际生活生产资料）收回货币，使得市面上的纸币变少，实际物资增加。当然啦，也可能反其道而行之，”增加流动性帮助“市场度过危难期，呵呵。<\/p><p data-pid=\"D_Nsku-P\">所以回到主线，比特币这类加密数字货币没有实际物资的支撑，会不会加大债务转移记账时大家的决策难度。我认为是会的，这在效率上是个大折扣。所以我们感受不到这个因素，是因为币值（兑法币）一直在涨涨涨，支付的人还觉得亏了呢，受付人根本不是担忧的一方。但问题是可观存在的，没出现过不意味着不存在。<\/p><p data-pid=\"v3hrwdSJ\">没对应实货物资，会增加交易成本，但这个成本不在极端情况下不易体现。<\/p><hr><p data-pid=\"608oh7xE\">接下来谈第二类通胀，在贵金属本位时代同样出现的，信用派生产生的通胀。<\/p><p data-pid=\"wn6PPEaU\">当你存100元（其实是借给银行100元）后，你存款余额是100。银行的企业客户贷款50元的时候，银行并不会通知你：亲爱的储户，您的存款中有50元目前处于被拆借状态中，暂时无法使用。<\/p><p data-pid=\"xBph2b0k\">事实上，贷款客户把50元花了，你同时消费60元的话，两笔交易都是合法的，总额是110元，虽然银行只有100元。这使得银行机构和非银机构有很大的不同：能否创造出派生货币来。<\/p><p data-pid=\"Is1nFuXT\">通胀与否与派生的量非常相关。央行也是调节货币市场的方式来影响货币发行总量的，不仅仅是扩表和缩表的方式。提高准备保证金率是降低货币派生能力的（每次贷款总量不能超过存款的一个比率），提高或者降低利率也是为了间接影响货币总量的（钱更贵了抑制一下借贷的冲动）。<\/p><p data-pid=\"eC3LDybI\">既然商业银行能无中生有派生出信用货币，这会不会造成我们使用货币的成本变高。当然是有的，因为<b>信用派生这种“方便”是可怕的<\/b>。<\/p><p data-pid=\"Q-F2axNk\">它赋予了央行调节经济的权力，<b>是权力就有可能被滥用<\/b>。特别是信息和影响力不对称的时候，虽然央行理论上应该是一个超然的公共机构，但政府对央行的影响力大过社会公众的影响力。<\/p><p data-pid=\"bU6mc1eR\">当政府需要解决债务问题的时候，稀释债务最“无痛”（对于政府而言）的办法莫过于通胀，给问题项目庞氏化续命（<a href=\"https://zhuanlan.zhihu.com/p/20620619\" class=\"internal\" target=\"_blank\">关于债务结构最简单的逻辑<\/a>）是能做到问题延后的。这相当于所有持有货币的人一同承担某些部门的过失。<\/p><p data-pid=\"2JY-y7jq\">那最优的策略就是把摊子铺得越大越好，反正成功了是我享受，失败了全社会一起帮我想办法。或者摊子铺大的过程中先中饱私囊了，快要失败了去闹一闹，集体逼个宫，拿社会稳定来做筹码。<\/p><p data-pid=\"rv-AmnDB\">这是现代双层法币体系的一个大问题，除了政府希望市场出清去杠杆的决心外，还有什么东西能保证持有货币的交易者们不受这个问题困扰的吗？如果能，则是货币体系一个大的飞跃，是真正的进步。<\/p><p data-pid=\"zDbsGALV\">这有点类似于比特币设计时的“双花问题”，原意是如何保证在一个网络里，加密数字货币只被花一次。存款派生信贷再产生存款某种意义上，就是一笔钱能同时被花两次，甚至更多次。那比特币的防双花设计的算法能抵抗信用派生制度的阴暗面吗？<\/p><p data-pid=\"dnp_yho2\">这取决于比特币是否成为直接支付媒介，还是作为储备物也派生出比特币银行来。<\/p><p data-pid=\"vL7mz6gy\">有一种关于不必担心BTC网络拥堵和迟迟不推出“闪电网络”的说法：认为BTC类似于黄金，它永远稀缺性和不可伪造等特征，我们不必直接在链上交易，而效仿黄金本位纸币，发行比特币本位的纸币或者银行存款，这就规避了链上交易成本的问题。<\/p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b3c5136af584b6f5945c2cb1315a31a6_720w.jpg?source=d16d100b\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"638\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-b3c5136af584b6f5945c2cb1315a31a6_r.jpg?source=d16d100b\"><figcaption>比特币换成黄金，一切配方都不变<\/figcaption><\/figure><p data-pid=\"DbAx4lUC\">真正能的链上交易类似于央行的买卖行为，平时的日常小额支付由比特币银行的服务器中心化高效处理，不必耗费大量hash算力。<\/p><p data-pid=\"9byDg1dk\">这种方案比黄金本位优秀的地方是，发币机构的金库大家是没办法知道实际的储量的。但比特币的钱包透明可查验，大家都可以看是否维系了100%保证金制度。<\/p><p data-pid=\"zb09ImM2\">这确实是个大的技术进步。但一旦产生比特币本位的银行体系，也就产生了信用派生，比特币的基础货币是能规避双花问题，然而派生出的信用货币使得整体的供给又变大了。<\/p><p data-pid=\"8yIq5JoR\">如果不能信用派生，何人会去运营一个比特币银行。如果允许银行信用派生，那双花问题在技术上被解决无益于总量的控制。换言之，比特币通胀可以在总量2100万不变的情况下发生了。<\/p><p data-pid=\"XLoIZGfb\">故而我认为类似BCH这种扩容不是没意义的，直接链上支付而不依赖可能产生信用派生的三方金融机构作为中介，对于加密数字货币而言，是是否还有意义的重大区别。<\/p><p data-pid=\"zok-a6gW\">每秒7笔的速度当然是无法成为主流支付手段的，扩容八倍恐怕也远远不够，但这里不给未来的技术设限，或许未来带宽和计算能力都远超现在。<\/p><p data-pid=\"xBfeu6xn\">回到主线上来，如果大家对加密数字银行的存款不等视为比特币的现金，区块链技术解决的“双花问题”的方案是对社会交易成本大大的贡献。如果产生比特币银行，并且大家普遍认为比特币银行的存款一如现金（好比我们认为人民币存款等于人民币现金），那就没啥进步可言了。<\/p><hr><p data-pid=\"yOSfY5x-\">到这里讲的都是通胀的问题，完全相反的意见还有通缩。<\/p><p data-pid=\"JqCCj_yn\">关于比特币等重量恒定的加密数字货币很大的诟病恰恰在于重量的有上限。<a href=\"https://www.zhihu.com/question/22036280/answer/20258655\" class=\"internal\" target=\"_blank\">Busch：经济学界如何看待比特币？<\/a>回答里有个小故事讲述了通货紧缩对于社会的巨大危害。<\/p><p data-pid=\"QKeqpRKp\">如果一种货币成为主流通货，而造成严重的社会问题，最终也是终将被抛弃的。换言之，它作为支付手段没用。写到这里写不动了已经……<\/p><p data-pid=\"Oa82a6If\">篇幅已经严重超标了，以后有时间再写，先声明：烂尾不负责，就是这样的。<\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-48f004f14c4b417faf6f423cd331c31f_720w.jpg?source=d16d100b",
+            "title": "加密数字货币有用吗？（一）",
+            "can_comment": {
+                "status": true,
+                "reason": "请输入评论，您的评论将会由作者筛选后显示"
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1505577017,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "有很多朋友要我荐书，这点很抱歉，我看的书一般偏门又难读，不是太有普适性。除了也许能帮这些万年冷门书获得一点销量之外，怕是很少能帮到朋友们。 有个例外。我很喜欢且几乎完全赞同的书，还兼具高度可读性的，只有 《反脆弱》 一书。这书当年对我的启发很大，在考虑交易策略的完备性和严谨性的时候，曾经遇到比较大的瓶颈。因为经验归纳法的天然缺陷，再量化的历史归纳也不能让我满意。黑天鹅事件的频发与时间不可预测性让人无…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "29399851",
+            "voteup_count": 941,
+            "title_image": "https://picx.zhimg.com/v2-3ba991bb9a5c962b624b88d5ff891bda_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/29399851",
+            "comment_permission": "censor",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://pica.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://pic1.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 61,
+            "created": 1505568870,
+            "content": "<p data-pid=\"JWaPtk0t\">有很多朋友要我荐书，这点很抱歉，我看的书一般偏门又难读，不是太有普适性。除了也许能帮这些万年冷门书获得一点销量之外，怕是很少能帮到朋友们。<\/p><p data-pid=\"PkBySrW3\">有个例外。我很喜欢且几乎完全赞同的书，还兼具高度可读性的，只有<a href=\"http://link.zhihu.com/?target=https%3A//book.douban.com/subject/25782902/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《反脆弱》<\/a>一书。这书当年对我的启发很大，在考虑交易策略的完备性和严谨性的时候，曾经遇到比较大的瓶颈。<\/p><p data-pid=\"dv-ygMgt\">因为经验归纳法的天然缺陷，再量化的历史归纳也不能让我满意。黑天鹅事件的频发与时间不可预测性让人无所适从。自从接受了未来不可预测的设定后，制定交易策略开始变得难以自我说服。<\/p><p data-pid=\"bMXrT-Km\">好在天无绝人之处，我是不信皮浪走路都不敢走的故事，怀疑论者是能自洽地与世界相处的（毕竟大家都要活着）。突破思维根本缺陷恰恰在于有一个非真命题的局限一直没破除——要想获利，需有准确预测。<\/p><p data-pid=\"8SXns43_\">这个想法很普遍也很符合直觉。曾经有个财经媒体的记者问我对金融资产价格走势的预测时，我回答说我不会预测。她极为惊讶，问我你们不就是做预测为职业的吗？我只能耸耸肩，表示隔行如隔山，算命那一行的饭碗抢不动。<\/p><p data-pid=\"ws1Rg-GQ\">让我从对未来的不确定性焦虑的困境中走出来，悬崖撒手最后一跃，是破除预测未来和获利的关系不假思索的黏合。<b>我要的不是精确的预测，而是最终的获利。<\/b><\/p><figure><img src=\"https://picx.zhimg.com/v2-894a391e985786f568d60dbb2530e68b_720w.jpg?source=d16d100b\" data-rawwidth=\"850\" data-rawheight=\"400\" class=\"origin_image zh-lightbox-thumb\" width=\"850\" data-original=\"https://picx.zhimg.com/v2-894a391e985786f568d60dbb2530e68b_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"q08FmLsN\">上面这段话的大概意思是：“反脆弱”比坚韧和稳健更好。坚韧性能在剧变中保持原样，而反脆弱能变得更好。<\/p><p data-pid=\"S3bxB6-Z\"><b>原来混乱和不可预测并不总是直觉里那样让我讨厌的东西，还有可能是有益的。<\/b>这是之前一直被固定僵化思维限制的无人区，第一次触到。<\/p><p data-pid=\"tJh5jVYd\">如何控制程度不可预测的突变，从头疼天天盼望别遭遇黑天鹅的问题，变成了不是问题的问题（不是简单止损就能解决的）。如果一个问题没法解决，唯一的办法是绕过这个问题，不是无视问题，而是新的解决框架里不需要处理。<\/p><p data-pid=\"IZBIb5v2\">混乱与不可预测可以是福不是祸，或者说福和祸本身就是一体两面，福祸是相依的。<\/p><figure><img src=\"https://picx.zhimg.com/v2-341cebc11516ac9549ce239ba0089e8c_720w.jpg?source=d16d100b\" data-rawwidth=\"1467\" data-rawheight=\"645\" class=\"origin_image zh-lightbox-thumb\" width=\"1467\" data-original=\"https://pic1.zhimg.com/v2-341cebc11516ac9549ce239ba0089e8c_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"NMQOzm1o\">我这里说的可不是什么“盈亏同源”的废话，不产生指导意义的道理不如不说。<\/p><p data-pid=\"t2FBc2oO\">不说抽象的，说具象的。<\/p><p data-pid=\"2j-EFQ1E\">在投机生涯里，最焦虑的莫属看到资产泡沫的时候。你知道这是个泡沫，你也知道泡沫迟早要破灭，你知道正确的做法是投身到泡沫中，并且在大众认识之清前抽身。但问题是泡沫现在到底在什么阶段？还有多久破？<\/p><p data-pid=\"WwyZOgBB\">太早抽身，看到别人吃肉那种感受比亏钱了还难受。太晚抽身，竹篮打水一场空，后果往往极为惨烈。做空也有这个问题，太早空了，被泡沫活活顶死；太晚去做空，早就没你什么事了。<\/p><p data-pid=\"qsHFohtz\">让人纠结的问题出在哪里？我们要的只是获利，但偏偏需要预测个时间点。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-3fd4cabfd305f60f7095a7fbbc33865d_720w.jpg?source=d16d100b\" data-rawwidth=\"730\" data-rawheight=\"420\" class=\"origin_image zh-lightbox-thumb\" width=\"730\" data-original=\"https://pica.zhimg.com/v2-3fd4cabfd305f60f7095a7fbbc33865d_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"FenXZJde\">要么你能自己主动刺穿泡沫，那时间点预测不是问题。否则的话，天天惶惶不可终日。<\/p><p data-pid=\"ivaaO9V0\">不要预测，世界不会因为你的需求而变化，市场不会为你的欲望埋单。不去试图影响别人，苦口婆心去劝说他人不要在泡沫里沉迷，人唯一能改变的是自己。<\/p><p data-pid=\"8lJNeuuh\">我们要的是获利，而不是对泡沫破灭时间点的精确预测，做好自己。把自己的仓位转换成反脆弱的模式，然后等待事情发生。<\/p><p data-pid=\"AyBlJ6ri\">最简单的方式是做期权的纯多头方。（<a href=\"https://zhuanlan.zhihu.com/p/19962890\" class=\"internal\" target=\"_blank\">大白话说期权——除了买涨买跌，我们还能怎么交易？二元期权又是什么鬼？<\/a>）比如在某资产泡沫时期，定投买入看跌期权。<\/p><p data-pid=\"MM4jeTTU\">这个做法的好处是，不会被疯狂的泡沫顶穿，损失不会超过期权费。泡沫破裂时候产生的混乱可以让人在混乱中获利。注意，这和及时止损或者对冲不一样，后者只能让你在混乱中保持生存下来，而不是额外获益的。<\/p><p data-pid=\"G_ELHIhz\"><b>反脆弱和坚韧并不一样。<\/b><\/p><p data-pid=\"93k0G4JL\"><a href=\"https://zhuanlan.zhihu.com/p/27128767\" class=\"internal\" target=\"_blank\">每个市场参与者的二选一题<\/a>一文里提到的具有optionality性质的交易都是如此，不一定是买入期权。<\/p><p data-pid=\"a4aNQHCt\">我为交易所做了无数次期权推介活动，场内场外的，国内国外的，标的从指数到商品的都有。<b>普遍的反应是：买方表示期权费太贵<\/b>。<\/p><p data-pid=\"JOviQg6u\">这种抱怨往往来自一个经典的误解，将期权比喻成保险。这是不对的。<\/p><p data-pid=\"t1fkMr8S\">如果把期权视作是保险的话，无疑是很贵的。<b>期权和保险是不一样的，类比比喻也是不合适的。<\/b>期权拥有人人可卖的特性，如果当真是太贵的话，不断卖出期权就能收益丰厚，市场均衡的结果就是价格下落。期权定价如此，恰恰是因为确实需要那么贵。<\/p><p data-pid=\"pIGoR9P2\">问题出在哪里？问题出在保险是购买后只能放着等理赔事件触发或者不触发的。而期权是盘中可交易的。如果我们看到机场下雨了，延误险从30元涨到300元能专卖给别人的话，这就有点像期权了，但事实是，你只能持有然后看具体的延误时间。<\/p><p data-pid=\"4uNB0tQO\">故而抛弃了期权盘中的投机价值，仅仅持有到到期，是巨大的浪费。把期权当保险来用，嫌太贵也就变得很好理解了。<\/p><p data-pid=\"saRpchwH\">定投买入看跌期权应对泡沫，是一个夏普率极低，很贵，但拥有反脆弱力量的方案。<\/p><p data-pid=\"CjhVWtBs\">这个方案虽然不好，但已经具备反脆弱的特性了。向上乱涨没给你带来麻烦，但向下狂跌的时候不仅稳稳当当不会爆仓，而且还能给你带来额外收益。跌得越乱七八糟对你越有利。<\/p><p data-pid=\"_buBP-KG\">那同时买入看涨和看跌期权呢？<\/p><p data-pid=\"T4NECZTO\">这个策略是彻彻底底的反脆弱的，泡沫期间的向上乱涨和泡沫破裂的地狱下跌，都能获得很好的收益。但期权一份已经很贵了，同时买入，付出双倍的时间价值，很快就会吃不消。<\/p><p data-pid=\"LBRmpuOU\">那怎么办？<\/p><p data-pid=\"qw48ax3r\">觉得要大动的时候来一发？那又回到了预测时间点的老路上去了。<\/p><p data-pid=\"01cWGMog\">用期权<a href=\"https://www.zhihu.com/question/40894217/answer/125055319\" class=\"internal\" target=\"_blank\">来回刷Gamma Scalping<\/a>？天上不会掉馅饼的，波动大的时候期权也会相应变贵，不存在送钱的期权卖方。<\/p><hr><p data-pid=\"QANrirT3\">光具备反脆弱的思想高度还不够，还需要树立一个理念：<b>天上不会掉馅饼，在狂热投机泡沫里赚的钱，来自于其他投机者的热血上头。羊毛出在羊身上。<\/b><\/p><p data-pid=\"vFApYDUN\">金融市场在客观题上不会犯错误的，在主观题上总是在犯错误。<\/p><p data-pid=\"9Yzve1QO\">以A股15年的泡沫为例，彼时泡沫中股指期货升水溢价很高（<a href=\"https://zhuanlan.zhihu.com/p/20098928\" class=\"internal\" target=\"_blank\">都来此事，眉间心上，无计相回避<\/a>）。为什么期货升水会高？因为对未来乐观？<\/p><p data-pid=\"J7-dT6vd\">这么回答的人，对衍生品的理解就不够深入。<\/p><p data-pid=\"X4zJtoOX\">大家想象一下两种杠杆做多股票的办法，（1）配资买入股票和（2）买入股指期货。<\/p><p data-pid=\"E5DVYvCC\">两者都能实现杠杆做多A股的效果，如果有一种方法能够比另外一种方法更优，则一种方法很快会被淘汰。市场出清需要时间，但金融市场对这种客观题的效率是很高的。<\/p><p data-pid=\"uJ8u3nJG\">所以如果股指期货的升水付出低于平均配资成本的话，就会有更多的人买入股指期货而不配资。直到期货的溢价程度和配资的社会平均成本持平。<\/p><p data-pid=\"8uljCjzq\">那彼时做期现套利的交易者利润从哪里来？其实无非是变相的赚了配资的钱。一手卖空了股指期货给对头做交易对手盘，一手持有了股票现货。期货多头拥有了杠杆，付出了溢价，其实是租用了套利者的现金。变相做了个配资生意而已。<\/p><p data-pid=\"pQM74LlF\">这个钱的来源（羊），是有出处的，在狂热期，只会增加不会减弱。<\/p><p data-pid=\"atLBr_br\">我们配置如下投资组合：卖出高升水股指期货，买入略多期货体量的股票，买入虚值的股指看跌期权。<\/p><p data-pid=\"wynRkzoF\">在上升期间：期现套利赚了利润，并且因为股票略多一点点与期货，上涨幅度大有额外收益。整体收益支付了期权费，看跌期权作废。<\/p><p data-pid=\"BPxoOD01\">平稳徘徊期间：期现套利依然赚了利润，看跌期权的盘中加入如果不放弃的话，可以来回刷一下。不刷也没问题，保证套利赚的钱覆盖期权费用即可。<\/p><p data-pid=\"wm4SgmST\">泡沫破裂期：股指期货从升水变成贴水，套利额外有不少的收益。但我们的股票略超配，敞口会造成一定损失。彼时，虚值看跌期权的投资收益率会爆炸。<\/p><p data-pid=\"5alOMM6n\">升水率是客观题，不会错的，狂热上涨期该多少是多少。价格未来会涨还是跌，是主观题，经常错，估值是件主观性很强的事情，事后打脸再普遍不过。<\/p><p data-pid=\"R-GGJz-Q\">我们用期现套利养了看跌期权，这个简单的小策略其实只是这样而已，并没复杂的构建。<\/p><p data-pid=\"QIM4v4Fx\">但这个策略是充分反脆弱的，<b>狂热的上涨和崩盘式的下跌，给我们带来的不是方向预测揭晓的紧张，而是越混乱越获益。<\/b><\/p><figure><img src=\"https://pica.zhimg.com/v2-3ba991bb9a5c962b624b88d5ff891bda_720w.jpg?source=d16d100b\" data-rawwidth=\"468\" data-rawheight=\"240\" class=\"origin_image zh-lightbox-thumb\" width=\"468\" data-original=\"https://picx.zhimg.com/v2-3ba991bb9a5c962b624b88d5ff891bda_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"2-8vWLc9\">不会有单纯期权多头那样痛苦的时间消耗。我们从哪里借来的力量？羊毛出在羊身上，如果不是对泡沫的狂热，怎么可能有期现套利这种钱捡。<\/p><p data-pid=\"ODuVtRwL\">没有对于拐点预测的惶惶不可终日，没有对下跌幅度的恐惧，也没有看到泡沫后被不断新高的指数所折磨。<\/p><p data-pid=\"oxJzqTj6\">参与泡沫的姿势：找到羊，以反脆弱的姿势去面对不与预测的变动和摔打，越乱越获益。<\/p><p data-pid=\"LsHpmTfp\">再具体一点：找到一个在泡沫里别人吃肉你喝汤的外围生意，养一个正Gamma头寸。<\/p><p data-pid=\"pXVRLXOn\">一个泡沫市里总有羊愿意付出溢价的，最好掌握点金融衍生品的知识，想办法赚到这个钱。没有期权的话，要会自己模拟出期权头寸（超大纲，难度高）。<\/p><hr><p data-pid=\"wzsTJAOX\">不要拘泥于策略的形式，形式可以多种多样。但原则是不变的，侥幸于黑天鹅不会来或者市场会稳定的想法千万要不得。<\/p><p data-pid=\"uGQSKQnB\">混乱和无序未必是你的敌人，也可以成为你的朋友。祸兮福所依。<\/p><p data-pid=\"Bkdx8eE-\">在这个泡沫看似坚不可破的时代，能够淡定处之的一点个人心得。希望对大家思路开阔有帮助。<\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://pica.zhimg.com/v2-3ba991bb9a5c962b624b88d5ff891bda_720w.jpg?source=d16d100b",
+            "title": "泡沫与反脆弱",
+            "can_comment": {
+                "status": true,
+                "reason": "请输入评论，您的评论将会由作者筛选后显示"
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1504011568,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "最近数字货币的火爆程度让人瞠目结舌，比特币暴涨暴跌这类新闻已经变为常态后，各色代币的价格都涨得让人惊呼看不懂。除了传统的几大老牌数字货币之外，花样繁多的ICO（Initial Coin Offering）创造了一个又一个财富神话。 那么到底这些虚拟数字货币到底是什么鬼？这些凭空出现的东西为什么能创造层出不穷一夜暴富的故事。最重要的问题， 这些钱到底是哪里来的？短时间内出现所有人净值都大幅上升的情况（关于股市最简单的逻辑 -…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "27770678",
+            "voteup_count": 2863,
+            "title_image": "https://pica.zhimg.com/v2-59c885c600a4a91f6f07897ba4688e27_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/27770678",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://picx.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 415,
+            "created": 1500133570,
+            "content": "<p data-pid=\"vbHYfSoW\">最近数字货币的火爆程度让人瞠目结舌，比特币暴涨暴跌这类新闻已经变为常态后，各色代币的价格都涨得让人惊呼看不懂。除了传统的几大老牌数字货币之外，花样繁多的ICO（Initial Coin Offering）创造了一个又一个财富神话。<\/p><p data-pid=\"tVDW8Fj7\">那么到底这些虚拟数字货币到底是什么鬼？这些凭空出现的东西为什么能创造层出不穷一夜暴富的故事。最重要的问题，<b>这些钱到底是哪里来的？<\/b>短时间内出现所有人净值都大幅上升的情况（<a href=\"https://zhuanlan.zhihu.com/p/20133624\" class=\"internal\" target=\"_blank\">关于股市最简单的逻辑 - 知乎专栏<\/a>），这熟悉的节奏和味道，让人不禁怀疑，这是不是庞氏骗局的另一个马甲？（<a href=\"https://zhuanlan.zhihu.com/p/19956481\" class=\"internal\" target=\"_blank\">一招看穿一切旁氏骗局--泡沫的形成、发展与破灭，以及复利的魔力。 - 知乎专栏<\/a>）<\/p><p data-pid=\"V0l6wbrU\">要想明白这个问题，必须要先了解区块链技术。说实话，区块链技术并不是个特别好懂的概念，特别是有了智能合约之后。我不是这方面专家，我尽量用非程序员的语言和比喻来解释一下区块链技术，然后再讨论那些神奇的币。<\/p><p data-pid=\"--uZbA9y\">我在文章<a href=\"https://zhuanlan.zhihu.com/p/21263798\" class=\"internal\" target=\"_blank\">关于货币最简单的逻辑 - 知乎专栏<\/a> 有阐述过，所谓支付这个行为本质上可以理解为一种债务转移。微信红包这种支付，是把腾讯本来欠我的钱，变成欠你的钱。我把从微信里提款的权力（对腾讯的债权）转移给了你。支付宝转账这个中间人角色就是阿里巴巴，银行汇款这个角色就是银行，纸币支付扮演这个角色的是央行。<\/p><p data-pid=\"VXOlYCg1\">这个体系是能运作的，前提是你得信任中间人。假设有一天王者荣耀被彻底封死，腾讯其他业务也被突然勒令关停，腾讯宣布立马倒闭。那好了，微信余额就是一笔不知道能不能追得回来的债务了。或者哪天阿里巴巴宣布其实马云就是外星人入侵地球来着，阿里系就是为了获取地球人信息，阴谋所有地球人都只剩一只手，现在目的达到，开始直接关掉所有业务。那你的支付宝余额也没啥用了。<\/p><p data-pid=\"xzDqoAWl\">当然这种事情发生的概率很小，但如果中间人给自己偷偷加点菜呢？中央银行放放水，所有人持有现金的人的财富就被稀释了。如果涉及到中间人自己的利益的时候，你能指望他永远公平公正吗？<\/p><p data-pid=\"0U4NZwJe\">从人类金融史来看，央行赖账的黑材料不少，说好见票兑付黄金的不作数了，说好联系汇率（见票兑付外汇）的不作数了，这种事比比皆是。另外给自己加个菜，通过新增货币给政府融资这样的事情更是屡见不鲜。<\/p><p data-pid=\"24Kyg2TW\">那有啥办法可以解决这个问题吗？一个叫中本聪的人提出了一个设想。talking is cheap，人家真的code出来了。这个想法有点类似一个神奇的小岛上的支付做法。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-2fd22e7a721ced5d9848ca8002e41049_720w.jpg?source=d16d100b\" data-rawwidth=\"800\" data-rawheight=\"485\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-2fd22e7a721ced5d9848ca8002e41049_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"4SxIf7-k\">这个是巨大版孔方兄，因为实在很重，所以肯定不能像我们中国人的孔方兄一样揣在兜里赶集去。那怎么流通贸易呢？方法是，在上面写交易记录。<\/p><p data-pid=\"1RJqZ9aQ\">某年某月某日，该石块由原拥有者张三支付给李四。<\/p><p data-pid=\"yJz1BuiT\">好了，这枚大石头货币就归李四了，李四有一天要花这笔钱了，就在这个石头上写：某年某月某日，李四将该石块支付给王五。这块石头就归王五了。<\/p><p data-pid=\"ZLMCxC8c\">这当中没有中央银行，没有商业银行，没有支付宝，没有腾讯。谁都不依赖，唯一依赖的是大家要承认石头上所写的内容。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-e927c57ef7e08b7d80431249a49c6b5f_720w.jpg?source=d16d100b\" data-rawwidth=\"455\" data-rawheight=\"321\" class=\"origin_image zh-lightbox-thumb\" width=\"455\" data-original=\"https://pic1.zhimg.com/v2-e927c57ef7e08b7d80431249a49c6b5f_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"EUJlpivZ\">至于石块在哪里是无所谓的，就是费人力把石头搬运到岛的另外一面，财富的分配也没有发生什么变化，该怎么样还是怎么样。<\/p><p data-pid=\"IzO2M07E\">大家想想这个体系能作弊吗？<\/p><p data-pid=\"v6VOOchl\">当然是可以的，首先如果石头是可以被破坏的。假如我和王五有仇，那么我可以把最后归王五的那块石头毁掉，把表面磨平。<\/p><p data-pid=\"H6uPMbBN\">或者我在夜深人静的时候，在石头后面擅自写，王五支付给我赵六，第二天早上大家醒过来就会认为是我赵六的了。王五不承认，我可以说他是半夜给我的，现在想抵赖。<\/p><p data-pid=\"Vsh1k-9O\">比特币是一种类似的支付记账体系，它使用了区块链技术来规避这个问题，并设计了一套奖励体系来使得整个硬件体系的开销有人支付，并且能够得到激励。<\/p><p data-pid=\"8WJbPQVh\">将上面那个例子里的做法搬到网上，alice要支付给bob一枚比特币，alice 会向所有人广播一条信息，我alice现在要支付给bob一枚比特币，从此这枚比特币的归属权不再是我alice，而是bob了。这里我们要警惕，这里的受益人bob是否在假冒alice的名义呢？就跟夜深人静的时候赵六一样。<\/p><p><br><\/p><figure><img src=\"https://picx.zhimg.com/v2-c659449669709ecdb6a31dc7c7de0edb_720w.png?source=d16d100b\" data-rawwidth=\"410\" data-rawheight=\"300\" class=\"content_image\" width=\"410\"><\/figure><p data-pid=\"yGev5UfL\">这就是区块链技术不同于大石头上刻字的做法，区块链技术使用一种叫做数字签名的办法来验证身份。如果不知道什么是数字签名没关系，我们可以大致理解为，每个人的笔迹是非常不同的，非常独特而又无法伪造的。并且他人能够鉴定笔迹。<\/p><p data-pid=\"BfIndlQn\">alice 以自己名义向所有人写了一封信，用alice独特的笔迹写道：我alice将这枚比特币支付给bob，请所有人见证。<\/p><p data-pid=\"MEG68mHp\">这时候在区块链网络里的所有人，都拥有鉴定笔迹的能力，大家拆开信一看，果然是alice的笔迹，于是大家就把这封信归档。以后要追查这枚比特币是谁的时候，只要大家在真信档案里面追到最后，就知道谁拥有这枚币了。<\/p><p data-pid=\"-3vveWfv\">哪天alice反悔了，说我没有给这枚币。这是不可能抵赖的，所有人都收到信并且验证过了。<\/p><p data-pid=\"7p6X3PdZ\">一旦产生档案，就是永远档案，在算法上可以保证它不会消失，任何一台相关的计算机坏掉，都不会影响整个体系的运作。（不关心原理，只要知道确实做到了就OK，中间人体系下中央节点损坏就是毁灭性事件）<\/p><p data-pid=\"uLGnouVt\">这个归档不是在某个中央银行的数据库里，而是在一个peer-to-peer的网络里，验证笔迹这件事情（数字签名的验证）。而这个网络里需要有那么多人来共同见证这事情，为了激励这些验证和存储，相应劳动者会在一个规则体系下得到币的奖励,有一套叫做POW的机制来促使鼓励大家做这个见证和运算，这就是挖矿。<\/p><figure><img src=\"https://picx.zhimg.com/v2-77804a0e006b55ca53a30d5b95cfe6db_720w.jpg?source=d16d100b\" data-rawwidth=\"450\" data-rawheight=\"300\" class=\"origin_image zh-lightbox-thumb\" width=\"450\" data-original=\"https://pic1.zhimg.com/v2-77804a0e006b55ca53a30d5b95cfe6db_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"WajvkBpI\">其实区块链和石头孔方兄没有什么本质区别，是一种公共见证的转移记账体系。不过，我们的区块链技术在上线多年，比特币变得很值钱后，一直没有被攻破，体系的设计非常高明。没有人能够欺诈或者赖账，我们可以在不用中间人信任的情况下完成交易。<\/p><p data-pid=\"TMv3TiCR\">大石头换成区块链，就好理解了。<\/p><p data-pid=\"Sw5M86dG\">区块链是比特币的底层技术，但区块链这个idea可以不仅仅应用在实现比特币上。并且还进化出了区块链技术的2.0版本，功能更加强大了。<\/p><p data-pid=\"SC05Da19\">区块链上的比特币能不能向小岛上的大石头一样担任记账的功能吗？事实证明是可以的，如今比特币在很多领域确实起到了支付的作用。<\/p><p data-pid=\"Tfo1er1b\">比特币有央行吗？没有，我们可以看到比特币的运作方式里没有央行。没有央行，是不是意味着永远不担心被央行剥削了？是的。那比特币是不是一个更好的货币方案呢？恐怕不见得，因为比特币的数量有上限，所以我们确实不用担心央行通过通货膨胀的方式来稀释持有者的财富，但经济在发展，比特币的总量不变，同样会迎来一个问题：通货紧缩。其危害也是巨大的，不过这不是我们今天要讨论的主题，按下不表。<\/p><p data-pid=\"rOWuPW3R\">一个不可撤销的公开的，无法作弊的公开账本，这就是最初版本的区块链。<\/p><p data-pid=\"Em7ag_PY\">回到我们的问题，为什么暴涨？<\/p><p data-pid=\"h2P_WqAE\">传统的解释是，这东西总量有上限，天然稀缺。物以稀为贵。<\/p><p data-pid=\"XYFTyLUd\">稀缺的东西多了去了，未必就贵啊。价格是供需决定的，不是单方面供决定的。我可以提出一种超级限量版的矿泉水品牌，其实就是拿自家自来水灌装一下，然后宣布全球只有十瓶，不再生产，请问会不会涨上天呢？<\/p><p data-pid=\"dLQZjE7R\">假如全世界的商品贸易结算都必须用比特币，而且比特币的上限存在，那这个逻辑才讲得通。问题是有强制规定全世界商品贸易结算都要使用比特币吗？并没有。<\/p><p data-pid=\"yuFmFbrn\">比特币是真能用来记账交易的，而且是没中央银行管控的，无法抵赖的，而且是匿名的。鉴定笔迹的身份不绑定一个公民身份证，而是使用一个计算机密钥，这使得比特币在黑市交易上非常有用，匿名购买结算的不二之选。<\/p><p><br><\/p><figure><img src=\"https://pic1.zhimg.com/v2-495b8c9f54157bf36c6a3290841d9abb_720w.jpg?source=d16d100b\" data-rawwidth=\"520\" data-rawheight=\"390\" class=\"origin_image zh-lightbox-thumb\" width=\"520\" data-original=\"https://pica.zhimg.com/v2-495b8c9f54157bf36c6a3290841d9abb_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"27KdMG6Z\">只要黑产的经济还在增长，比特币依然是黑产结算的首选，那么这个真正的需求量和总量的上限，支撑兑法币的价格，显得有一些依据了。<\/p><p data-pid=\"FPZu7UrX\">还记得前一段时间肆虐的比特币病毒吗？其实和比特币唯一的关系是，最后勒索的支付渠道是使用比特币的。想象一下，如果是留个支付宝账号，那破获起来未免太容易了。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-aeb86810d0c1eed00bdf5fc365144d22_720w.jpg?source=d16d100b\" data-rawwidth=\"666\" data-rawheight=\"500\" class=\"origin_image zh-lightbox-thumb\" width=\"666\" data-original=\"https://picx.zhimg.com/v2-aeb86810d0c1eed00bdf5fc365144d22_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"lDcXIwFB\">另外社会新闻一则：首起要求以比特币支付赎金的人质绑架案已出现，绑匪通过邮件勒索7000万元港币，要求以比特币支付。<\/p><p data-pid=\"YFTThTSR\">不要误会，我不是说比特币就是混黑社会做黑产，不是这样的。只是匿名和不可耍赖的特性非常适合而已，并不是说比特币必然是黑的。<\/p><p data-pid=\"_JO2EQ32\"><b>所以比特币的价值，取决于有多少交易需要比特币结算，和比特币流通总量的关系。<\/b><\/p><p data-pid=\"952sOgZK\">我们今天不是要分析比特币价格走势，而是讲各种区块链上的代币是不是庞氏骗局，那比特币和区块链到底是什么关系呢？<\/p><p data-pid=\"Y7bsdp7V\"><b>比特币是区块链的第一个应用<\/b>，事实上，区块链真是比特币设计的需求而诞生的。比特币的良好运行充分检验了区块链技术，不仅仅是从技术上，而且还在利益分配机制上。比特币的运行需要的大量IT硬件基础当然不会是免费的，挖矿奖励机制很好的形成了体系。<\/p><p data-pid=\"lIy_KNGu\">以至于产生一种非常特殊的现象，显卡等并行计算设备已经被数字货币的矿工们买断货了，显卡的芯片厂商们本来伺候高端游戏玩家，现在最大的金主变成矿工了。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-d8c83bfe8dcc38f1c23d0e6e6ed10ba4_720w.jpg?source=d16d100b\" data-rawwidth=\"700\" data-rawheight=\"582\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://picx.zhimg.com/v2-d8c83bfe8dcc38f1c23d0e6e6ed10ba4_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"KSxQlG71\">这并不是区块链技术的全部，要理解各色代币，我们还需要进一步了解区块链技术的发展——智能合约。<\/p><p data-pid=\"sw8BNWXo\">智能合约是一个非常新的概念，它能用代码的方式定义一套交易规则。通常来说，签订一份合约来制定交易规则，需要一个第三方的机构来约束执行。我们平时双方坐下来签订纸质版的合同，执行的第三方就是法院，律师们就条款开始争辩。<\/p><p data-pid=\"ZVTxJ-mq\">这种模式有几个问题。<\/p><p data-pid=\"iodtnso1\">第一个是自然语言的模糊性，这里就是律师们的发挥空间了，对于合约条款存在的模糊地带可以做点文章。就是现存的法条，也经常需要最高法院出具司法解释，这是自然语言合约的一个必然问题。<\/p><p data-pid=\"FvYYUam2\">另外一个是执行难的问题，无数老赖在法院输掉了官司之后，依然老赖着，判决书如一纸空文。所以需要一个社会中心化的个人信用系统。这个目前依然是老大难问题。<\/p><p data-pid=\"s-PBrsUm\">还有诸如交易成本，来回确认的时间损耗等等。<\/p><p data-pid=\"LfrpeWoz\">想想萝卜章事件吧，人类科技发展到如今这个地步了，身份识别还靠签字笔迹和印章，这是何等荒唐的事情。如果使用智能合约的数字签名，就赖不到零时工头上了。<\/p><p data-pid=\"WXCF1DYD\">其实智能合约不深究原理的话挺好理解，比如下面这种机器，我们一目了然<\/p><p><br><\/p><figure><img src=\"https://pic1.zhimg.com/v2-e1d3d23beb147a149e40a92233559152_720w.png?source=d16d100b\" data-rawwidth=\"350\" data-rawheight=\"449\" class=\"content_image\" width=\"350\"><\/figure><p data-pid=\"QSLZv0aW\">这个自动贩卖机里并没有躲着人，它是全机械的。虽然没有人，但我们可以和它做交易，我们扔硬币进去，它会给我们饮料。<\/p><p data-pid=\"M1wxKVV9\">这里面已经包含了一个购买的合同执行了。这个执行并不需要一个第三方，在正常的情况下，也没有人能够作弊。<\/p><p data-pid=\"AnoSaYm4\">并不是这样的<\/p><p><br><\/p><figure><img src=\"https://picx.zhimg.com/v2-55288c876fbf4dbfc5a6015740d3f408_720w.jpg?source=d16d100b\" data-rawwidth=\"350\" data-rawheight=\"517\" class=\"content_image\" width=\"350\"><\/figure><p data-pid=\"wxrnBMTH\">自动贩卖机可以视作一个简单的智能合约<\/p><div class=\"highlight\"><pre><code class=\"language-text\"><span><\/span>if 投币 then\n    出饮料\n<\/code><\/pre><\/div><p data-pid=\"TtK8FBYc\">不同的是，这个合约不需要律师来解释，法院来执行，它跑在一个个分布式的集群中。我们可以把<b>比特币看做是智能合约单一支付功能的应用。<\/b><\/p><p data-pid=\"723jLPnk\">因为在一个去中心化的体系里执行合约的代码，就如同比特币在去中心化的网络里交易流通一样，没有人能控制。智能合约也叫分布式应用（DAPP），定义合约的编程语言是图灵完备的，你可以用它来定义任意规则。<\/p><p data-pid=\"e9UXi98M\">（非程序员朋友忽略这一段：流行的区块链框架以太舫的智能合约有一套基础的类似于字节码的底层语言，由特殊的虚拟机在去中心化网络里执行这种智能合约的bytecode，就如同JVM的bytecode一样，不直接用这个编程，而是由更高级的语言编译成bytecode执行。喜欢造轮子的朋友可以去开发自己的语言，目标代码编译成成智能合约的bytecode）<\/p><p data-pid=\"9jKIFUHO\">这技术的应用范围实在太广太广。<\/p><p data-pid=\"pcGbfCcp\">我们为了要执行某一类合约，通常需要花费巨额的成本，而且还未必牢靠。<\/p><p data-pid=\"sHfc9CvC\">比如保险吧，它就是一个合约，它有若干规则。如果我们遭遇火灾了，保险公司会怎么怎么样，如果我们飞机延误了，会支付给我们多少。<\/p><p data-pid=\"eqgP_QNC\">保险行业的保单理赔与否条款细则吵架的，保险公司律师扯皮的，保单规则非常小的字各种欺诈的不用多说了。<\/p><p data-pid=\"hkUz6mRv\">保险公司如果倒闭了，所有合约作废了这点撇开不说（相信保险公司永远不会倒闭的就请无视，不讨论），各种条款保险公司奇迹般得都老老实实理赔了这个极端假设也成立的话，社会成本依然是巨大的。<\/p><p data-pid=\"LPbYUXbY\">看看保险公司的排场吧，各种CBD最核心地段的整层豪华大厦，钱都是哪里来的。有些壕非常没品位，把罗马柱用密集恐惧症的方式插在一起，每根都是要钱的。<\/p><p data-pid=\"cOci5rFG\">是的，保费的使用率很低的，支付给保险代理公司都是海量的。最后损耗的是所有投保人的利益。为什么我们花费的钱里那么多都被浪费掉了？<\/p><p data-pid=\"zaDJpt0o\">说到底，这个就是信任成本，我们因为信任保险公司而支付的溢价。<\/p><p data-pid=\"J9VsCByf\">比如信托行业，我们集资要搞事情，钱放谁那里都不放心。大家一起放在一个可信的托管人手上。当然，这件事情不是免费的，有管理费，通道费的。这就是支付的成本。<\/p><p data-pid=\"eWjoVfKq\">比如股权交易，我们去券商开户买卖股票，手里并没有捏着股票，而只是一种记账。本质上，我们是相信券商为我们去交易所交易了。我们不仅信任券商，还信任了交易所，钱都交到了交易所这里，这是个中心化信任。股票合约也好，期货合约也好，保证这些合约的可执行，都是要支付费用的。<\/p><p data-pid=\"3KSkZgO1\">银行存款本质上也是一种信任，存款是银行对我们的负债，如果银行倒闭了，那存款就是没用的数字。但存款看上去好像不仅不收费，银行还给你支付利息。那是因为银行支付给你的利息是时间价值的一部分而已。银行就是靠利息差来赚钱的（仅最传统业务而言）。<\/p><p data-pid=\"JWHRj0tj\">纸币也是对央行中心化信任的一种合约，是对央行资产的软兑换约束的合约。<\/p><p data-pid=\"bMl1qCUS\">简直<b>整个金融世界都是建立在信任的基础之上的<\/b>。<\/p><p data-pid=\"JJTVhYkG\">如果保险公司不可靠，如果信托不可靠，如果券商期货公司不可靠，如果交易所不可靠，如果银行不可靠，如果央行不可靠，那么这些信任都会出问题。<\/p><p data-pid=\"fdpFdo6Y\">人们为了这个可靠，支付了海量的费用，这些金融机构们大赚特赚，是因为<b>我们的经济活动需要这样的信任机构。<\/b><\/p><p data-pid=\"H0MGXWaO\">这里面俩问题，一个是费用高昂，另外一个是那些机构真的能够大公无私吗？<\/p><p data-pid=\"CHzGHAGk\">比特币的创始人认为，政府和大机构会弄砸，周期性的金融危机的长期的通胀趋势就是明证。比特币出现的时代背景是次贷危机，央行大量印钞拯救濒临破产的保险公司，让这种不信任感愈发强烈。<\/p><p data-pid=\"fP1JL781\">智能合约是跑在一个去中心化的网络里，和比特币一样没有人能控制这个网络，执行也是自动化的。其逻辑看上去有哲学悖论的味道：<b>唯一值得信任的办法是谁都不信<\/b>。<\/p><figure><img src=\"https://pica.zhimg.com/v2-d2898b91e0b2ba36be3857a2ae64ff38_720w.png?source=d16d100b\" data-rawwidth=\"400\" data-rawheight=\"526\" class=\"content_image\" width=\"400\"><\/figure><p data-pid=\"8p2eQEIX\">谁都不信，或者至少先假设交易对手是有不良企图的可能的，体系才能更健康。让欺诈在技术上变得很困难，大家才会认真考虑实际对世界有益的事。这是区块链技术的设计理念，我个人认为这个看法是正确的。<\/p><p data-pid=\"jtEbq6xf\">萝卜章事件里，代持债券的不认账了，如果这事情是用智能合约来执行这个代持的话，那就无法进行抵赖，而代码会按照自己的规则铁面无私得执行下去，没有律师互相争议扯皮的空间。代码的执行是无歧义的。做错了交易就认赔，没赖可耍。<\/p><p data-pid=\"C49zk0OW\">因为智能合约的起草不需要任何实力的背书，这使得制定合约的垄断权力从大机构那里下放到所有人了。因为语言的图灵完备，所以不但我可以把现在的金融衍生品所有的规则都写一个智能合约版本，还能写各种我们需要的东西，完全不需要等某大机构设计出来，并且等监管机构批准。<\/p><p data-pid=\"haLmSm4M\"><b>信任，这个东西上人类花的成本，付的代价怎么说都不为过，并且是社会合作的必须品，从远古有合作开始就存在这个问题。<\/b><\/p><p data-pid=\"pAO0dfNH\">想想这个产业能有多大。信任问题可不仅仅是金融中介结构的事情，各行各业都有，光一个金融中介的业务的产值，就是个天文数字了。智能合约取代传统合同的话，码农抢律师饭碗这种奇葩事情也不是没可能。<\/p><p data-pid=\"G2-7C3yu\">工业文明建立在农业革命能吃饱饭的基础上，机械力解放了人力，人类巨大进步。<\/p><p data-pid=\"9nSrHruH\">电子工业的革命，建立在旧的工业革命基础之上，电器的发展离不开上一次工业革命造成的巨大社会变革。当然吃饱饭的农业革命也是基础的基础。<\/p><p data-pid=\"6BOBvvje\">互联网的革命，是建立在电器文明的基础之上的，解决了人类的通讯问题，这个问题非常古老，我们在农业文明时代和工业文明时代都付出海量的代价在通讯上。<\/p><p data-pid=\"B9eOk2H-\">区块链技术的出现，建立在互联网革命之上，没有互联网，区块链根本无从谈起。就如同互联网建立在发展已久的电器革命之上解决古老通讯难题，区块链技术在互联网的基础上，正在尝试解决古老的信任问题。信任问题和通讯问题一样的人类社会必然面临的最基础问题。<\/p><p data-pid=\"w0O9raNZ\">有意思的是，数论这个数学分支曾经被认为是唯一一个没有应用价值的分支领域，直到后来大素数分解难题成为加密算法的基础，数论才被广泛应用于实际生产生活。目前，区块链技术是人类有的最接近解决信任问题的方案，而这一切依赖着加密算法，依赖着数论。数论这个看上去有点像数字游戏的领域，可能是最实用的。<\/p><p data-pid=\"L6LzYj9a\">听我吹了那么大篇幅的区块链技术，是不是各种建立在区块链之上的代币，可以无脑买买买呢？是不是买这些代币，就是参与到了未来的大浪潮中了呢？<\/p><p data-pid=\"6e3Xdqxx\"><b>答案当然是否定的！<\/b><\/p><p data-pid=\"RNneUH9U\">区块链技术确实是可以达到去中心化信任的功能，ICO也确实能做到类似二级市场流通的功能。但那些代币的价值取决于流通的资产到底为何物。<\/p><p data-pid=\"K7e1ngxD\">就如同电话是个伟大的发明，但是电话诈骗依然存在。记忆犹新的是400电话刚出来的时候，大量的诈骗电话都是400开头的。<\/p><p data-pid=\"n-qrx3mp\">互联网是个伟大的发明，但互联网刚出来的时候，网络欺诈横行。刚有网络购物的时候，网购给人的印象就是不靠谱，很少有人相信网购会像现在这样主流。彼时，黑市不方便沟通的不可描述物资，率先用网络交易的特别多，一如现在比特币大量的成交数黑产业交易一样。<\/p><p data-pid=\"BHf9vAUY\"><b>大家要清晰得区分区块链技术，和使用区块链技术流通的资产这两个截然不同的概念。<\/b><\/p><p data-pid=\"qbFFwN86\">区块链技术只负责你交易的资产，其资产不会被偷，但你购买资产会不会升值，你购入的价格是不是靠谱，是没办法保证的。<\/p><p data-pid=\"i9u6rKrx\">上交所深交所的功能是保证你买的股票是你的资产，但不保证你买了垃圾公司也能赚钱。有些上市公司骗投资者来圈钱，这锅不是交易所的。<\/p><p data-pid=\"NcWdONal\">如今大量ICO背后的资产，90%以上是纯垃圾，毫无价值，价格不断推高就是庞氏。剩下10%大多数也是风险高得离谱的东西。<\/p><p data-pid=\"eHyYQcDi\"><b>个人看法：严肃靠谱资产未来的区块链技术交易化，会是一个真正的创业方向。<\/b><\/p><p data-pid=\"I0FxhpJA\">不少国际投行已经开始用区块链交易金融合约了，NYSE交易所也尝试自己革自己命，用区块链技术交易股票了。跨国银行的互相信任问题，票据造假问题，小银行信用不足问题等，也开始用区块链技术来做信用证业务了。<\/p><p data-pid=\"X1NSaPeB\">就如同股票交易一样（<a href=\"https://zhuanlan.zhihu.com/p/20133624\" class=\"internal\" target=\"_blank\">关于股市最简单的逻辑 - 知乎专栏<\/a>），财富来自于两个出处。要么是背后资产的产出，要么是其他人入场的钱。如果资产没啥产出的话，那价格上涨就是个击鼓传花的游戏，最后不崩盘是毫无可能的。<\/p><p data-pid=\"6YdqkyEQ\">（文章拖了好久没发，结果发布之前好多代币已经崩盘了。太好了，这次终于不能把崩盘怪到我发文章这件事情上了，手动斜眼笑）<\/p><p data-pid=\"A-0G9a_X\">利益相关声明：做过数字货币的跨市套利，目前正打算做区块链智能合约定义金融衍生品方向的创业项目<\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-59c885c600a4a91f6f07897ba4688e27_720w.jpg?source=d16d100b",
+            "title": "各种虚拟数字货币是庞氏骗局吗？",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1495987860,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "最近的金融市场动静挺大，关注点最集中的地方从人民币汇率转移到了非业内人士不怎么关注的利率市场。对于关注本专栏比较久的朋友，应该不会太意外。 在之前几篇文章里（ 缩表是什么鬼？ - 知乎专栏 ， 货币或许能无中生有，但财富不能 - 知乎专栏 与关于债务结构最简单的逻辑 - 知乎专栏 ）提到的矛盾。以外汇储备作为抵押物发行货币，势必遇到宽松货币则汇率容易出问题，想要稳定汇率，则货币发行总量不能太自由的矛盾。如今看来…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "27128767",
+            "voteup_count": 736,
+            "title_image": "https://picx.zhimg.com/v2-539cdc49597132d4d71c0345a052901e_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/27128767",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://picx.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 82,
+            "created": 1495985049,
+            "content": "<p data-pid=\"dSiJfp5w\">最近的金融市场动静挺大，关注点最集中的地方从人民币汇率转移到了非业内人士不怎么关注的利率市场。对于关注本专栏比较久的朋友，应该不会太意外。<\/p><p data-pid=\"dFYBzCF3\">在之前几篇文章里（<a href=\"https://zhuanlan.zhihu.com/p/26027538\" class=\"internal\" target=\"_blank\">缩表是什么鬼？ - 知乎专栏<\/a> ， <a href=\"https://zhuanlan.zhihu.com/p/21744876\" class=\"internal\" target=\"_blank\">货币或许能无中生有，但财富不能 - 知乎专栏<\/a>与<a href=\"https://zhuanlan.zhihu.com/p/20620619\" class=\"internal\" target=\"_blank\">关于债务结构最简单的逻辑 - 知乎专栏<\/a>）提到的矛盾。以外汇储备作为抵押物发行货币，势必遇到宽松货币则汇率容易出问题，想要稳定汇率，则货币发行总量不能太自由的矛盾。如今看来选择了严肃货币政策，代价是债务链条受到了严峻考验。鄙人认为该选择是非常有魄力而正确的，去杠杆供给侧改革也应该选择这个道路，纵容从来带不来好结果。教育是没用的，只有教训管用。劝诫是没用的，只有惩戒管用。<\/p><p data-pid=\"cSgZOrzV\">希望央妈再爱我一次的哭喊声不会宠溺出一批熊孩子。<\/p><figure><img src=\"https://picx.zhimg.com/v2-63cbdaa43fdd2b255cc7fadf1cfd1652_720w.jpg?source=d16d100b\" data-rawwidth=\"412\" data-rawheight=\"497\" class=\"content_image\" width=\"412\"><\/figure><p data-pid=\"byf2zZZt\">罗嗦一下关于债务链条的问题，为什么利率上升对很多人而言是个大问题。<\/p><p data-pid=\"hJHBdbK5\">假设我们有一个项目需要五年时间才能开张，但长期贷款又贵又没那么好弄，于是选择先借一年期的贷款先开工，等到第二年借新还旧续上。一年续一年，最后完工后慢慢偿还。如果项目的回报率可观远高于利息，这个做法就会被推崇。但该操作隐含了一个大前提：利率环境总体是比较平稳的。<\/p><p data-pid=\"tVK-P3np\">另外一个类似的纯金融操作类似，长期利率比较高，短期利率比较低。那么我们可以先短期借一笔资金先买长期的理财产品。然后等短期利率到期了，我们再借一笔钱借新还旧，一年一年续下去。因为长期利率高，最后的收益能覆盖这些年的利息支出还有富余。同样隐含这一个大前提：利率环境总体不会发生太大变化。<\/p><p data-pid=\"dAwJoQ9t\">当利率稳定的时间久了，并且有些项目的远期回报总是高于利率时，人类的经验归纳主义倾向一定会暴露无疑，上述这两种操作就会有很多人干。利率的突然上升会导致两类如意算盘落空，不但续不上命的项目会出现问题，就算续上的项目也会因为那些中途断了资金链的项目被清盘甩卖而变得回报率堪忧。信用收缩的过程和信用扩张是正好相反的，过程是类似的，高杠杆的会把正常杠杆的都给拖累死（<a href=\"https://zhuanlan.zhihu.com/p/20058411\" class=\"internal\" target=\"_blank\">图穷匕见 - 知乎专栏<\/a>）。<\/p><p data-pid=\"_36Phr1l\">如今利率开始蹭蹭蹭往上涨了，所有人都能轻松指出这类操作的风险，但用这个模式顺风顺水赚钱的美好年代，无论怎么规劝都是没有用的。<b>说一千道一万，比不上账面利润有说服力，这与庞氏骗局受害者前期收到账面利润的反应是类似的。<\/b><\/p><p data-pid=\"ptRBu6DS\">在二级市场投机，道理是一模一样的，在我看来大致都可以归为两类：<\/p><p data-pid=\"Rxerg25Q\">（一）靠市场表现得很符合“统计现象”，一切正常来赚钱的策略<\/p><p data-pid=\"otMqsIU1\">（二）市场非常反常，发生大家惊呼奇葩事件时获利的策略<\/p><p data-pid=\"qjUCw_zd\">两类策略都可以获得成功的，但都需要技巧，不能蛮干。借短买长这种策略就属于第一类策略，希望市场一切正常，短期利率保持稳定，至少在正常范畴里。第一类策略发展到最极端就是网格类策略（<a href=\"https://zhuanlan.zhihu.com/p/19957417\" class=\"internal\" target=\"_blank\">错了就加倍再来！总得回来吧！一次就回本赚钱！--永远有人信的赌徒谬误 - 知乎专栏<\/a>），容不得稍微大一点点的意外。<\/p><p data-pid=\"nSMir0JF\">第一类策略平时一直是赚钱的，而且看上去颇为稳定，就是一直一直赚钱。第二类策略平时一直亏钱，一直一直亏钱。详细的论述第二类策略，我想借助著名的影片《大空头》来解释一下。片子能在<a href=\"http://link.zhihu.com/?target=http%3A//v.qq.com/x/cover/4shhitscyia18i9.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">腾讯视频<\/a>里直接看到。<\/p><br><p data-pid=\"54-616bd\">《大空头》片子开始，故事的主角之一Michael Burry 发现很多MBS背后还房贷的人其实不太够格，很多人收入根本负担不起所买的豪华大房，未来肯定会有大量违约出现。于是他想做空这类债券，他的做法是向投行要求一种定制的保险。这类保险叫CDS，也就是当MBS债券违约时，CDS的卖方（可理解为保险公司）要理赔MBS的所有本息。假设100万美元贷款本息是110万美元，那么如果还房贷的人赖债不还，保险公司要理赔110万美元。当然，平时正常的时候，Michael Burry 要定期支付保费（premium）。<\/p><p data-pid=\"V74yw5cn\">从历史统计来看，房贷违约率一直很低，怎么可能爆发大规模违约呢。何况房价肯定会一直涨啊，真还不起房贷卖了房还能赚一笔，左右不会吃亏的。这里断供违约率很低和房价肯定会一直再涨下去都是历史统计上有数据支持的。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-ab82e63db693a1bb3f4f800163f66263_720w.jpg?source=d16d100b\" data-rawwidth=\"967\" data-rawheight=\"557\" class=\"origin_image zh-lightbox-thumb\" width=\"967\" data-original=\"https://picx.zhimg.com/v2-ab82e63db693a1bb3f4f800163f66263_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"PSZZ2VAB\">片中高盛的员工在听到这个交易时觉得自己碰到了世界上最大的傻瓜，天上掉馅饼了，忍不住哈哈大笑。<br><figure><img src=\"https://picx.zhimg.com/v2-d049399baf62cc51045c5b2c87ad922d_720w.jpg?source=d16d100b\" data-rawwidth=\"1055\" data-rawheight=\"545\" class=\"origin_image zh-lightbox-thumb\" width=\"1055\" data-original=\"https://pic1.zhimg.com/v2-d049399baf62cc51045c5b2c87ad922d_r.jpg?source=d16d100b\"><\/figure><\/p><p data-pid=\"j1Bzdg-H\">德意志银行的员工提醒Burry是否真的要做这笔匪夷所思的交易时，被主管及时制止了（可爱的担忧脸）。因为德银主管和高盛的人一样，觉得这绝对是送钱。<\/p><p data-pid=\"oqG_n-Rh\">这个交易的内容是房地产不崩盘的时候，需要每个月按时交保费，只有当房地产崩盘的时候才可能会收到理赔。投行部分在做第一类策略，Burry在做第二类策略。平时无疑是各大投行躺着赚钱的日子，除非房地产崩盘，Burry 就是在送钱。<\/p><p data-pid=\"ORqtGrVy\">这是第二类策略的通性，平时是一直亏钱的。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-3aa34002ebf99e0c98ba5381fe391638_720w.jpg?source=d16d100b\" data-rawwidth=\"614\" data-rawheight=\"563\" class=\"origin_image zh-lightbox-thumb\" width=\"614\" data-original=\"https://pica.zhimg.com/v2-3aa34002ebf99e0c98ba5381fe391638_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"8Tbr4DJD\">从盈利的基金到亏 8.9%<br><figure><img src=\"https://picx.zhimg.com/v2-52c4e28a6ffc700ab7fa4dda68ff1104_720w.jpg?source=d16d100b\" data-rawwidth=\"543\" data-rawheight=\"526\" class=\"origin_image zh-lightbox-thumb\" width=\"543\" data-original=\"https://pic1.zhimg.com/v2-52c4e28a6ffc700ab7fa4dda68ff1104_r.jpg?source=d16d100b\"><\/figure><\/p><p data-pid=\"FNUfqnvw\">慢慢亏到11.3%<\/p><p data-pid=\"-HfDWxg2\">毫不意外，投资人会发飙。之前关系再好的投资人也会瞬间变脸。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-5aba7ea13f94983064d20719bb45f542_720w.jpg?source=d16d100b\" data-rawwidth=\"840\" data-rawheight=\"532\" class=\"origin_image zh-lightbox-thumb\" width=\"840\" data-original=\"https://pica.zhimg.com/v2-5aba7ea13f94983064d20719bb45f542_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"X5msVKBf\">非常霸气得锁死投资人的钱之后，依然止不住亏损的节奏。<br><figure><img src=\"https://pic1.zhimg.com/v2-bba0128836e4d6770fa2b5c097052892_720w.jpg?source=d16d100b\" data-rawwidth=\"763\" data-rawheight=\"567\" class=\"origin_image zh-lightbox-thumb\" width=\"763\" data-original=\"https://picx.zhimg.com/v2-bba0128836e4d6770fa2b5c097052892_r.jpg?source=d16d100b\"><\/figure><\/p><p data-pid=\"1veVvMR5\">是个人都要崩溃，然而我们的burry一直坚持策略。<\/p><p data-pid=\"rUTQKGbs\">直到最后：<\/p><figure><img src=\"https://picx.zhimg.com/v2-141d8319534d87a2240421fe3a6e59ed_720w.jpg?source=d16d100b\" data-rawwidth=\"1000\" data-rawheight=\"567\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-141d8319534d87a2240421fe3a6e59ed_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"VOVxZyE0\">那第二类策略的核心要义是什么？是死扛坚持吗？<\/p><p data-pid=\"QM1cJWTM\">并不是，死扛更多的后果就是扛死了，坚决不止损是所有交易新手死亡的直接原因。<\/p><p data-pid=\"CpSU1vV4\">第二类策略看上去和严格及时止损相反，但背后的关键点恰恰和严格及时止损的要义完全一致：风险控制在可控的范围内。<\/p><p data-pid=\"25bc1syH\">先别考虑赚多少，先考虑会亏多少。<b>赚多少是市场给的，亏多少是自己决定的。<\/b>一如Michael Burry在接受采访时候说的，交易要寻找有optionality性质的交易。这里的optionality可以翻译为拥有期权属性的交易，你的极限亏损是亏损到所有的期权费用，价格再反向也不会扩大你的损失，CDS和期权一样具有天然的止损性质。<\/p><p data-pid=\"7y5aQssy\">电影里另外两个做CDS的年轻人也是这类策略要义的掌握者。两个年轻人在车库里用11万美元打工收入做本金，三年内迅速滚到了三千万美元。用的是极其简单的策略：不断买入有问题公司的虚值看跌期权。<\/p><p data-pid=\"RNecxHxN\">因为虚值期权的绝对价格很便宜，而那又是可能最大的损失，故而实现了<b>最最最重要<\/b>的性质：<\/p><figure><img src=\"https://pic1.zhimg.com/v2-c72c458b51db3dcd0ee6839bf425f9e3_720w.jpg?source=d16d100b\" data-rawwidth=\"871\" data-rawheight=\"532\" class=\"origin_image zh-lightbox-thumb\" width=\"871\" data-original=\"https://picx.zhimg.com/v2-c72c458b51db3dcd0ee6839bf425f9e3_r.jpg?source=d16d100b\"><\/figure><figure><img src=\"https://picx.zhimg.com/v2-f609804ee2adf610d987f66452cddd87_720w.jpg?source=d16d100b\" data-rawwidth=\"990\" data-rawheight=\"548\" class=\"origin_image zh-lightbox-thumb\" width=\"990\" data-original=\"https://pic1.zhimg.com/v2-f609804ee2adf610d987f66452cddd87_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"E4sO-hDg\"><b>不对称性<\/b><br><br>这比单纯做空有问题公司要高明许多，有问题公司并不会在你发现问题后迅速垮台，股价有可能会磨蹭很久，有时候甚至会操纵股价拉高先扫爆空头，不用看跌期权的话极有可能看多方向而输掉交易。<br><br>黑天鹅友好型策略的核心要义：因为黑天鹅事件必然是极为稀有的事情，平时总是亏钱，一定要做有optionality性质的交易，以有限的损失获取不对称的回报。用普通的方法总在平时杞人忧天，最终只有被慢刀子缓缓磨死，会导致第二类策略的失败。<br><br>CDS 和虚值看跌期权都是具有optionality性质的，这两哥们最后发财坚持了一个朴素的道理，也是索罗斯经常说的一句话：<b>关键不是你做对了还是你做错了，而是你对了赚多少钱，错了亏多少钱。<\/b><\/p><figure><img src=\"https://picx.zhimg.com/v2-48e04f19d611772e27ea6b3f9aafb907_720w.jpg?source=d16d100b\" data-rawwidth=\"859\" data-rawheight=\"564\" class=\"origin_image zh-lightbox-thumb\" width=\"859\" data-original=\"https://pic1.zhimg.com/v2-48e04f19d611772e27ea6b3f9aafb907_r.jpg?source=d16d100b\"><\/figure><figure><img src=\"https://pic1.zhimg.com/v2-5d98bcc26b6781f38ec9b16157a928cf_720w.jpg?source=d16d100b\" data-rawwidth=\"763\" data-rawheight=\"563\" class=\"origin_image zh-lightbox-thumb\" width=\"763\" data-original=\"https://pic1.zhimg.com/v2-5d98bcc26b6781f38ec9b16157a928cf_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"tR3QOK5l\">这里将payoff翻译成报酬不是很妥帖，我想“赔率”可能更好一些（太接近赌博可能会让人有点不安）。<\/p><p data-pid=\"9mG5Xh2V\">黑天鹅总是很稀有的，否则就不叫黑天鹅了，避免平时一次次被“假突破”耗死靠的不是神奇精确预言崩盘的时刻，没人能预测到，<b>仔细甄别真假突破基本是在浪费时间<\/b>。设想一下，911发生之前能知道会有这种恐怖袭击的地球上恐怕没几个人，但这事情对市场的影响如此剧烈。少数预言次贷危机的人，也没人能精确发生的时间，这事具有必然性不假，然而触发的时间也有偶然因素，不存在拉普拉斯妖怪。再一次：<b>黑天鹅友好获利核心要义是<\/b><b>optionality性质交易的不对称性<\/b>（赔率极高且损失严格有限）。<\/p><p data-pid=\"9zAmUsWk\">并不一定要用复杂衍生品才能做出optionality的交易。有问题立马果断止损，在盈利时候有耐心拿得住单子直到趋势完全走完，忍得住中间提前兑现诱惑的人，基本上是手动实现了optionality，也就是损失有限，损失对比盈利的赔率比值很小。<\/p><p data-pid=\"evRkPo5y\">cut the lose,let the profit run<\/p><p data-pid=\"vVMauIFl\">这交易规则说说容易，做到太难，太反人性。一个合适的衍生品组合能帮助（说强迫更好）投资者做到这点。<\/p><p data-pid=\"Ttob_OSm\">Micael Burry 设计的CDS合约是极具optionality性质的证券，最多损失是支付保费。而保费的英语premium和期权费是一样的，这并不是巧合，本质上就是一回事。稍嫌美中不足的是收益的上限是所有的房贷本息，但这赔率已经足够足够高了。<\/p><p data-pid=\"hP8qLNoM\">那是不是只有具有optionality性质的第二类策略才是正确的策略，第一类策略最后一定会将过往所有的利率吐回呢？很多坚持第二类策略正确做法的高手都说是，这类做法也确实是堂堂正道。但我认为却不是唯一盈利的方法。<\/p><p data-pid=\"LIirczxz\">第一类策略并不是一定最后要完蛋的。<\/p><p data-pid=\"FEQ-QVpB\">作为Micael Burry们的交易对手，包装然后售卖CDO产品的投行们，大部分都亏损极为惨烈，有的如雷曼兄弟直接宣告破产死亡，如果不是美联储紧急拯救市场的话，恐怕不仅仅是流血漂橹尸横遍野，而是全军覆没了。<\/p><a href=\"http://link.zhihu.com/?target=https%3A//v.qq.com/x/cover/w55oa5076b7n1zp.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Margain Call》<\/a><p data-pid=\"Ub2DUa65\">这部电影里虚构了一家金融机构，完美诠释了第一类策略的生存之道。这家机构的做法其实是在事实意义上的做空看跌期权(Short Put)（详细技术解释参考知乎链接：<\/p><a href=\"https://www.zhihu.com/question/21528618/answer/75100675\" class=\"internal\" target=\"_blank\">怎么评价电影《Margin Call》的专业性？<\/a><p data-pid=\"lInSrHJn\">），和Micael Burry们事实意义上的买入看跌期权(Long Put)正好是交易对手方。<\/p><p data-pid=\"Smc6q2e5\">也就是说，两者要么是A赚钱B亏，要么是B赚钱A亏。平时一直是Burry亏钱，而该机构赚得笑不动，危机发生后，这类机构会破产，而Burry们获得极为不对称的回报。Burry是第二类策略的执行者，而这家机构是第一类策略的执行者。<\/p><p data-pid=\"xEazOJ9e\">片中的机构大佬给出了极为精辟的要义，做金融交易这行的三要素：<\/p><figure><img src=\"https://pica.zhimg.com/v2-bc982496942257939c259452c497caba_720w.jpg?source=d16d100b\" data-rawwidth=\"839\" data-rawheight=\"599\" class=\"origin_image zh-lightbox-thumb\" width=\"839\" data-original=\"https://pic1.zhimg.com/v2-bc982496942257939c259452c497caba_r.jpg?source=d16d100b\"><\/figure><br><p data-pid=\"AWnNnVHk\">然后大佬说自己不骗人（呵呵呵呵呵呵）<\/p><p data-pid=\"AFYV1POA\">最最要紧的是：<\/p><figure><img src=\"https://pica.zhimg.com/v2-972d06ae6c7d705756b76c4c97a5b082_720w.jpg?source=d16d100b\" data-rawwidth=\"849\" data-rawheight=\"601\" class=\"origin_image zh-lightbox-thumb\" width=\"849\" data-original=\"https://pic1.zhimg.com/v2-972d06ae6c7d705756b76c4c97a5b082_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"gQOCYL7B\">为什么说动作快拆是最容易取胜的，这里的动作快不是要你瞎买瞎卖，一个劲频繁交易。特指一种情况：逃命。<\/p><p data-pid=\"-AebMuss\">我们回顾一下第一类策略的核心是什么？是假设世界正常，一切按照历史统计区间中间段来运行的，尾部风险不给加权或者甚至忽略。平时是一直赚钱的，如果使用做空期权或者等效于做空期权的手法交易，平时的利润是极为可观的。影片里这家机构的做法等效于卖出了看跌期权，故而平时的利润非常丰厚，比收取CDS的premium要丰厚得多，远超正常投资。<\/p><p data-pid=\"uC0Gp_2x\">但期权费不是白收的，天上不会掉馅饼，收取期权费的代价是问题败露的时候，是要付出身家性命的代价的，岂能让人不慌。<\/p><p data-pid=\"4FPJ2pJS\">绝大部分人运行的都是第一类策略，之所以平时心安理得，<b>完全是因为没有意识到自己实际上是在敲出期权，只是单纯得相信明天会和今天一模一样，一如罗素的火鸡。<\/b><\/p><p data-pid=\"fHWRAniW\">那充分意识到风险的情况下，如何能面不改色心不慌得执行第一类策略呢？<\/p><figure><img src=\"https://pic1.zhimg.com/v2-650f9ad52c629375c717459a648a13fe_720w.jpg?source=d16d100b\" data-rawwidth=\"1051\" data-rawheight=\"637\" class=\"origin_image zh-lightbox-thumb\" width=\"1051\" data-original=\"https://pica.zhimg.com/v2-650f9ad52c629375c717459a648a13fe_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"_TVM308l\">答案就是这样简单粗暴。<\/p><p data-pid=\"V89JCSbb\">是的，第一类策略因为不具有反脆弱的性质，注定在必然到来的黑天鹅中会一败涂地，但并不是所有人均担损失的，这时候游戏的名字叫比谁跑得快。<\/p><p data-pid=\"SutwFmim\">其实投机的核心要义还是一样的：先别亏到不能承担。<\/p><figure><img src=\"https://pic1.zhimg.com/v2-d0a22430a663d9ea1faff42a3aaddda2_720w.jpg?source=d16d100b\" data-rawwidth=\"917\" data-rawheight=\"600\" class=\"origin_image zh-lightbox-thumb\" width=\"917\" data-original=\"https://picx.zhimg.com/v2-d0a22430a663d9ea1faff42a3aaddda2_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"afDWAm24\">第一类策略的核心要义：平时赚钱要赚饱，风险来临时要有熔断机制。可以将损失控制在可控的范围之内是两类策略共通的要义。<\/p><p data-pid=\"9jSIpXcQ\">片中大佬的实现熔断的办法是不顾一切得比别人跑得更快。动作要快，脑子要活（怎么变相出货），耍赖欺诈也要跑。<\/p><p data-pid=\"vjfUrEgg\">不要觉得未来世界会太平，资本主义内生性的周期性危机并没有消失，<b>复杂衍生品的设计者们和央行家们一次次宣布能熨平波动，均是自欺欺人的。<\/b>索罗斯说市场本身就是不稳定的来源，是非常深刻的洞见。<\/p><figure><img src=\"https://picx.zhimg.com/v2-c0e4cdf8889b984240db49ce97ca767d_720w.jpg?source=d16d100b\" data-rawwidth=\"1173\" data-rawheight=\"574\" class=\"origin_image zh-lightbox-thumb\" width=\"1173\" data-original=\"https://picx.zhimg.com/v2-c0e4cdf8889b984240db49ce97ca767d_r.jpg?source=d16d100b\"><\/figure><figure><img src=\"https://picx.zhimg.com/v2-cc13bdec40fc235e6ed2c371f1c68a1c_720w.jpg?source=d16d100b\" data-rawwidth=\"890\" data-rawheight=\"582\" class=\"origin_image zh-lightbox-thumb\" width=\"890\" data-original=\"https://pica.zhimg.com/v2-cc13bdec40fc235e6ed2c371f1c68a1c_r.jpg?source=d16d100b\"><\/figure><figure><img src=\"https://pica.zhimg.com/v2-48f1bb8c91f26381a2c7f911acb1c9ca_720w.jpg?source=d16d100b\" data-rawwidth=\"907\" data-rawheight=\"584\" class=\"origin_image zh-lightbox-thumb\" width=\"907\" data-original=\"https://picx.zhimg.com/v2-48f1bb8c91f26381a2c7f911acb1c9ca_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"lo2LTxMB\">黑天鹅的来临比想象得要频繁，而且每次都呈现出不同的花样，只有一点亘古不变：让一切第一类策略尘归尘土归土。基金经理们耸耸肩，金融危机来了，系统性风险，这不能怪我。然而这阻止不了爆仓的恶果。<\/p><p data-pid=\"Joqpn0--\"><b>平时赚钱丰厚的利润其实是因为隐形承担了风险，而真要负责时却溜了。<\/b>这才是第一类策略能够最终获利的核心要点。不负责任也可以理解为是一种不对称性。<\/p><p data-pid=\"iOkvSCq6\">14年做瑞郎汇率不变，15年中做空人民币波动率，16年前债券各种加杠杆交易凡此种种，都是相信明天回和今天一样稳定，都是在承担着大家觉得不存在的风险。好像市场真的能永远稳定一样。我们很多时候无从判断未来会如何，但要把握住一个原则：不能控制损失熔断的交易不做，无论第一类还是第二类策略。<\/p><p data-pid=\"YTDK5mTL\">绝大部分人和机构都在毫无保护的情况下执行第一类策略，收着巨额保费的保险公司，华丽的大银行们等等等等。相信明天会更美好或许不是所有人都能做到的乐观，可绝大部分人愿意相信明天一定和今天一样正常。光这一点，就够致命的了。<\/p><p data-pid=\"9MrgkFl0\">所有人都必须做的二选一，核心要点都是损失严格可控，然后时刻做好意想不到的意外发生的准备。要么在黑天鹅中获益，要么平时赚钱的时候时刻准备好逃生舱甩锅。平时赚钱都是承担着或知道或不知道的风险而来的，天上不会掉馅饼，第一类策略的执行者务必牢记这一点。<\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-539cdc49597132d4d71c0345a052901e_720w.jpg?source=d16d100b",
+            "title": "每个市场参与者的二选一题",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1491647216,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "最近最大的财经新闻自然还是美联储的加息进程，不过现在除了加息之外，还频频提到一个概念：缩表。这个词被好多人反复念叨，这个缩表到底是个什么意思呢？ 其实这个概念在以前的文章里已经介绍了（ 关于货币最简单的逻辑 - 知乎专栏 ），货币所以能支付其实是一种债务转移。微信支付宝余额能当钱用，是因为腾讯阿里对我的负债转移给店家而已。人民币则是中国人民银行对持有钞票者的负债，道理其实是一样的。如果我们再简化一下这…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "26027538",
+            "voteup_count": 5574,
+            "title_image": "https://picx.zhimg.com/v2-d78bbdd619832e15539f4b4bf66a9738_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/26027538",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://pica.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://picx.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 536,
+            "created": 1491647216,
+            "content": "<p data-pid=\"-hVLZ3C9\">最近最大的财经新闻自然还是美联储的加息进程，不过现在除了加息之外，还频频提到一个概念：缩表。这个词被好多人反复念叨，这个缩表到底是个什么意思呢？<\/p><p data-pid=\"HM3u1bu-\">其实这个概念在以前的文章里已经介绍了（<a href=\"https://zhuanlan.zhihu.com/p/21263798\" class=\"internal\" target=\"_blank\">关于货币最简单的逻辑 - 知乎专栏<\/a>），货币所以能支付其实是一种债务转移。微信支付宝余额能当钱用，是因为腾讯阿里对我的负债转移给店家而已。人民币则是中国人民银行对持有钞票者的负债，道理其实是一样的。<\/p><p data-pid=\"48ab0s15\">如果我们再简化一下这个过程，不妨假装开一家钱庄票号来帮助理解。<\/p><p data-pid=\"duT8-dxg\">小号开张，客官来存银子，存白银一百两，掌柜给开具一张银票，凭票即兑一百两白银。此时，地窖里多了一百两银子，这就是票号的资产，而开具出的银票就是票号对客官的负债。资产负债表是同时增加的。<\/p><p data-pid=\"J5Ake9yS\">客官去做生意的时候，不需要搬动大量银两，可以直接支付银票即可。如果持有银票者去票号兑现白银，则从地窖里取出白银，银票销毁，此时资产减少白银，负债的银票也取消了。资产和负债同时减少。<\/p><p data-pid=\"k_aUVnP0\">这叫资产负债表缩小，故而我们简称缩表的时候不需要注明是负债缩小还是资产缩小，资产负债表是同增同减的。只需要注明是扩表还是缩表即可。<\/p><p data-pid=\"LQkxsjLO\">直接用纸张银票交易，要比大量现银子方便许多，故而只要大家没事不兑换现银子，小号地窖里的白银那可就越来越多啦。<\/p><p data-pid=\"VABgGKV2\"><figure><img src=\"https://pica.zhimg.com/v2-d2c986c5e66e61c2f4d11f3c70636699_720w.jpg?source=d16d100b\" data-rawwidth=\"1024\" data-rawheight=\"680\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pica.zhimg.com/v2-d2c986c5e66e61c2f4d11f3c70636699_r.jpg?source=d16d100b\"><\/figure>票越来越多，银子自然也就越来越多。<\/p><p data-pid=\"E1Y8A29s\"><figure><img src=\"https://pica.zhimg.com/v2-fba8fa023f8ed5010824dcd83889b23d_720w.jpg?source=d16d100b\" data-rawwidth=\"3648\" data-rawheight=\"2736\" class=\"origin_image zh-lightbox-thumb\" width=\"3648\" data-original=\"https://pica.zhimg.com/v2-fba8fa023f8ed5010824dcd83889b23d_r.jpg?source=d16d100b\"><\/figure>如果严格一票对一银，那要做的就是防火防盗，为支付做便利而已，收点手续费啥的当然也可以（央行目前只允许第三方支付做小额支付便捷服务，就是限死这个）。当越来越多的人持有银票而不去兑银子的时候，能写出银票来“周转”的权力可诱人得很了。做生意嘛，经常是要周转滴。来问小号借银子，那小号的银子其实是欠着其他客官的，不是我的。但赚利息这事情爽爽的，又不用真出银子，只要开一张银票给人就好，到时候带利息还回来的，简直无本买卖。<\/p><p data-pid=\"Gepyvf2w\">这时候，市面上的银票总数是增加的，而白银不是天上掉下来的，是从矿里提炼出来的（如今央行的资产已经不依赖天然贵金属了）。借贷的连本带息还了更多银票的话，销毁更多的银票，那自然有一部分真金白银就变成小号的了。记住，还款前，市面上的银票是多过白银总量的，如果一时之间，银票都要求兑现成白银，那掌柜的就要上吊了，这就是传说中的“挤兑”。<\/p><p data-pid=\"_2q6c3lR\"><figure><img src=\"https://picx.zhimg.com/v2-f5bcea75c4d467441a64e128c04a2dd6_720w.jpg?source=d16d100b\" data-rawwidth=\"792\" data-rawheight=\"528\" class=\"origin_image zh-lightbox-thumb\" width=\"792\" data-original=\"https://picx.zhimg.com/v2-f5bcea75c4d467441a64e128c04a2dd6_r.jpg?source=d16d100b\"><\/figure>当我们存钱到银行的时候，如果存了一百万人民币，银行给企业放贷五十万的时候，银行是不会给我发短信“尊敬的客户，您存款当中有一半现在借贷给企业XXX，暂时能支付余额剩下五十万”，并不会这样，你的支付额度和依然是一百万。这个过程是信贷扩张的过程。（<a href=\"https://zhuanlan.zhihu.com/p/20296176\" class=\"internal\" target=\"_blank\">央妈的更年期烦恼 - 知乎专栏<\/a>）企业有五十万可以支付，你有一百万可以支付，大家都可以买东西。<\/p><p data-pid=\"1rfyppx0\">银票可以当货币用的，其实无非是债务转移，而现代的纸币依然是央行对拿钞票者的债务转移，在这里，钞票就是银票，钱庄的角色就是央行。人民币的钱庄票号就是中国央行，美元的钱庄票号就是美联储。<\/p><p data-pid=\"HlEZztED\">央行可不能像那些钱庄那样乱来，资产负债表必须是对等的。下图是中国央行的资产负债表，大家可以在官网上查阅。资产和负债的数目一定是对等的，也就是不能乱印钞票。<\/p><figure><img src=\"https://picx.zhimg.com/v2-bded71c66cb62c8b66396a4fcb46d224_720w.png?source=d16d100b\" data-rawwidth=\"878\" data-rawheight=\"725\" class=\"origin_image zh-lightbox-thumb\" width=\"878\" data-original=\"https://pica.zhimg.com/v2-bded71c66cb62c8b66396a4fcb46d224_r.jpg?source=d16d100b\"><\/figure><p data-pid=\"sT-RgB1h\">美钞就是美联储这家大票号开出来的银票，所谓的美联储缩表就是美联储这家大票号减少库银同时减少银票（美钞）。<\/p><p data-pid=\"RrdUXvUp\"><figure><img src=\"https://picx.zhimg.com/v2-681d0b237ce90d4adce66a7dbd8662f8_720w.jpg?source=d16d100b\" data-rawwidth=\"550\" data-rawheight=\"391\" class=\"origin_image zh-lightbox-thumb\" width=\"550\" data-original=\"https://picx.zhimg.com/v2-681d0b237ce90d4adce66a7dbd8662f8_r.jpg?source=d16d100b\"><\/figure>现代化的银票开具可高效多了，我们有高科技开票工具（印钞机）。美联储缩表，也就是美钞作为美联储的债券的总量要变少，那对于所有美元计价物来说美元总量的变少会导致美元更贵，而资产以美元价格计会变得更贱。为什么要缩表暂且不管，如果缩表的话，所有资产的估价就得要变化了。美元变贵，对于当初美元便宜的时候借美元的人来说无疑是很恶心的，因为要还美元的时候，美元变稀贵了。<\/p><p data-pid=\"j0uUaqR9\">票号银庄缩表，无非就是少存银子少开票。美联储缩表的话，一样的道理，将资产端购买的资产卖出，当初买入资产时印刷出来的美元（开出的银票）收回即是，如今都是数据库的数字，都不需要真的物理过程。美联储之前QE购买的资产是国债和MBS等，要减少资产端也无需大量抛售国债让持有国债的人难受（最大持有人你们也知道是谁啦），只需要持有到期的国债等美国政府还本付息后不再多买便是。这里的美债和MBS是白银，美钞是银票。<\/p><p data-pid=\"3FPfe1qd\">有意思的是中国央行的资产负债表。我们打开央妈的账本，资产端里最大头的一项是外汇。也就是说，中国央妈这家票号的银子大头恰恰是美联储票号的银票。持有人民币，是央行为我们代持了不少外汇。而拿着人民币去换汇，做的事情就如同拿着银票去兑银子。<\/p><p data-pid=\"UjJU6nhz\">你们知道票号啥时候最让掌柜的头疼吗？对了，刚刚提到的，大家都去兑银子的时候最头疼。<\/p><p data-pid=\"-wAq65RQ\">下图是我根据央行官网上的数据绘制的。(2002年到最近)<\/p><p data-pid=\"ZUooRVEU\"><figure><img src=\"https://pic1.zhimg.com/v2-352c320555d3b90359d0ed105ad23f80_720w.png?source=d16d100b\" data-rawwidth=\"1080\" data-rawheight=\"642\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-352c320555d3b90359d0ed105ad23f80_r.jpg?source=d16d100b\"><\/figure>橙色的线是央妈的资产负债表规模，蓝色的线是央妈的外汇资产数量，灰色的线是人民币兑美元的汇率。<\/p><p data-pid=\"cI3_Tzjl\">浅绿色的方框里我们看到，随着外汇的流入，央行释放出更多的基础货币，央行的资产负债表规模是随着外汇的增加而增加的，此时汇率保持超级稳定，几乎不动。蒙代尔不可能三角不赘述了（<a href=\"https://zhuanlan.zhihu.com/p/19953617\" class=\"internal\" target=\"_blank\">有人兜底就安全了吗？瑞士央行风暴小议。 - 知乎专栏<\/a>），要求汇率稳定和资本流动（蓝线的上扬无疑是资本流入）那就不能保持货币政策的独立性。外汇不断流入，汇率又稳定，那央妈的表规模就是复制别人的表规模了（外汇总量无非是别国央行的表规模），这不能忍，只能调高人民币汇率，让外汇流入的同时，被动增加的人民币供应少一点。<\/p><p data-pid=\"7KyE6QRw\">可人民币汇率一直上涨，这对外贸企业太恶心了，兑回的人民币越来越少，支付厂房和工人工资那可必须是人民币。到深绿色方框的时候有意思了，人民币汇率又横成一条直线了。故事重演，外汇还在不断流入，央行的表规模又变被动增加了。怎么办？只有灰线继续往下走（人民币汇率调高）。<\/p><p data-pid=\"7C8wxhAP\">所以，灰线注定是横不住的，因为其实蒙代尔三角里只有两个选择而已（<a href=\"https://zhuanlan.zhihu.com/p/20027123\" class=\"internal\" target=\"_blank\">盈透、芝加哥交易集团及七禾网邀请演讲内容文字整理（四） - 知乎专栏<\/a> 以及<a href=\"https://zhuanlan.zhihu.com/p/19997730\" class=\"internal\" target=\"_blank\">大人物们的“铁汇套利”游戏，结局大家猜 - 知乎专栏<\/a>）。灰线继续往下，外贸更不赚钱了，央行的资产负债表规模只能继续往上走，人民币总量跟着QE往上攀，人民币资产价格名义继续上升。投资开厂不赚钱，资产越来越涨价，大家明白那几年是咋回事了吗？<\/p><p data-pid=\"tkxGDtKO\">突然，画风一变，红色小框出现了历史上从未出现的情况，蓝线下降了，外汇流出了。<\/p><p data-pid=\"qkE5LW1i\"><figure><img src=\"https://picx.zhimg.com/v2-96fb78954884d1e91f440ecabee33506_720w.png?source=d16d100b\" data-rawwidth=\"736\" data-rawheight=\"654\" class=\"origin_image zh-lightbox-thumb\" width=\"736\" data-original=\"https://picx.zhimg.com/v2-96fb78954884d1e91f440ecabee33506_r.jpg?source=d16d100b\"><\/figure>橙色框里外汇资产数量持平，而央行资产规模上升，人民币汇率稳得很。到紫色框里的时候，外汇数量开始下滑，而央行的总资产跟着下滑（从所未见的中国央行缩表）。啥时候的事情呢？15年年中，资产价格的变化想必许多人刻骨铭心。<\/p><p data-pid=\"kc9GtWBF\">灰色线（人民币汇率）终于在8月11日那天突然上升，人民币突然爆贬，之后橙色线也就是央行资产负债表规模在蓝线继续下滑后恢复了增长的趋势。因为同样的外汇能释放出过多的人民币了，因为汇率变了嘛。本来一美元只能开出6人民币的银票，现在能释放6.9了。<\/p><p data-pid=\"MlPB36xF\">最后的方框里，外汇持续流出的情况下，央妈的资产负债表依然爬升，这灰色的走势（人民币）就变得一点都不难理解了。<\/p><p data-pid=\"V5i0GJVS\">那为什么不能外汇资产总量下降了跟着一起降负债的规模呢？那样人民币汇率不就稳了嘛。<\/p><p data-pid=\"M1JWK7Ov\">因为表规模是万万降不得滴～<\/p><p data-pid=\"SOpNWjM0\">刚刚提到了，美联储这一缩表，原来借美元的人可就吃大亏了。借美元的时候美元是烂大街的货色，现在稀贵了，可还钱还是那个数目。100万美元稀松平常的时候借的，100万美元一票难求的时候还钱，得还102万美元，实际债务就很高了，借钱的亏大了。<\/p><p data-pid=\"HzQA3krP\">所以一个简单朴素的道理：啥时候央行都能缩表，唯独高杠杆（高负债）的情况下，万万缩不得。（<a href=\"https://zhuanlan.zhihu.com/p/20620619\" class=\"internal\" target=\"_blank\">关于债务结构最简单的逻辑 - 知乎专栏<\/a>）那这几年来，中国的整体负债率是变高还是变低呢？不同统计口径实在太不一样，大家自己去找自己觉得靠谱的。<\/p><p data-pid=\"Er_wzUmt\">那么高杠杆，央行的表缩不得，最大的资产有是外汇，而在缩不得表的同时，居然有个不懂政治的美联储叫嚣着要缩表。掌柜很犯愁，不能总是让银票兑不出银子啊，怎么办？<\/p><p data-pid=\"OTfIBMB5\">钱庄票号收银子的时候，开票出去太多，没有足够银两兑付，有个鸡贼的主意：降低银子的成色，本来含银量80%的银锭入库，取出来可能含银量就只有65%喽。<\/p><p data-pid=\"RJlcv0Gk\"><figure><img src=\"https://picx.zhimg.com/v2-31617d41fa6bc5ac6089aa15526abdbf_720w.png?source=d16d100b\" data-rawwidth=\"1078\" data-rawheight=\"371\" class=\"origin_image zh-lightbox-thumb\" width=\"1078\" data-original=\"https://pic1.zhimg.com/v2-31617d41fa6bc5ac6089aa15526abdbf_r.jpg?source=d16d100b\"><\/figure>故而这张图表的曲线（央行资产中外汇的比重）就变得不言而喻了。<\/p><p data-pid=\"D8zwIX9V\">这样被动，皆因借债的时候乱来，去杠杆作为当务之急必须要迅速落地。可去杠杆的过程，本身也是信用货币注销的过程（<a href=\"https://zhuanlan.zhihu.com/p/21744876?group_id=834065452509581312\" class=\"internal\" target=\"_blank\">货币或许能无中生有，但财富不能 - 知乎专栏<\/a>）。这和央行释放的基础货币（高能货币）不同，去杠杆本身也会造成资产价格的下降，这资产价格能降吗？特别是那么多地方政府最最敏感的某资产价格，敢降吗？<\/p><p data-pid=\"ycf4ZKGh\">那怎么办？表是万万不能缩滴，天下下雨，娘要嫁人，人家要缩，我们不跟上的话汇率完蛋，要跟上的话资产完蛋。而且汇率完蛋的话，加速流出资产价格未必就能好看；资产完蛋的话，进入通缩螺旋，外资还敢流入？左右横竖不好办。<\/p><p data-pid=\"aGsHjBi1\">如何既能汇率不完蛋（必须同步缩表）的同时又不承担缩表带来的灾难呢（痛苦去杠杆）？<\/p><p data-pid=\"ucWfds8t\">冥思苦想，有了！大腿一拍，计上心来。降杠杆的时候负债的人倒霉这是免不掉的，只要负债不是自己人不就可以了嘛……去杠杆是必须要去的，没有只增不去的杠杆，增杠杆的时候美滋滋，去杠杆的时候要人命，别要我的命就可以了嘛。<\/p><p data-pid=\"uKitlobT\">所以，XX部门加杠杆很合理嘛。天才的主意！别再去兑现银子啦，再兑逮人，有银票赶紧拿去接杠杆，妙哉。<\/p><p data-pid=\"xzs3JF4Z\">无关新闻一条：<a href=\"http://link.zhihu.com/?target=http%3A//news.xinhuanet.com/globe/2017-03/29/c_136168230.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">德国加速黄金回运<\/a><\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://pic1.zhimg.com/v2-d78bbdd619832e15539f4b4bf66a9738_720w.jpg?source=d16d100b",
+            "title": "缩表是什么鬼？",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        },
+        {
+            "updated": 1486482999,
+            "is_labeled": false,
+            "copyright_permission": "need_review",
+            "settings": {
+                "table_of_contents": {
+                    "enabled": false
+                }
+            },
+            "excerpt": "大家新年好，我是许哲。承蒙各位朋友厚爱，上一次的Live分享了一些比较泛泛的知识得到了许多朋友的肯定。其中有些朋友希望听一些更加具体的东西，现在决定再办一场，结合时下的热点，讲讲偏具体的东西。 当然，只对宏观或者方法论有兴趣的朋友也可以参与进来向我提问。下面是这次知乎Live活动的介绍。 随着今年中央一号文件关于农业供给侧改革的政策发布，农产品领域被广泛关注，期货合约持仓量不断上升。中国证监会批准了白糖和…",
+            "admin_closed_comment": false,
+            "voting": 0,
+            "article_type": "normal",
+            "reason": "",
+            "force_login_when_click_read_more": false,
+            "excerpt_title": "",
+            "id": "25132169",
+            "voteup_count": 132,
+            "title_image": "https://picx.zhimg.com/v2-7fc4fea9375d4db6a14b2b20cd7bddce_720w.jpg?source=d16d100b",
+            "has_column": true,
+            "url": "https://zhuanlan.zhihu.com/p/25132169",
+            "comment_permission": "all",
+            "author": {
+                "is_followed": false,
+                "avatar_url_template": "https://picx.zhimg.com/f1febcfa6.jpg?source=d16d100b",
+                "uid": "26712603623424",
+                "user_type": "people",
+                "is_following": true,
+                "type": "people",
+                "url_token": "xu-zhe-42",
+                "id": "08b9121dc17fa6040ba682863c84ade1",
+                "description": "已退乎,勿关注",
+                "name": "许哲",
+                "is_advertiser": false,
+                "headline": "胆小如鼠，从不瞎赌",
+                "gender": 1,
+                "url": "/people/08b9121dc17fa6040ba682863c84ade1",
+                "avatar_url": "https://picx.zhimg.com/f1febcfa6_l.jpg?source=d16d100b",
+                "is_org": false,
+                "badge": [
+                    {
+                        "topics": [],
+                        "type": "best_answerer",
+                        "description": "优秀答主"
+                    }
+                ]
+            },
+            "comment_count": 13,
+            "created": 1486482964,
+            "content": "<p data-pid=\"qhqUQDzN\">大家新年好，我是许哲。承蒙各位朋友厚爱，上一次的Live分享了一些比较泛泛的知识得到了许多朋友的肯定。其中有些朋友希望听一些更加具体的东西，现在决定再办一场，结合时下的热点，讲讲偏具体的东西。<\/p><p data-pid=\"ebqTcXE6\">当然，只对宏观或者方法论有兴趣的朋友也可以参与进来向我提问。下面是这次知乎Live活动的介绍。<\/p><p data-pid=\"XuMHJib8\">随着今年中央一号文件关于农业供给侧改革的政策发布，农产品领域被广泛关注，期货合约持仓量不断上升。中国证监会批准了白糖和豆粕期权产品的上市，并且大商所负责人接受新华社采访时表示了玉米期货期权的制定和研究工作已经上日程。<\/p><p data-pid=\"AHAXGVKy\">上 50 期权经过股灾的洗礼和后续的发展，期权已经成为中国金融市场必须要学些的一部分。本次 Live 会介绍不同背景的人员，如何利用学习期权，利用期权来做和自己的交易和风险管理。<\/p><p data-pid=\"t6paAhNx\"> 本次 Live 主要包括以下内容： \n<\/p><p data-pid=\"ge22Rhsr\">＊ 期权能干什么，不能干什么？ <\/p><p data-pid=\"obLZHVKB\">＊ 期权对于期货市场的影响是什么样的？ <\/p><p data-pid=\"ekYeN4w-\">＊ 常见期权组合策略的一些场景 <\/p><p data-pid=\"DHDfh4oi\">＊ 农业供给侧改革下商品期货期权交易的建议 <\/p><p data-pid=\"SvlLppIV\">＊ 股票从业人员应用上证 50 期权的方式 <\/p><p data-pid=\"N2r9X1o0\">＊ 其他关于期权的性质<\/p><br><br><p data-pid=\"4-pmw4vA\">希望能对有兴趣的朋友有所帮助。<\/p><p data-pid=\"DlHdAlfK\">传送门：<a href=\"https://www.zhihu.com/lives/812408326204825600?utm_campaign=zhihulive&amp;utm_source=zhihucolumn&amp;utm_medium=Livecolumn\" class=\"internal\" target=\"_blank\">知乎 Live - 全新的实时问答<\/a><\/p>",
+            "state": "published",
+            "content_need_truncated": true,
+            "image_url": "https://picx.zhimg.com/v2-7fc4fea9375d4db6a14b2b20cd7bddce_720w.jpg?source=d16d100b",
+            "title": "许哲 的 Live －－ 期权时代的必学知识。",
+            "can_comment": {
+                "status": true,
+                "reason": ""
+            },
+            "type": "article",
+            "suggest_edit": {
+                "status": false,
+                "url": "",
+                "reason": "",
+                "tip": "",
+                "title": ""
+            }
+        }
+    ],
+    "need_force_login": false
+}
