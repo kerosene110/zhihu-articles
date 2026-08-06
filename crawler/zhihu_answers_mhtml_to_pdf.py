@@ -15,7 +15,10 @@ import requests
 from lxml import html as lxml_html
 from lxml import etree
 
-from zhihu_column_to_pdf import html_to_pdf
+try:
+    from .zhihu_column_to_pdf import html_to_pdf
+except ImportError:  # Support direct execution from inside crawler/
+    from zhihu_column_to_pdf import html_to_pdf
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
