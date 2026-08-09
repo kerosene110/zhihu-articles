@@ -16,13 +16,13 @@
   4. **Deployment:** One Dockerized application serving the compiled frontend from FastAPI where practical.
   5. **Answers:** Corpus-grounded only. Insufficient evidence produces an explicit response instead of unsupported model knowledge.
   6. **Language:** Users and the assistant communicate in English or Chinese; source titles, text, excerpts, and links remain in Chinese.
-  7. **UI source of truth:** Rendered web-page design drafts supplied in `design-drafts/` define the intended visual appearance and interaction states. The production frontend should reproduce those drafts closely while preserving accessibility, responsive behavior, and the application contracts in this plan.
+  7. **UI source of truth:** Rendered web-page design drafts supplied in `frontend/design-drafts/` define the intended visual appearance and interaction states. The production frontend should reproduce those drafts closely while preserving accessibility, responsive behavior, and the application contracts in this plan.
 
   ## Design Draft Contract
 
   - Treat the rendered drafts, rather than their generated source code or component structure, as the source of truth for layout, typography, color, spacing, imagery, responsive composition, and visible interaction states.
   - Reimplement the designs in the production React/TypeScript application. Do not copy draft-only framework choices, generated code, dependencies, mock APIs, or placeholder business logic unless they are also appropriate for production.
-  - Inventory every page, breakpoint, component variant, and state represented in `design-drafts/` before frontend implementation. Reuse supplied assets where their licensing and format allow it.
+  - Inventory every page, breakpoint, component variant, and state represented in `frontend/design-drafts/` before frontend implementation. Reuse supplied assets where their licensing and format allow it.
   - When drafts disagree with written UI details in this plan, follow the rendered drafts for presentation. Backend behavior, security, data integrity, citation grounding, and explicit API contracts remain governed by this plan.
   - Infer ordinary intermediate responsive behavior from the supplied desktop and mobile views. Record any ambiguity that would materially change navigation, content, or application behavior instead of silently inventing it.
   - Ensure draft fidelity does not compromise semantic HTML, keyboard navigation, focus visibility, readable contrast, reduced-motion preferences, or sensible loading and error announcements.
@@ -97,7 +97,7 @@
   - Test citation formatting and rejection of fabricated citation IDs.
   - Test successful `/chat` responses, insufficient evidence, provider failures, and bounded history.
   - Verify the frontend production build and core chat and citation rendering.
-  - Add browser-level tests for critical user flows and visual comparisons at the reference viewport sizes from `design-drafts/`.
+  - Add browser-level tests for critical user flows and visual comparisons at the reference viewport sizes from `frontend/design-drafts/`.
   - Review visual differences against the drafts before declaring the frontend complete; intentional deviations must be documented with an accessibility, responsiveness, or product-behavior reason.
   - Add a versioned set of 20 representative English questions with expected Chinese article IDs and optional expected
   passage text.

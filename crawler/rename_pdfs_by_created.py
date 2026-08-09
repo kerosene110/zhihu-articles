@@ -7,7 +7,8 @@ from typing import Dict, List
 
 
 COLUMN_SLUG = "wontfallinyourlap"
-DEFAULT_PDF_DIR = os.path.join("output", COLUMN_SLUG)
+DEFAULT_OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+DEFAULT_PDF_DIR = os.path.join(DEFAULT_OUTPUT_DIR, COLUMN_SLUG)
 DEFAULT_METADATA_PATH = os.path.join(DEFAULT_PDF_DIR, "articles.json")
 
 
@@ -118,11 +119,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Rename existing PDFs so lexical filename order matches article creation time."
     )
-    parser.add_argument("--pdf-dir", default=DEFAULT_PDF_DIR, help=f"PDF directory (default: {DEFAULT_PDF_DIR})")
+    parser.add_argument("--pdf-dir", default=DEFAULT_PDF_DIR, help="PDF directory (default: crawler/output/wontfallinyourlap)")
     parser.add_argument(
         "--metadata-path",
         default=DEFAULT_METADATA_PATH,
-        help=f"Metadata JSON file or directory of page JSON files (default: {DEFAULT_METADATA_PATH})",
+        help="Metadata JSON file or directory of page JSON files (default: crawler/output/wontfallinyourlap/articles.json)",
     )
     parser.add_argument("--dry-run", action="store_true", help="Print planned renames without changing files")
     args = parser.parse_args()

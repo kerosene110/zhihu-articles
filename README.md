@@ -6,8 +6,8 @@ See [PLAN.md](PLAN.md) for the application design and implementation plan.
 
 ## Project modules
 
-- [Crawler](crawler/README.md): existing Zhihu metadata and PDF-generation tools.
-- [Frontend](frontend/): responsive React/TypeScript study companion based on the rendered design drafts.
+- [Crawler](crawler/README.md): existing Zhihu metadata and PDF-generation tools, with crawled results in [`crawler/output/`](crawler/output/).
+- [Frontend](frontend/): responsive React/TypeScript study companion based on the rendered drafts in [`frontend/design-drafts/`](frontend/design-drafts/).
 
 ## Frontend development
 

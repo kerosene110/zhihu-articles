@@ -29,6 +29,7 @@ USER_AGENT = (
 COLUMN_SLUG = "wontfallinyourlap"
 COLUMN_URL = f"https://www.zhihu.com/column/{COLUMN_SLUG}"
 ITEMS_API_URL = f"https://www.zhihu.com/api/v4/columns/{COLUMN_SLUG}/items"
+DEFAULT_OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 
 
 def _headers(referer: str) -> Dict[str, str]:
@@ -273,14 +274,18 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description=f"Download articles from {COLUMN_URL} and convert them to PDFs."
     )
-    parser.add_argument("--out", default="output", help="Output directory (default: output)")
+    parser.add_argument(
+        "--out",
+        default=DEFAULT_OUTPUT_DIR,
+        help="Output directory (default: crawler/output)",
+    )
     parser.add_argument("--limit", type=int, default=20, help="Page size (default: 20)")
     parser.add_argument("--sleep", type=float, default=1.0, help="Sleep seconds between requests (default: 1.0)")
     parser.add_argument("--max", type=int, default=0, help="Max articles to fetch (0 = all)")
     parser.add_argument(
         "--from-metadata",
         action="store_true",
-        help="Load output/wontfallinyourlap/articles.json and generate PDFs without crawling",
+        help="Load crawler/output/wontfallinyourlap/articles.json and generate PDFs without crawling",
     )
     parser.add_argument(
         "--metadata-path",

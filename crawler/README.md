@@ -13,10 +13,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 cd crawler
-python zhihu_column_to_pdf.py --out ../output
+python zhihu_column_to_pdf.py
 ```
 
-PDFs will be written to `output/wontfallinyourlap/`.
+PDFs will be written to `crawler/output/wontfallinyourlap/`. The default is
+resolved relative to the crawler module, so it is the same when the command is
+launched from another working directory. Use `--out` to override it.
 
 ## Metadata-only mode
 
@@ -24,21 +26,21 @@ If you already have metadata and only want to generate PDFs:
 
 ```bash
 cd crawler
-python zhihu_column_to_pdf.py --out ../output --from-metadata
+python zhihu_column_to_pdf.py --from-metadata
 ```
 
 If you want to provide a specific metadata file:
 
 ```bash
 cd crawler
-python zhihu_column_to_pdf.py --out ../output --metadata-path /path/to/articles.json
+python zhihu_column_to_pdf.py --metadata-path /path/to/articles.json
 ```
 
 If your metadata path is a directory containing multiple page JSON files, pass the directory path:
 
 ```bash
 cd crawler
-python zhihu_column_to_pdf.py --out ../output --metadata-path /path/to/metadata-pages/
+python zhihu_column_to_pdf.py --metadata-path /path/to/metadata-pages/
 ```
 
 The script loads all `*.json` files in that directory in sorted order and merges them.
@@ -49,7 +51,7 @@ The script loads all `*.json` files in that directory in sorted order and merges
 - This script uses the public column API and does **not** log in.
 - Be polite: use `--sleep` to reduce request rate.
 - The script prints progress while paging and converting articles so stalled requests are visible.
-- Existing PDFs and HTML fallbacks in `output/wontfallinyourlap/` are detected and skipped on reruns.
+- Existing PDFs and HTML fallbacks in `crawler/output/wontfallinyourlap/` are detected and skipped on reruns.
 - If PDF creation fails, the script saves a `.html` file instead and prints a warning.
 
 ## Troubleshooting PDF
