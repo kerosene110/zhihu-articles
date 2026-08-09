@@ -201,6 +201,13 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Frontend build and browser-inspection artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+.playwright-cli/
+output/playwright/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
