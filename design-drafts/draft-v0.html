@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xuzhe Finance RAG — Interactive Options & US Market Companion</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              200: '#bbf7d0',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js for Payoff & Volatility Diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    /* Custom scrollbar matching snapshot aesthetic */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(241, 245, 249, 0.6);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+    
+    .amber-key-box {
+      background-color: #f0fdf4;
+      border: 1px solid #a7f3d0;
+    }
+    
+    .source-chunk-highlight {
+      animation: pulseHighlight 2s ease-in-out;
+    }
+    
+    @keyframes pulseHighlight {
+      0% { background-color: rgba(16, 185, 129, 0.2); }
+      100% { background-color: transparent; }
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafc] text-slate-800 font-sans antialiased h-screen overflow-hidden flex flex-col">
+
+  <header class="h-14 border-b border-slate-200 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between shrink-0 z-20">
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200">
+        <i data-lucide="database" class="w-3.5 h-3.5"></i>
+        <span>RAG Corpus: Zhihu / Xuzhe Finance</span>
+      </div>
+      <span class="text-xs text-slate-400 font-mono">142 Articles</span>
+    </div>
+
+    <!-- Top Hybrid Search Input -->
+    <div class="relative w-1/3 max-w-md">
+      <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+      <input 
+        type="text" 
+        id="searchInput"
+        placeholder="Search articles in Chinese or English (e.g. Gamma Scalping, 隐含波动率)..."
+        class="w-full pl-9 pr-24 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-full focus:outline-none focus:border-emerald-500 focus:bg-white transition-all"
+        onkeyup="handleSearch(event)"
+      >
+      <div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1 text-[10px] text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
+        <i data-lucide="sparkles" class="w-3 h-3 text-emerald-600"></i>
+        <span>Hybrid RAG</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="flex-1 flex overflow-hidden relative">
+
+    <!-- Left Navigation Sidebar -->
+    <aside class="w-80 bg-[#f8fafc] border-r border-slate-200 flex flex-col justify-between shrink-0 overflow-y-auto">
+      <div class="p-6">
+        <!-- Header Brand Info -->
+        <div class="mb-5">
+          <div class="text-[11px] font-bold tracking-widest text-emerald-700 uppercase mb-1">Study Companion</div>
+          <h1 class="text-xl font-bold text-slate-900 tracking-tight leading-snug">Xuzhe Options & Macro</h1>
+          <p class="text-xs text-slate-500 mt-1">US Stock Trading & Hedging Frameworks</p>
+          <div class="text-[11px] text-slate-400 font-mono mt-0.5">Author: Xuzhe (知乎 @徐哲)</div>
+        </div>
+
+        <!-- Language Switcher Pill Toggle -->
+        <div class="flex items-center gap-1 p-1 bg-slate-200/60 rounded-xl mb-5 w-fit text-xs font-medium">
+          <button id="lang-en" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-lg bg-emerald-700 text-white shadow-sm transition-all">EN</button>
+          <button id="lang-zh" onclick="setLanguage('zh')" class="px-2.5 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all">简</button>
+          <button id="lang-tw" onclick="setLanguage('tw')" class="px-2.5 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all">繁</button>
+        </div>
+
+        <!-- Article Grouping Mode Toggle (By Date vs By Topic) -->
+        <div class="mb-4 space-y-1.5">
+          <div class="text-[10px] font-bold uppercase tracking-wider text-slate-400 flex items-center justify-between">
+            <span>Group Articles By</span>
+            <i data-lucide="layers" class="w-3 h-3 text-slate-400"></i>
+          </div>
+          <div class="grid grid-cols-2 gap-1 bg-slate-200/70 p-1 rounded-xl text-xs font-medium">
+            <button id="group-date-btn" onclick="setGroupingMode('date')" class="py-1.5 rounded-lg bg-white text-emerald-800 font-semibold shadow-sm text-center transition-all">
+              📅 By Date
+            </button>
+            <button id="group-topic-btn" onclick="setGroupingMode('topic')" class="py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all">
+              🏷️ By Topic
+            </button>
+          </div>
+        </div>
+
+        <!-- Articles Nav List -->
+        <nav class="space-y-4" id="article-nav-container">
+          <!-- Populated dynamically based on grouping mode -->
+        </nav>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="p-6 border-t border-slate-200/60 bg-slate-50/50">
+        <button class="w-fit px-4 py-2 bg-white border border-slate-200 hover:border-slate-300 rounded-full text-xs font-medium text-slate-600 shadow-sm flex items-center gap-2 hover:bg-slate-50 transition">
+          <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+          <span>Feedback</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Center Content Area -->
+    <main class="flex-1 overflow-y-auto p-10 bg-white" id="main-content">
+      <div class="max-w-3xl mx-auto space-y-8">
+        
+        <!-- Breadcrumb, Topic Title & Action Links -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-2 text-xs text-slate-400 font-mono">
+            <span id="current-ch-cat">Options & Volatility</span>
+            <span>•</span>
+            <span id="current-ch-date" class="text-emerald-700 font-medium">2024-05-18</span>
+          </div>
+
+          <h2 id="chapter-title" class="text-3xl font-bold text-slate-900 tracking-tight">Options Payoff Surface & Delta Neutrality</h2>
+          
+          <p id="chapter-desc" class="text-sm text-slate-500 leading-relaxed">
+            Exploring how Xuzhe constructs market-neutral options positions to capture implied volatility mispricing while dynamically hedging directional Delta exposure in US Tech stocks.
+          </p>
+
+          <!-- Article Action Links: Secondary subdued styling for lower visual hierarchy -->
+          <div class="flex items-center gap-2 pt-1">
+            <a id="article-zhihu-link" href="https://zhuanlan.zhihu.com" target="_blank" class="px-3 py-1.5 bg-slate-100/80 hover:bg-slate-200/80 text-slate-600 hover:text-slate-900 text-xs font-medium rounded-lg flex items-center gap-1.5 transition border border-slate-200/80">
+              <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span id="label-zhihu-btn">Zhihu Source</span>
+            </a>
+            <a id="article-pdf-link" href="#" target="_blank" class="px-3 py-1.5 bg-slate-100/80 hover:bg-slate-200/80 text-slate-600 hover:text-slate-900 text-xs font-medium rounded-lg flex items-center gap-1.5 transition border border-slate-200/80">
+              <i data-lucide="file-text" class="w-3.5 h-3.5 text-slate-400"></i>
+              <span id="label-pdf-btn">Read the full article in PDF</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Payoff Diagram Canvas Container -->
+        <div class="border border-slate-200 rounded-2xl p-6 bg-slate-50/50 space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
+              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Interactive Model: Long Straddle vs IV Smile</h3>
+            </div>
+            <div class="flex items-center gap-2 text-xs font-mono text-slate-500">
+              <span>Spot $S_0 = $150</span>
+              <span>•</span>
+              <span>Strike $K = $150</span>
+            </div>
+          </div>
+
+          <!-- Chart canvas -->
+          <div class="h-64 relative bg-white border border-slate-200 rounded-xl p-3 shadow-inner">
+            <canvas id="payoffChart"></canvas>
+          </div>
+
+          <!-- Interactive Sliders -->
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="space-y-1">
+              <div class="flex justify-between text-xs text-slate-600 font-medium">
+                <span>Implied Volatility (IV):</span>
+                <span id="iv-val" class="font-mono text-emerald-700">45%</span>
+              </div>
+              <input type="range" id="ivSlider" min="10" max="100" value="45" class="w-full accent-emerald-600" oninput="updateChart()">
+            </div>
+            <div class="space-y-1">
+              <div class="flex justify-between text-xs text-slate-600 font-medium">
+                <span>Days to Expiration (DTE):</span>
+                <span id="dte-val" class="font-mono text-emerald-700">30 Days</span>
+              </div>
+              <input type="range" id="dteSlider" min="1" max="90" value="30" class="w-full accent-emerald-600" oninput="updateChart()">
+            </div>
+          </div>
+        </div>
+
+        <!-- Key Idea Callout Box (Emerald Mint Style) -->
+        <div class="amber-key-box rounded-2xl p-6 relative">
+          <div class="text-[11px] font-bold tracking-widest text-emerald-800 uppercase mb-2">Key Idea</div>
+          <p id="key-idea-text" class="text-sm text-emerald-950 font-normal leading-relaxed">
+            Delta neutrality eliminates small price movements, but Gamma risk accelerates as expiration approaches. In Xuzhe's framework: when IV is cheap relative to historical realized volatility (HV), buying Gamma via long straddles and scalping underlying shares daily converts volatility into net positive cash flow.
+          </p>
+        </div>
+
+        <!-- Main Study Text & Source Paragraphs -->
+        <div class="space-y-6 text-sm leading-relaxed text-slate-700 font-normal" id="article-body">
+          <!-- Text dynamically loaded based on selected chapter -->
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Floating Trigger Pill Button (Bottom Right) -->
+    <button 
+      onclick="toggleChatDrawer(true)"
+      class="fixed bottom-6 right-6 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-medium px-4 py-3 rounded-full shadow-lg hover:shadow-emerald-600/25 flex items-center gap-2 transition-all z-30 group"
+    >
+      <i data-lucide="sparkles" class="w-4 h-4 fill-emerald-300 text-emerald-300"></i>
+      <span id="btn-ask-notes">Ask Xuzhe's Notes</span>
+    </button>
+
+    <!-- Slide-over AI Chatbot Drawer -->
+    <aside 
+      id="chatDrawer" 
+      class="fixed top-0 right-0 h-full w-[440px] bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col border-l border-slate-200"
+    >
+      <!-- Drawer Header -->
+      <div class="p-6 border-b border-slate-100 flex items-start justify-between">
+        <div>
+          <h3 id="drawer-title" class="text-base font-bold text-slate-900">Ask Xuzhe's Notes</h3>
+          <p id="drawer-subtitle" class="text-xs text-slate-400 mt-0.5">Answers grounded in Xuzhe's Zhihu articles, with citations</p>
+        </div>
+        <button onclick="toggleChatDrawer(false)" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg hover:bg-slate-100 transition">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- Chat Drawer Body -->
+      <div class="flex-1 overflow-y-auto p-6 space-y-6" id="chatMessages">
+        
+        <!-- Input Field Container -->
+        <div class="space-y-3">
+          <div class="relative">
+            <input 
+              type="text" 
+              id="chatInput"
+              placeholder="Ask a question..." 
+              class="w-full pl-4 pr-16 py-3 text-xs bg-white border-2 border-emerald-200 rounded-xl focus:outline-none focus:border-emerald-600 transition shadow-sm"
+              onkeypress="if(event.key === 'Enter') handleAskQuestion()"
+            >
+            <button 
+              onclick="handleAskQuestion()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 bg-emerald-100 hover:bg-emerald-700 text-emerald-800 hover:text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition"
+            >
+              Ask
+            </button>
+          </div>
+          
+          <p class="text-[11px] text-slate-400 leading-relaxed">
+            Ask anything covered by the finance articles. Answers come only from the retrieved chunks, and every claim links back to the article it came from.
+          </p>
+        </div>
+
+        <!-- Suggested Questions Links -->
+        <div class="space-y-2 pt-2" id="suggested-queries">
+          <p class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Suggested Queries</p>
+          <div class="space-y-2 text-xs font-medium text-emerald-700">
+            <button onclick="useQuery('Why does high IV Crush occur right after NVDA earnings announcements?')" class="block text-left hover:underline hover:text-emerald-900 transition">
+              "Why does high IV Crush occur right after NVDA earnings announcements?"
+            </button>
+            <button onclick="useQuery('如何用 Delta 中性策略对冲美股大盘暴跌？')" class="block text-left hover:underline hover:text-emerald-900 transition">
+              "如何用 Delta 中性策略对冲美股大盘暴跌？"
+            </button>
+            <button onclick="useQuery('What breaks if I hold unhedged Short Gamma during unexpected CPI spikes?')" class="block text-left hover:underline hover:text-emerald-900 transition">
+              "What breaks if I hold unhedged Short Gamma during unexpected CPI spikes?"
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Stream Target Container -->
+        <div id="chatHistory" class="space-y-4 pt-2"></div>
+
+      </div>
+
+      <!-- Drawer Footer -->
+      <div class="p-4 border-t border-slate-100 bg-slate-50 text-[10px] text-slate-400 text-center">
+        Generated by RAG pipeline using <code class="font-mono">gemini-3-flash-preview</code>. Follow citations to check source chunks.
+      </div>
+    </aside>
+
+  </div>
+
+  <script>
+    // Global Application State
+    let currentLang = 'en';
+    let currentArticleId = 1;
+    let groupingMode = 'date'; // 'date' (default) or 'topic'
+    let chartInstance = null;
+
+    // Corpus Articles Data (Xu's articles dataset with date, topic, zhihuUrl & pdfUrl)
+    const articlesData = [
+      {
+        id: 1,
+        date: "2024-05-18",
+        year: "2024",
+        topic: "Options & Volatility",
+        zhihuUrl: "https://zhuanlan.zhihu.com/p/698123451",
+        pdfUrl: "./pdfs/article_01_nvda_vol_skew.pdf",
+        title: { 
+          en: "Understanding Option Volatility Skew in NVDA Earnings", 
+          zh: "从英伟达财报看期权波动率偏斜 (Vol Skew) 的套利机会", 
+          tw: "從英偉達財報看期權波動率偏斜 (Vol Skew) 的套利機會" 
+        },
+        text: {
+          en: "Understanding option pricing mechanics during AI earnings cycles requires analyzing IV skew across call and put strike wings. Xuzhe emphasizes evaluating market volatility skew and historical percentile rankings before initiating any option legs.",
+          zh: "理解 AI 概念股财报季的期权定价机制，需要分析 Call/Put 看涨看跌翼部的 IV 偏斜。徐哲强调在建立任何期权头寸之前，必须评估市场波动率偏斜（Skew）和历史百分位排名。",
+          tw: "理解 AI 概念股財報季的期權定價機制，需要分析 Call/Put 看漲看跌翼部的 IV 偏斜。徐哲強調在建立任何期權頭寸之前，必須評估市場波動率偏斜（Skew）和歷史百分位排名。"
+        },
+        keyIdea: {
+          en: "Implied Volatility skew reflects market panic vs euphoria asymmetry. Exploiting skew mispricing with risk-reversals yields high convexity risk-reward.",
+          zh: "隐含波动率偏斜（Skew）反映了市场恐慌与狂热的不对称性。利用偏斜错配构建 Risk-Reversal 组合可带来极高的风险收益凸性。",
+          tw: "隱含波動率偏斜（Skew）反映了市場恐慌與狂熱的不對稱性。利用偏斜錯配構建 Risk-Reversal 組合可帶來極高的風險收益凸性。"
+        }
+      },
+      {
+        id: 2,
+        date: "2024-02-10",
+        year: "2024",
+        topic: "Options & Volatility",
+        zhihuUrl: "https://zhuanlan.zhihu.com/p/682940129",
+        pdfUrl: "./pdfs/article_02_delta_neutral_gamma.pdf",
+        title: { 
+          en: "Delta Neutral & Gamma Scalping in US Tech Stocks", 
+          zh: "Delta 中性与 Gamma 动态对冲：美股科技股实战", 
+          tw: "Delta 中性與 Gamma 動態對衝：美股科技股實戰" 
+        },
+        text: {
+          en: "Delta neutral strategies profit when implied volatility expands or when price fluctuations are large enough to offset theta decay via daily stock rebalancing.",
+          zh: "Delta 中性策略在隐含波动率扩大，或正股价格波幅足够大以通过每日股票再平衡抵消 Theta 衰减时获利。",
+          tw: "Delta 中性策略在隱含波動率擴大，或正股價格波幅足夠大以通過每日股票再平衡抵消 Theta 衰減時獲利。"
+        },
+        keyIdea: {
+          en: "Gamma scalping allows option buyers to systematically monetize market volatility by buying low and selling high on underlying shares as delta shifts.",
+          zh: "Gamma 𠲸头（Scalping）允许期权买方通过在 Delta 变动时高抛低吸正股，将市场波动率系统性地转化为现金流。",
+          tw: "Gamma 𠲸頭（Scalping）允許期權買方通過在 Delta 變動時高拋低吸正股，將市場波動率系統性地轉化為複利。"
+        }
+      },
+      {
+        id: 3,
+        date: "2023-11-04",
+        year: "2023",
+        topic: "US Macro & Fed Policy",
+        zhihuUrl: "https://zhuanlan.zhihu.com/p/665123984",
+        pdfUrl: "./pdfs/article_03_fed_rate_macro_hedging.pdf",
+        title: { 
+          en: "Fed Rate Cycle & Macro Hedging Strategies", 
+          zh: "美联储降息周期下的宏观对冲与美股风险敞口", 
+          tw: "美聯儲降息週期下的宏觀對衝與美股風險敞口" 
+        },
+        text: {
+          en: "Macro rate shifts impact stock correlations and index volatility index (VIX) term structure. By combining TLT/SPY collar options with macro hedges, traders shield long portfolios from rate hikes.",
+          zh: "美联储利率周期的转向深刻影响个股相关性与 VIX 期限结构。通过将 TLT/SPY 的 Collar 领口策略与宏观对冲结合，交易者可保护长线股票仓位免受加息冲击。",
+          tw: "美聯儲利率週期的轉向深刻影響個股相關性與 VIX 期限結構。通過將 TLT/SPY 的 Collar 領口策略與宏觀對衝結合，交易者可保護長線股票倉位免受加息衝擊。"
+        },
+        keyIdea: {
+          en: "Macro uncertainty is best hedged using asymmetry in option curves, rather than raw stock liquidation.",
+          zh: "宏观不确定性最佳的对冲手段是利用期权曲线的不对称性，而非盲目清仓正股。",
+          tw: "宏觀不確定性最佳的對衝手段是利用期權曲線的不對稱性，而非盲目清倉正股。"
+        }
+      },
+      {
+        id: 4,
+        date: "2023-08-15",
+        year: "2023",
+        topic: "Tech Earnings & Hedging",
+        zhihuUrl: "https://zhuanlan.zhihu.com/p/649201948",
+        pdfUrl: "./pdfs/article_04_earnings_iv_crush.pdf",
+        title: { 
+          en: "Earnings IV Crush: Long Straddle vs Iron Condor", 
+          zh: "财报季 IV 崩塌陷阱：Long Straddle 与 Iron Condor", 
+          tw: "財報季 IV 崩塌陷阱：Long Straddle 與 Iron Condor" 
+        },
+        text: {
+          en: "Before earnings announcements, implied volatility skyrockets due to event risk. Immediately after the earnings report, IV collapses, resulting in severe IV crush for long option holders.",
+          zh: "在财报发布之前，由于事件风险，隐含波动率暴涨。财报发布后，IV 迅速崩塌，导致做多期权持有者遭遇严重的 IV Crush。",
+          tw: "在財報發佈之前，由於事件風險，隱含波動率暴漲。財報發佈後，IV 迅速崩塌，導致做多期權持有者遭遇嚴重的 IV Crush。"
+        },
+        keyIdea: {
+          en: "Never hold naked unhedged long straddles into earnings unless implied volatility is severely underpricing expected post-earnings moves.",
+          zh: "切勿在财报前持有未对冲的做多跨式期权（Long Straddle），除非隐含波动率严重低估了财报后的预期波幅。",
+          tw: "切勿在財報前持有未對衝的做多跨式期權（Long Straddle），除非隱含波動率嚴重低估了財報後的預期波幅。"
+        }
+      },
+      {
+        id: 5,
+        date: "2022-10-20",
+        year: "2022",
+        topic: "Portfolio Convexity",
+        zhihuUrl: "https://zhuanlan.zhihu.com/p/573019234",
+        pdfUrl: "./pdfs/article_05_tail_risk_positive_convexity.pdf",
+        title: { 
+          en: "Positive Convexity in Portfolio Tail Risk Protection", 
+          zh: "尾部风险对冲：正凸性（Positive Convexity）防暴跌指南", 
+          tw: "尾部風險對衝：正凸性（Positive Convexity）防暴跌指南" 
+        },
+        text: {
+          en: "In Xuzhe's US stock trading articles, options are precise hedging tools for adjusting macro risk exposures. By combining long OTM put spreads with dynamic rebalancing, traders capture positive convexity.",
+          zh: "在徐哲美股交易文章集中，期权是精确调节宏观风险的工具。通过结合虚值看跌期权价差与动态再平衡，交易者能在暴跌中获取极高的正凸性收益。",
+          tw: "在徐哲美股交易文章集中，期權是精確調節宏觀風險的工具。通過結合虛值看跌期權價差與動態再平衡，交易者能在暴跌中獲取極高的正凸性收益。"
+        },
+        keyIdea: {
+          en: "Positive Convexity turns extreme market tail events from devastating losses into capital accumulation opportunities.",
+          zh: "正凸性（Positive Convexity）可将罕见的市场尾部暴跌事件，从灾难性损失转变为资本积累的契机。",
+          tw: "正凸性（Positive Convexity）可將罕見的市場尾部暴跌事件，從災難性損失轉化為資本積累的契機。"
+        }
+      }
+    ];
+
+    // Language labels dictionary
+    const uiTranslations = {
+      en: {
+        askNotes: "Ask Xuzhe's Notes",
+        drawerTitle: "Ask Xuzhe's Notes",
+        drawerSubtitle: "Answers grounded in Xuzhe's Zhihu articles, with citations",
+        searchPlaceholder: "Search articles in Chinese or English (e.g. Gamma Scalping, 隐含波动率)...",
+        zhihuBtn: "Zhihu Source",
+        pdfBtn: "Read the full article in PDF"
+      },
+      zh: {
+        askNotes: "提问 AI 笔记助手",
+        drawerTitle: "提问徐哲交易笔记",
+        drawerSubtitle: "基于知乎文章数据的 RAG 检索回答，附带原文引用",
+        searchPlaceholder: "中英文搜索文章（如：Gamma Scalping, 隐含波动率）...",
+        zhihuBtn: "知乎原文",
+        pdfBtn: "阅读 PDF 全文"
+      },
+      tw: {
+        askNotes: "提問 AI 筆記助手",
+        drawerTitle: "提問徐哲交易筆記",
+        drawerSubtitle: "基於知乎文章數據的 RAG 檢索回答，附帶原文引用",
+        searchPlaceholder: "中英文搜尋文章（如：Gamma Scalping, 隱含波動率）...",
+        zhihuBtn: "知乎原文",
+        pdfBtn: "閱讀 PDF 全文"
+      }
+    };
+
+    // Initialize application on DOM load
+    window.onload = function() {
+      lucide.createIcons();
+      renderArticleNavigation();
+      loadArticle(1);
+      initPayoffChart();
+    };
+
+    // Grouping Mode Switcher
+    function setGroupingMode(mode) {
+      groupingMode = mode;
+      const dateBtn = document.getElementById('group-date-btn');
+      const topicBtn = document.getElementById('group-topic-btn');
+
+      if (mode === 'date') {
+        dateBtn.className = "py-1.5 rounded-lg bg-white text-emerald-800 font-semibold shadow-sm text-center transition-all";
+        topicBtn.className = "py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all";
+      } else {
+        topicBtn.className = "py-1.5 rounded-lg bg-white text-emerald-800 font-semibold shadow-sm text-center transition-all";
+        dateBtn.className = "py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all";
+      }
+
+      renderArticleNavigation();
+    }
+
+    // Language Switcher Handler
+    function setLanguage(lang) {
+      currentLang = lang;
+      
+      ['en', 'zh', 'tw'].forEach(l => {
+        const btn = document.getElementById(`lang-${l}`);
+        if (l === lang) {
+          btn.className = "px-2.5 py-1 rounded-lg bg-emerald-700 text-white shadow-sm transition-all";
+        } else {
+          btn.className = "px-2.5 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all";
+        }
+      });
+
+      document.getElementById('btn-ask-notes').textContent = uiTranslations[lang].askNotes;
+      document.getElementById('drawer-title').textContent = uiTranslations[lang].drawerTitle;
+      document.getElementById('drawer-subtitle').textContent = uiTranslations[lang].drawerSubtitle;
+      document.getElementById('searchInput').placeholder = uiTranslations[lang].searchPlaceholder;
+      document.getElementById('label-zhihu-btn').textContent = uiTranslations[lang].zhihuBtn;
+      document.getElementById('label-pdf-btn').textContent = uiTranslations[lang].pdfBtn;
+
+      renderArticleNavigation();
+      loadArticle(currentArticleId);
+    }
+
+    // Render Articles in Sidebar Navigation (Grouped by Date/Year or by Topic)
+    function renderArticleNavigation() {
+      const container = document.getElementById('article-nav-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      if (groupingMode === 'date') {
+        // Group by Year
+        const years = [...new Set(articlesData.map(a => a.year))].sort((a, b) => b - a);
+
+        years.forEach(year => {
+          const groupWrapper = document.createElement('div');
+          groupWrapper.className = "space-y-1";
+
+          const yearArticles = articlesData.filter(a => a.year === year);
+
+          groupWrapper.innerHTML = `
+            <div class="text-[11px] font-mono font-bold text-slate-400 uppercase tracking-wider px-2 py-1 flex items-center justify-between">
+              <span>${year}</span>
+              <span class="text-[10px] bg-slate-200/60 text-slate-600 px-1.5 py-0.5 rounded-md">${yearArticles.length} articles</span>
+            </div>
+          `;
+
+          const list = document.createElement('div');
+          list.className = "space-y-1 pl-1";
+
+          yearArticles.forEach(art => {
+            const isActive = art.id === currentArticleId;
+            const btn = document.createElement('button');
+            btn.onclick = () => loadArticle(art.id);
+            btn.className = `w-full text-left px-3 py-2 rounded-xl text-xs font-medium transition-all ${
+              isActive 
+                ? 'bg-white text-emerald-800 shadow-sm border border-emerald-200/80 font-semibold' 
+                : 'text-slate-600 hover:bg-slate-100/80'
+            }`;
+
+            btn.innerHTML = `
+              <div class="flex items-center justify-between gap-1 mb-0.5">
+                <span class="text-[10px] font-mono ${isActive ? 'text-emerald-600 font-bold' : 'text-slate-400'}">${art.date}</span>
+                <span class="text-[9px] bg-slate-100 text-slate-500 px-1 rounded">${art.topic.split(' ')[0]}</span>
+              </div>
+              <div class="truncate text-slate-800 font-medium">${art.title[currentLang]}</div>
+            `;
+            list.appendChild(btn);
+          });
+
+          groupWrapper.appendChild(list);
+          container.appendChild(groupWrapper);
+        });
+
+      } else {
+        // Group by Topic
+        const topics = [...new Set(articlesData.map(a => a.topic))];
+
+        topics.forEach(topic => {
+          const groupWrapper = document.createElement('div');
+          groupWrapper.className = "space-y-1";
+
+          const topicArticles = articlesData.filter(a => a.topic === topic);
+
+          groupWrapper.innerHTML = `
+            <div class="text-[11px] font-bold text-slate-500 uppercase tracking-wider px-2 py-1 flex items-center justify-between">
+              <span>🏷️ ${topic}</span>
+              <span class="text-[10px] bg-slate-200/60 text-slate-600 px-1.5 py-0.5 rounded-md font-mono">${topicArticles.length}</span>
+            </div>
+          `;
+
+          const list = document.createElement('div');
+          list.className = "space-y-1 pl-1";
+
+          topicArticles.forEach(art => {
+            const isActive = art.id === currentArticleId;
+            const btn = document.createElement('button');
+            btn.onclick = () => loadArticle(art.id);
+            btn.className = `w-full text-left px-3 py-2 rounded-xl text-xs font-medium transition-all ${
+              isActive 
+                ? 'bg-white text-emerald-800 shadow-sm border border-emerald-200/80 font-semibold' 
+                : 'text-slate-600 hover:bg-slate-100/80'
+            }`;
+
+            btn.innerHTML = `
+              <div class="flex items-center justify-between gap-1 mb-0.5">
+                <span class="text-[10px] font-mono text-slate-400">${art.date}</span>
+              </div>
+              <div class="truncate text-slate-800 font-medium">${art.title[currentLang]}</div>
+            `;
+            list.appendChild(btn);
+          });
+
+          groupWrapper.appendChild(list);
+          container.appendChild(groupWrapper);
+        });
+      }
+    }
+
+    // Load Specific Article Content
+    function loadArticle(id) {
+      currentArticleId = id;
+      const article = articlesData.find(a => a.id === id) || articlesData[0];
+
+      document.getElementById('current-ch-cat').textContent = article.topic;
+      document.getElementById('current-ch-date').textContent = article.date;
+      document.getElementById('chapter-title').textContent = article.title[currentLang];
+      document.getElementById('key-idea-text').textContent = article.keyIdea[currentLang];
+
+      // Update Action Links for current selected article
+      const zhihuLink = document.getElementById('article-zhihu-link');
+      const pdfLink = document.getElementById('article-pdf-link');
+      
+      if (zhihuLink) zhihuLink.href = article.zhihuUrl || "https://zhihu.com";
+      if (pdfLink) pdfLink.href = article.pdfUrl || "#";
+
+      const bodyContainer = document.getElementById('article-body');
+      bodyContainer.innerHTML = `
+        <p class="leading-relaxed source-chunk-highlight p-3 rounded-xl bg-slate-50/50 border border-slate-100">
+          ${article.text[currentLang]}
+        </p>
+      `;
+
+      renderArticleNavigation();
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+    }
+
+    // Interactive Payoff Chart Setup (Chart.js with Emerald styling)
+    function initPayoffChart() {
+      const canvas = document.getElementById('payoffChart');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      
+      const prices = [];
+      const payoffs = [];
+      for (let p = 100; p <= 200; p += 2) {
+        prices.push(`$${p}`);
+        const strike = 150;
+        const premium = 12;
+        const payoff = Math.max(0, p - strike) + Math.max(0, strike - p) - premium;
+        payoffs.push(payoff);
+      }
+
+      chartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: prices,
+          datasets: [{
+            label: 'Straddle Payoff ($)',
+            data: payoffs,
+            borderColor: '#059669',
+            borderWidth: 2.5,
+            fill: {
+              target: 'origin',
+              above: 'rgba(16, 185, 129, 0.12)',
+              below: 'rgba(239, 68, 68, 0.08)'
+            },
+            tension: 0.3,
+            pointRadius: 0
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              mode: 'index',
+              intersect: false,
+            }
+          },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: { font: { size: 10, family: 'JetBrains Mono' } }
+            },
+            y: {
+              grid: { color: '#f1f5f9' },
+              ticks: { font: { size: 10, family: 'JetBrains Mono' } }
+            }
+          }
+        }
+      });
+    }
+
+    // Update Chart on Slider Input
+    function updateChart() {
+      const iv = document.getElementById('ivSlider').value;
+      const dte = document.getElementById('dteSlider').value;
+      
+      document.getElementById('iv-val').textContent = `${iv}%`;
+      document.getElementById('dte-val').textContent = `${dte} Days`;
+
+      if (chartInstance) {
+        const newPayoffs = chartInstance.data.datasets[0].data.map((val, idx) => {
+          const price = 100 + idx * 2;
+          const strike = 150;
+          const timeFactor = Math.sqrt(dte / 30);
+          const ivFactor = iv / 45;
+          const adjustedPremium = 12 * timeFactor * ivFactor;
+          return Math.max(0, price - strike) + Math.max(0, strike - price) - adjustedPremium;
+        });
+
+        chartInstance.data.datasets[0].data = newPayoffs;
+        chartInstance.update();
+      }
+    }
+
+    // Toggle AI Chat Assistant Drawer
+    function toggleChatDrawer(open) {
+      const drawer = document.getElementById('chatDrawer');
+      if (!drawer) return;
+
+      if (open) {
+        drawer.classList.remove('translate-x-full');
+      } else {
+        drawer.classList.add('translate-x-full');
+      }
+    }
+
+    // Populate Suggested Query into Input
+    function useQuery(queryText) {
+      document.getElementById('chatInput').value = queryText;
+      handleAskQuestion();
+    }
+
+    // Handle Question Asking
+    async function handleAskQuestion() {
+      const input = document.getElementById('chatInput');
+      const question = input.value.trim();
+      if (!question) return;
+
+      const history = document.getElementById('chatHistory');
+      
+      // Append User Message
+      const userBubble = document.createElement('div');
+      userBubble.className = "bg-emerald-50 border border-emerald-200/80 p-3 rounded-xl text-xs text-emerald-950 font-medium space-y-1";
+      userBubble.innerHTML = `<div class="text-[10px] text-emerald-700 font-bold uppercase">You</div><div>${question}</div>`;
+      history.appendChild(userBubble);
+
+      input.value = '';
+
+      // Append Loading AI Response Bubble
+      const aiBubble = document.createElement('div');
+      aiBubble.className = "bg-slate-50 border border-slate-200 p-4 rounded-xl text-xs text-slate-800 space-y-2 animate-pulse";
+      aiBubble.innerHTML = `
+        <div class="flex items-center gap-2 text-emerald-700 font-bold text-[10px] uppercase tracking-wider">
+          <i data-lucide="sparkles" class="w-3 h-3"></i>
+          <span>Retrieving Zhihu Chunks...</span>
+        </div>
+        <p class="text-slate-400 font-mono">Analyzing vector similarity (top_k=3)...</p>
+      `;
+      history.appendChild(aiBubble);
+      history.scrollTop = history.scrollHeight;
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+
+      // Simulate streaming AI answer with cited footnotes
+      setTimeout(() => {
+        aiBubble.classList.remove('animate-pulse');
+        aiBubble.innerHTML = `
+          <div class="flex items-center justify-between text-emerald-800 font-bold text-[10px] uppercase tracking-wider border-b border-slate-200/60 pb-1.5">
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="bot" class="w-3.5 h-3.5"></i>
+              <span>RAG Grounded Answer</span>
+            </span>
+            <span class="text-slate-400 font-mono">3 Chunks Cited</span>
+          </div>
+          <p class="leading-relaxed text-slate-700 mt-2">
+            According to Xuzhe's Zhihu trading notes, implied volatility (IV) crush after earnings is driven by the sudden elimination of binary uncertainty <button onclick="highlightSource(4)" class="text-emerald-700 font-bold bg-emerald-50 hover:bg-emerald-100 px-1 py-0.5 rounded border border-emerald-200">[Chunk #04]</button>. 
+            When holding unhedged short options, Delta exposure explodes as stock prices pierce strike barriers <button onclick="highlightSource(2)" class="text-emerald-700 font-bold bg-emerald-50 hover:bg-emerald-100 px-1 py-0.5 rounded border border-emerald-200">[Chunk #02]</button>.
+          </p>
+          <div class="p-2.5 bg-emerald-50 border border-emerald-200/80 rounded-lg text-[11px] text-emerald-950 mt-2">
+            <span class="font-bold">Xuzhe's Rule:</span> Always hedge directional Delta with underlying shares or spread legs prior to the earnings bell.
+          </div>
+        `;
+        if (typeof lucide !== 'undefined') lucide.createIcons();
+        history.scrollTop = history.scrollHeight;
+      }, 1100);
+    }
+
+    // Highlight Source Chunk in main canvas
+    function highlightSource(artId) {
+      loadArticle(artId);
+      const mainContent = document.getElementById('main-content');
+      if (mainContent) mainContent.scrollTop = 0;
+    }
+
+    // Top Header Hybrid Search Handler
+    function handleSearch(e) {
+      const query = e.target.value.toLowerCase().trim();
+      if (!query) return;
+
+      const matched = articlesData.find(a => 
+        a.title.en.toLowerCase().includes(query) || 
+        a.title.zh.includes(query) || 
+        a.text.en.toLowerCase().includes(query) || 
+        a.text.zh.includes(query)
+      );
+
+      if (matched) {
+        loadArticle(matched.id);
+      }
+    }
+  </script>
+</body>
+</html>

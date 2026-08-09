@@ -1,4 +1,4 @@
-# Learn Finance with Xu Zhe: A Cross-Lingual RAG Assistant
+# RAG assistant For Reading Xu Zhe's Articles
 
 A corpus-grounded question-answering application over Xu Zhe's column articles from Zhihu.com.
 
