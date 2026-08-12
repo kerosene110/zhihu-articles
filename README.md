@@ -25,3 +25,16 @@ The Vite development server proxies `/api/articles` and `/api/chat` to `http://1
 cd frontend
 npm run build
 ```
+
+## Backend
+
+The backend intentionally starts with only one file: [`backend/main.py`](backend/main.py).
+Install the requirements and run it with:
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+Build it in small working steps: article response models, a temporary `/articles`
+route, metadata loading, Chroma indexing/search, and finally `/chat`. The Vite
+proxy already strips `/api`, so FastAPI routes should be `/articles` and `/chat`.
