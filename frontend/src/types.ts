@@ -22,14 +22,12 @@ export interface Article {
 }
 
 export interface ApiArticle {
-  id?: string;
+  id: string;
   title: string;
   author: string;
   url: string;
-  created_at?: string;
-  creation_date?: string;
-  updated_at?: string;
-  update_date?: string;
+  created_at: string;
+  updated_at: string;
 }
 
 export interface HistoryMessage {

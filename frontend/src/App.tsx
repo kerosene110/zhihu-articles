@@ -39,18 +39,17 @@ const suggestedQuestions = [
   "When does portfolio convexity justify its recurring cost?",
 ];
 
-function readableDate(value?: string): string {
-  if (!value) return "Undated";
+function readableDate(value: string): string {
   return value.slice(0, 10);
 }
 
 function apiArticleToArticle(item: ApiArticle, index: number): Article {
-  const date = readableDate(item.created_at ?? item.creation_date ?? item.updated_at ?? item.update_date);
+  const date = readableDate(item.created_at);
   const title = item.title || `Article ${index + 1}`;
   return {
-    id: String(item.id ?? index),
+    id: item.id,
     date,
-    year: date === "Undated" ? "Archive" : date.slice(0, 4),
+    year: date.slice(0, 4),
     topic: "Xuzhe Finance",
     author: item.author,
     url: item.url,
