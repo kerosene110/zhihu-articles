@@ -23,7 +23,6 @@ export interface Article {
 
 export interface ApiArticle {
   id?: string;
-  article_id?: string;
   title: string;
   author: string;
   url: string;

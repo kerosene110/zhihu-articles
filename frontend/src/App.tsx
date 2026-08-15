@@ -48,7 +48,7 @@ function apiArticleToArticle(item: ApiArticle, index: number): Article {
   const date = readableDate(item.created_at ?? item.creation_date ?? item.updated_at ?? item.update_date);
   const title = item.title || `Article ${index + 1}`;
   return {
-    id: String(item.article_id ?? item.id ?? index),
+    id: String(item.id ?? index),
     date,
     year: date === "Undated" ? "Archive" : date.slice(0, 4),
     topic: "Xuzhe Finance",
@@ -152,7 +152,7 @@ function App() {
   const copy = uiCopy[language];
 
   useEffect(() => {
-    if (import.meta.env.DEV && !import.meta.env.VITE_API_BASE_URL) return;
+    // if (import.meta.env.DEV && !import.meta.env.VITE_API_BASE_URL) return;
     const controller = new AbortController();
     fetchArticles(controller.signal)
       .then((items) => {
