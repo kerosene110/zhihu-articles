@@ -10,7 +10,7 @@ Working as a module to the RAG application and also a stand-alone command-line t
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r crawler/requirements.txt
 
 cd crawler
 python zhihu_column_to_pdf.py

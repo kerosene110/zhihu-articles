@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CORPUS_METADATA_DIR: /app/corpus/metadata
+      RAG_DATA_DIR: /data/rag
+    volumes:
+      - rag-data:/data/rag
+    restart: unless-stopped
+
+volumes:
+  rag-data:

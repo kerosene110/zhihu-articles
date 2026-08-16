@@ -1,40 +1,69 @@
-# RAG assistant For Reading Xu Zhe's Articles
+# Xuzhe Finance RAG
 
-A corpus-grounded question-answering application over Xu Zhe's column articles from Zhihu.com.
+A portfolio-focused, corpus-grounded assistant for approximately 50 Chinese finance
+articles by Xu Zhe. The UI and API are ready; learner-owned RAG stages are added one
+at a time and reviewed before integration.
 
-See [PLAN.md](PLAN.md) for the application design and implementation plan.
+## Architecture
 
-## Project modules
+```text
+crawler metadata → learner-owned RAG pipeline → persisted Chroma
+                                               ↑
+browser → React → FastAPI → RagService ─────────┘
+```
 
-- [Crawler](crawler/README.md): existing Zhihu metadata and PDF-generation tools, with crawled results in [`crawler/output/`](crawler/output/).
-- [Frontend](frontend/): responsive React/TypeScript study companion based on the rendered drafts in [`frontend/design-drafts/`](frontend/design-drafts/).
+- `backend/app.py`: FastAPI routes and static frontend delivery
+- `backend/schemas.py`: stable browser/API models
+- `backend/service.py`: the single web-to-RAG integration contract
+- `backend/rag.py`: learner-owned algorithms; implement only the current exercise
+- `frontend/`: responsive grounded-chat UI
+- `crawler/output/wontfallinyourlap/metadata/`: the MVP ingestion source
+- `docs/exercises/`: one learner assignment at a time
 
-## Frontend development
+The detailed product scope and ownership boundary are in [PLAN.md](PLAN.md).
 
-The frontend can be reviewed before the backend is available; it uses a small reference article set for the visual states. Chat requests still fail closed unless a compatible API is running.
+## Local development
+
+Install backend dependencies and start FastAPI:
+
+```bash
+python -m pip install -r requirements-dev.txt
+uvicorn backend.app:app --reload
+```
+
+In another terminal:
 
 ```bash
 cd frontend
-npm install
+npm ci
 npm run dev
 ```
 
-The Vite development server proxies `/api/articles` and `/api/chat` to `http://127.0.0.1:8000`. Set `VITE_API_BASE_URL` to use a different API base. In a production build, requests default to the same origin so FastAPI can serve both the API and compiled frontend.
+Vite proxies `/api/*` to FastAPI at `http://127.0.0.1:8000`. Until a completed
+RAG implementation is integrated, `GET /articles` returns an empty list and
+`POST /chat` returns `503` intentionally.
+
+## Checks
 
 ```bash
-cd frontend
-npm run build
+python -m ruff check backend tests
+python -m pytest
+cd frontend && npm run build
+docker build -t xuzhe-rag .
 ```
 
-## Backend
-
-The backend intentionally starts with only one file: [`backend/main.py`](backend/main.py).
-Install the requirements and run it with:
+## Container
 
 ```bash
-uvicorn backend.main:app --reload
+docker compose up --build
 ```
 
-Build it in small working steps: article response models, a temporary `/articles`
-route, metadata loading, Chroma indexing/search, and finally `/chat`. The Vite
-proxy already strips `/api`, so FastAPI routes should be `/articles` and `/chat`.
+Open <http://localhost:8000>. The image contains the saved metadata at
+`/app/corpus/metadata`; the `rag-data` volume at `/data/rag` is reserved for
+the persisted index. A learner-owned indexing command will be added in its assigned
+stage.
+
+## Current learner task
+
+Complete only [Exercise 01: saved metadata ingestion](docs/exercises/01_saved_metadata_source.md),
+then stop for review. Do not start chunking yet.

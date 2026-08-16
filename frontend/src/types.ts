@@ -1,26 +1,3 @@
-export type Language = "en" | "zh" | "tw";
-export type GroupingMode = "date" | "topic";
-
-export interface LocalizedText {
-  en: string;
-  zh: string;
-  tw: string;
-}
-
-export interface Article {
-  id: string;
-  date: string;
-  year: string;
-  topic: string;
-  author: string;
-  url: string;
-  pdfUrl?: string;
-  title: LocalizedText;
-  description: LocalizedText;
-  body: LocalizedText;
-  keyIdea: LocalizedText;
-}
-
 export interface ApiArticle {
   id: string;
   title: string;

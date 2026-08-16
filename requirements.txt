@@ -1,8 +1,5 @@
-requests
-readability-lxml
-weasyprint
-
-# Backend dependencies.
+# Web application and learner-owned RAG runtime.
+beautifulsoup4
+chromadb
 fastapi
 uvicorn[standard]
-chromadb

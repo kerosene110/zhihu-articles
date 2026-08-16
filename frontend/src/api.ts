@@ -2,6 +2,16 @@ import type { ApiArticle, ChatResponse, HistoryMessage } from "./types";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL ?? (import.meta.env.DEV ? "/api" : "");
 
+interface ErrorBody {
+  detail?: string;
+}
+
+async function errorMessage(response: Response): Promise<string> {
+  const fallback = "Request failed (" + response.status + ")";
+  const body = (await response.json().catch(() => null)) as ErrorBody | null;
+  return body?.detail ?? fallback;
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, {
     ...init,
@@ -12,7 +22,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   });
 
   if (!response.ok) {
-    throw new Error(`Request failed (${response.status})`);
+    throw new Error(await errorMessage(response));
   }
 
   return response.json() as Promise<T>;
