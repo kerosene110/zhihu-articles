@@ -1,13 +1,13 @@
 # Xuzhe Finance RAG
 
 A portfolio-focused, corpus-grounded assistant for approximately 50 Chinese finance
-articles by Xu Zhe. The UI and API are ready; learner-owned RAG stages are added one
-at a time and reviewed before integration.
+articles by Xu Zhe. The system is being delivered in independently testable stages,
+with architectural decisions and validation results recorded as it develops.
 
 ## Architecture
 
 ```text
-saved sources → canonical ingestion → learner-owned RAG pipeline → persisted Chroma
+saved sources → canonical ingestion → RAG pipeline → persisted Chroma
                                                ↑
 browser → React → FastAPI → RagService ─────────┘
 ```
@@ -17,12 +17,23 @@ browser → React → FastAPI → RagService ─────────┘
 - `backend/service.py`: the single web-to-RAG integration contract
 - `backend/ingestion.py`: completed JSON and MHTML loading/cleaning
 - `backend/models.py`: shared framework-independent Article model
-- `backend/rag.py`: the current learner-owned algorithm stub
+- `backend/rag.py`: RAG algorithms, currently focused on deterministic chunking
 - `frontend/`: responsive grounded-chat UI
 - `crawler/output/`: saved JSON and manually downloaded MHTML sources
-- `docs/exercises/`: one learner assignment at a time
+- `docs/development-log/`: chronological records of each implementation stage
 
-The detailed product scope and ownership boundary are in [PLAN.md](PLAN.md).
+The detailed product scope, architecture, and delivery plan are in [PLAN.md](PLAN.md).
+
+## Contribution split
+
+- **Implemented by the project author:** chunking, embedding and indexing, retrieval, grounded prompt
+  construction, and retrieval evaluation.
+- **Implemented by Codex:** frontend, FastAPI application plumbing, schemas, integration
+  boundaries, Docker and deployment setup, CI/test scaffolding, and canonical
+  JSON/MHTML ingestion.
+
+For the RAG stages, Codex provides interface design, tests, and code review while the
+project author implements and explains the production algorithms.
 
 ## Local development
 
@@ -62,9 +73,10 @@ docker compose up --build
 
 Open <http://localhost:8000>. The image contains saved JSON and MHTML sources under
 `/app/corpus`; the `rag-data` volume at `/data/rag` is reserved for
-the persisted index. A learner-owned indexing command will be added in its assigned
-stage.
+the persisted index. The indexing command will be added during the indexing stage.
 
-## Current learner task
+## Current development stage
 
-Complete only [Exercise 02: LangChain text splitting](docs/exercises/02_chunking.md), then stop for review. Do not start embedding or indexing yet.
+[Stage 02: deterministic text chunking](docs/development-log/02_chunking.md) is in
+progress. Its interface and TDD validation contract are established; embedding and
+indexing follow after the chunking boundary is validated.

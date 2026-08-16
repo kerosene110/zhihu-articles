@@ -7,17 +7,22 @@ about Xu Zhe's Chinese finance articles. Every supported answer must cite retrie
 Chinese passages and link to the original article. Unsupported questions must return
 an explicit insufficient-evidence result.
 
-## Ownership
+## Delivery areas
 
-### App plumbing and completed foundation (Codex implements)
+The contribution split is intentionally explicit: application infrastructure and
+ingestion were implemented by Codex, while the project author owns the production RAG
+algorithms and can explain their design and tradeoffs.
+
+### Implemented by Codex
 
 - React UI and browser-held chat history
 - FastAPI routes, validation schemas, and error mapping
 - the `RagService` integration boundary
 - Docker, Compose, CI, deployment documentation, and integration tests
 - JSON and MHTML ingestion plus HTML preprocessing
+- test scaffolding, interface guidance, and review for the RAG stages
 
-### RAG system (learner implements and explains)
+### Implemented by the project author
 
 - deterministic chunking
 - embedding and idempotent Chroma indexing
@@ -25,8 +30,9 @@ an explicit insufficient-evidence result.
 - evidence-dependent prompt construction and citation validation
 - retrieval evaluation
 
-Only the current learner component should have an implementation stub. Each component
-is reviewed before the next is introduced.
+Development proceeds through small, independently testable stages. Each stage records
+its interface, engineering decisions, and verification evidence before the next stage
+is integrated.
 
 ## Minimal architecture
 
@@ -55,7 +61,7 @@ boundary that cannot be handled with a small fake.
 ## Shortest path to deployed MVP
 
 1. Ingest and clean the checked-in JSON and MHTML sources. **Complete.**
-2. Configure deterministic LangChain splitting with stable IDs. **Current exercise.**
+2. Configure deterministic LangChain splitting with stable IDs. **In progress.**
 3. Embed and idempotently persist chunks in Chroma.
 4. Retrieve relevant passages and establish a threshold.
 5. Build evidence-only prompts and validate citations.
