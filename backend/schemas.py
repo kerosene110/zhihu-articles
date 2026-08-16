@@ -10,10 +10,6 @@ class StrictModel(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 
-class HealthResponse(StrictModel):
-    status: Literal["ok"]
-
-
 class ArticleSummary(StrictModel):
     id: str
     title: str

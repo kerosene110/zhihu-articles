@@ -17,9 +17,9 @@ def create_app(
     app = FastAPI(title="Xuzhe Finance RAG", version="0.1.0")
     app.state.rag_service = rag_service or UnavailableRagService()
 
-    @app.get("/health", response_model=HealthResponse, tags=["system"])
+    @app.get("/health", status_code=status.HTTP_200_OK, tags=["system"])
     def health() -> HealthResponse:
-        return HealthResponse(status="ok")
+        return {status: "ok"}
 
     @app.get("/articles", response_model=list[ArticleSummary], tags=["corpus"])
     def articles(request: Request) -> list[ArticleSummary]:
