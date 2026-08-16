@@ -9,16 +9,16 @@ an explicit insufficient-evidence result.
 
 ## Ownership
 
-### App plumbing (Codex implements)
+### App plumbing and completed foundation (Codex implements)
 
 - React UI and browser-held chat history
 - FastAPI routes, validation schemas, and error mapping
 - the `RagService` integration boundary
 - Docker, Compose, CI, deployment documentation, and integration tests
+- JSON and MHTML ingestion plus HTML preprocessing
 
 ### RAG system (learner implements and explains)
 
-- ingestion and HTML preprocessing
 - deterministic chunking
 - embedding and idempotent Chroma indexing
 - retrieval and threshold calibration
@@ -32,7 +32,7 @@ is reviewed before the next is introduced.
 
 ```text
 Offline indexing:
-saved JSON → Article[] → Chunk[] → embeddings → persisted Chroma
+saved JSON + MHTML → Article[] → LangChain Document[] → embeddings → persisted Chroma
 
 Online request:
 React → FastAPI → RagService → retrieve evidence → generate grounded answer
@@ -54,8 +54,8 @@ boundary that cannot be handled with a small fake.
 
 ## Shortest path to deployed MVP
 
-1. Ingest and clean the checked-in metadata.
-2. Chunk deterministically with stable IDs.
+1. Ingest and clean the checked-in JSON and MHTML sources. **Complete.**
+2. Configure deterministic LangChain splitting with stable IDs. **Current exercise.**
 3. Embed and idempotently persist chunks in Chroma.
 4. Retrieve relevant passages and establish a threshold.
 5. Build evidence-only prompts and validate citations.

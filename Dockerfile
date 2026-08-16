@@ -8,13 +8,14 @@ RUN npm run build
 FROM python:3.12-slim AS runtime
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    CORPUS_METADATA_DIR=/app/corpus/metadata \
+    CORPUS_SOURCE_DIR=/app/corpus \
     RAG_DATA_DIR=/data/rag
 WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ ./backend/
 COPY crawler/output/wontfallinyourlap/metadata/ ./corpus/metadata/
+COPY crawler/output/xuzhe/*.mhtml ./corpus/manual/
 COPY --from=frontend-build /build/frontend/dist ./frontend/dist
 RUN useradd --create-home appuser && mkdir -p /data/rag && chown appuser:appuser /data/rag
 USER appuser

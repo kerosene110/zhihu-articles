@@ -1,5 +1,7 @@
 # Web application and learner-owned RAG runtime.
 beautifulsoup4
-chromadb
 fastapi
+langchain-chroma
+langchain-core
+langchain-text-splitters
 uvicorn[standard]

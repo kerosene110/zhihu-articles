@@ -7,7 +7,7 @@ at a time and reviewed before integration.
 ## Architecture
 
 ```text
-crawler metadata → learner-owned RAG pipeline → persisted Chroma
+saved sources → canonical ingestion → learner-owned RAG pipeline → persisted Chroma
                                                ↑
 browser → React → FastAPI → RagService ─────────┘
 ```
@@ -15,9 +15,11 @@ browser → React → FastAPI → RagService ─────────┘
 - `backend/app.py`: FastAPI routes and static frontend delivery
 - `backend/schemas.py`: stable browser/API models
 - `backend/service.py`: the single web-to-RAG integration contract
-- `backend/rag.py`: learner-owned algorithms; implement only the current exercise
+- `backend/ingestion.py`: completed JSON and MHTML loading/cleaning
+- `backend/models.py`: shared framework-independent Article model
+- `backend/rag.py`: the current learner-owned algorithm stub
 - `frontend/`: responsive grounded-chat UI
-- `crawler/output/wontfallinyourlap/metadata/`: the MVP ingestion source
+- `crawler/output/`: saved JSON and manually downloaded MHTML sources
 - `docs/exercises/`: one learner assignment at a time
 
 The detailed product scope and ownership boundary are in [PLAN.md](PLAN.md).
@@ -58,12 +60,11 @@ docker build -t xuzhe-rag .
 docker compose up --build
 ```
 
-Open <http://localhost:8000>. The image contains the saved metadata at
-`/app/corpus/metadata`; the `rag-data` volume at `/data/rag` is reserved for
+Open <http://localhost:8000>. The image contains saved JSON and MHTML sources under
+`/app/corpus`; the `rag-data` volume at `/data/rag` is reserved for
 the persisted index. A learner-owned indexing command will be added in its assigned
 stage.
 
 ## Current learner task
 
-Complete only [Exercise 01: saved metadata ingestion](docs/exercises/01_saved_metadata_source.md),
-then stop for review. Do not start chunking yet.
+Complete only [Exercise 02: LangChain text splitting](docs/exercises/02_chunking.md), then stop for review. Do not start embedding or indexing yet.

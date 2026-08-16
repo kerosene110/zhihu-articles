@@ -4,7 +4,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      CORPUS_METADATA_DIR: /app/corpus/metadata
+      CORPUS_SOURCE_DIR: /app/corpus
       RAG_DATA_DIR: /data/rag
     volumes:
       - rag-data:/data/rag

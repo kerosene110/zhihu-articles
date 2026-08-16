@@ -1,27 +1,15 @@
-"""Learner-owned RAG algorithms.
+"""Learner-owned RAG algorithms."""
 
-Implement only the function named by the current exercise. Later stages will be
-added here after review; avoid designing them in advance.
-"""
+from langchain_core.documents import Document
 
-from dataclasses import dataclass
-from datetime import datetime
-from pathlib import Path
+from backend.ingestion import load_articles
+from backend.models import Article
 
-
-@dataclass(frozen=True, slots=True)
-class Article:
-    """Canonical article passed from ingestion to later RAG stages."""
-
-    id: str
-    title: str
-    author: str
-    url: str
-    created_at: datetime
-    updated_at: datetime
-    text: str
+__all__ = ["Article", "Document", "chunk_article", "load_articles"]
 
 
-def load_saved_metadata(metadata_dir: Path) -> list[Article]:
-    """Load saved crawler JSON as deterministic canonical articles."""
-    raise NotImplementedError("Complete Exercise 01: saved metadata ingestion")
+def chunk_article(
+    article: Article, *, target_chars: int = 600, overlap_chars: int = 100
+) -> list[Document]:
+    """Split one article into stable LangChain documents for later indexing."""
+    raise NotImplementedError("Complete Exercise 02: LangChain text splitting")
