@@ -14,6 +14,7 @@ __all__ = [
     "chunk_article",
     "index_documents",
     "load_articles",
+    "retrieve_documents",
 ]
 
 
@@ -70,5 +71,23 @@ def index_documents(
     persist_directory: str | Path,
     collection_name: str = "xuzhe_articles",
 ) -> Chroma:
-    """Persist already-chunked documents in a local Chroma collection."""
-    raise NotImplementedError("Stage 03 indexing is not implemented yet")
+    """Embed and upsert already-chunked documents into a persistent Chroma collection."""
+    document_ids = [
+        f"{document.metadata['article_id']}:{document.metadata['position']}"
+        for document in documents
+    ]
+    vector_store = Chroma(
+        embedding_function=embedding,
+        collection_name=collection_name,
+        persist_directory=str(persist_directory),
+    )
+    vector_store.add_documents(documents, ids=document_ids)
+
+    return vector_store
+
+
+def retrieve_documents(
+    vector_store: Chroma, query: str, *, k: int = 5
+) -> list[tuple[Document, float]]:
+    """Return the top-k chunks and relevance scores for one query."""
+    raise NotImplementedError("Stage 04 retrieval is not implemented yet")
