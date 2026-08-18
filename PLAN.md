@@ -61,8 +61,8 @@ boundary that cannot be handled with a small fake.
 ## Shortest path to deployed MVP
 
 1. Ingest and clean the checked-in JSON and MHTML sources. **Complete.**
-2. Configure deterministic LangChain splitting with stable IDs. **In progress.**
-3. Embed and idempotently persist chunks in Chroma.
+2. Configure deterministic LangChain splitting. **Complete.**
+3. Embed and idempotently persist chunks in Chroma. **In progress.**
 4. Retrieve relevant passages and establish a threshold.
 5. Build evidence-only prompts and validate citations.
 6. Wire the completed implementation behind `RagService`.

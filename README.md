@@ -77,6 +77,6 @@ the persisted index. The indexing command will be added during the indexing stag
 
 ## Current development stage
 
-[Stage 02: deterministic text chunking](docs/development-log/02_chunking.md) is in
-progress. Its interface and TDD validation contract are established; embedding and
-indexing follow after the chunking boundary is validated.
+[Stage 03: embedding and Chroma indexing](docs/development-log/03_embedding-indexing.md)
+is in progress. Its injected embedding interface and TDD validation contract are
+established; retrieval follows after persistence and idempotency are validated.

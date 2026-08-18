@@ -1,6 +1,6 @@
 # Stage 02 development log: deterministic text chunking
 
-**Status:** In progress — interface and TDD contract established
+**Status:** Complete
 
 **Implementation ownership:** The project author implements the production chunking
 algorithm. Codex established the interface and black-box tests and provides code
@@ -60,12 +60,11 @@ def chunk_article(
 Each output document carries:
 
 - chunk text in `page_content`;
-- a stable ID derived from the article ID, SHA-256 of the complete article text, and
-  zero-based chunk position;
 - source metadata: article ID, title, author, URL, ISO-8601 timestamps, and position.
 
-Hashing the complete source text invalidates every derived chunk ID when an article is
-updated. Stable positions make repeated indexing idempotent for unchanged content.
+Document IDs are deliberately not assigned here. Stable IDs and duplicate handling
+belong to Stage 03 because they are persistence concerns. Position remains chunk
+metadata because order is established during splitting.
 
 Invalid sizing parameters are rejected when `target_chars <= 0`,
 `overlap_chars < 0`, or `overlap_chars >= target_chars`.
@@ -79,10 +78,9 @@ the implementation. Its black-box coverage checks:
 2. Chinese sentence-boundary preference and maximum size;
 3. fallback splitting and overlap for boundary-free text;
 4. source metadata and consecutive positions;
-5. stable IDs and source-change invalidation;
-6. rejection of invalid size settings.
+5. rejection of invalid size settings.
 
-The stage is complete when these checks and the full repository suite pass:
+The checks and full repository suite passed at stage completion:
 
 ```bash
 python -m pytest tests/test_chunking.py -v
@@ -90,18 +88,17 @@ python -m pytest
 python -m ruff check backend tests
 ```
 
-An optional corpus-level inspection records the number and length distribution of
-chunks before selecting final production defaults.
+At completion, 9 chunking tests and all 21 backend tests passed. Ruff also passed.
+Corpus-level length analysis remains an evaluation task before production defaults
+are finalized.
 
 ## Next stage
 
-After this contract is validated, Stage 03 will add embeddings and idempotent local
-Chroma persistence. Retrieval behavior will be evaluated before prompt construction
-is introduced.
+Stage 03 adds injected embeddings and idempotent local Chroma persistence. Retrieval
+behavior remains outside that stage and will be evaluated before prompt construction.
 
 ## Technical references
 
 - [LangChain recursive splitter](https://docs.langchain.com/oss/python/integrations/splitters/recursive_text_splitter)
 - [LangChain text splitters](https://docs.langchain.com/oss/python/integrations/splitters)
 - [LangChain Chroma integration](https://docs.langchain.com/oss/python/integrations/vectorstores/chroma)
-- [Python `hashlib`](https://docs.python.org/3/library/hashlib.html)
