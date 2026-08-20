@@ -77,6 +77,6 @@ the persisted index. The indexing command will be added during the indexing stag
 
 ## Current development stage
 
-[Stage 03: embedding and Chroma indexing](docs/development-log/03_embedding-indexing.md)
-is in progress. Its injected embedding interface and TDD validation contract are
-established; retrieval follows after persistence and idempotency are validated.
+[Stage 04: scored top-k retrieval](docs/development-log/04_retrieval.md) is in
+progress. Its query interface and TDD validation contract are established; threshold
+calibration follows after ranked retrieval is validated.

@@ -27,7 +27,7 @@ algorithms and can explain their design and tradeoffs.
 - deterministic chunking
 - embedding and idempotent Chroma indexing
 - retrieval and threshold calibration
-- evidence-dependent prompt construction and citation validation
+- evidence-dependent prompt construction, token budgeting, and citation validation
 - retrieval evaluation
 
 Development proceeds through small, independently testable stages. Each stage records
@@ -62,9 +62,13 @@ boundary that cannot be handled with a small fake.
 
 1. Ingest and clean the checked-in JSON and MHTML sources. **Complete.**
 2. Configure deterministic LangChain splitting. **Complete.**
-3. Embed and idempotently persist chunks in Chroma. **In progress.**
-4. Retrieve relevant passages and establish a threshold.
-5. Build evidence-only prompts and validate citations.
+3. Embed and idempotently persist chunks in Chroma. **Complete.**
+4. Retrieve relevant passages and establish a threshold. **In progress.**
+5. Build evidence-only prompts with a model-aware token budget and validate citations.
+   Reserve the response allowance first, count the system prompt, query, and bounded
+   history, then include ranked chunks only while they fit the remaining context
+   window. Record actual provider-reported input/output usage when available; do not
+   use whitespace-based estimates because the corpus is primarily Chinese.
 6. Wire the completed implementation behind `RagService`.
 7. Add 20 evaluation questions and record Hit@1, Hit@5, and MRR.
 8. Build the container, create the persistent index, deploy, and run smoke checks.

@@ -1,6 +1,6 @@
 # Stage 03 development log: embedding and Chroma indexing
 
-**Status:** In progress — interface and TDD contract established
+**Status:** Complete
 
 **Implementation ownership:** The project author implements embedding and indexing.
 Codex established the interface and black-box tests and provides code review.
@@ -68,8 +68,9 @@ python -m pytest
 python -m ruff check backend tests
 ```
 
-The tests should currently fail at the `NotImplementedError`; that is the TDD red
-state. Implement only `index_documents`, then send the result to Codex for review.
+At completion, both indexing tests and all 23 backend tests passed. Ruff also passed.
+The project author implemented Chroma persistence; Codex reviewed it and corrected
+the ID boundary so repeated indexing uses deterministic upserts.
 
 ## Technical references
 

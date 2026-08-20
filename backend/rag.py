@@ -90,4 +90,13 @@ def retrieve_documents(
     vector_store: Chroma, query: str, *, k: int = 5
 ) -> list[tuple[Document, float]]:
     """Return the top-k chunks and relevance scores for one query."""
-    raise NotImplementedError("Stage 04 retrieval is not implemented yet")
+    if k <= 0:
+        raise TypeError(f"Number of requested results {k}, cannot be negative, or zero.")
+    if query.strip() == "":
+        raise TypeError("Query cannot be empty.")
+    
+    result = vector_store.similarity_search_with_score(
+        query=query,
+        k = k,
+    )
+    return result
